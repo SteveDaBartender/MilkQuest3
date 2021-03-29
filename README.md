@@ -1,4 +1,4 @@
-# MilkQuest3
+# Milk Quest 3
 Milk Quest 3 is the worst platforming game in existance, and now it's coming towards YOUR local git repository!
 
 If you're looking for the current """stable""" build, you can get it here:
