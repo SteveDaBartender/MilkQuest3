@@ -1,0 +1,1 @@
+global.character.acl = 10;

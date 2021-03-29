@@ -1,0 +1,1 @@
+change_character(oKidhead);

@@ -1,0 +1,1 @@
+//player.state = states.down;

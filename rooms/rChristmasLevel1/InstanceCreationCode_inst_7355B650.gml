@@ -1,0 +1,2 @@
+moveX = false;
+moveY = true;
