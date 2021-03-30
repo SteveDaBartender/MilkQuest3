@@ -1,6 +1,11 @@
 //this camera is coded AWFULLY!!! tons of spaghetti here.
 //not gonna go through and recomment it because im gonna rewrite
-	global.spawnX = false;
+
+global.transitionType = 0;
+global.transitionTime = 0;
+
+
+global.spawnX = false;
 	global.spawnY = false;
 	draw_set_font(fDebug);
 view_enabled=true;

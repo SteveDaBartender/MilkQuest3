@@ -15,6 +15,8 @@ if (global.debug){
 	draw_text(0,240 ,"Acceleration:" + string(char.acl));
 	draw_text(0,260 ,"Global Timer" +string(global.globalTimer));
 	draw_text(0,280 ,"" +string(object_get_name(randomObj)));
+	draw_text(0,300 ,"TransitionType:" +string(global.transitionType));
+	draw_text(0,320 ,"TransitionTimer" +string(global.transitionTime));
 	draw_text(0,160 ,"Anim. Frame:" + string(round(char.image_index)));
 	draw_text(880,0 ,string(fps) + " FPS");
 	draw_text(800,20 ,string(fps_real) + " RFPS");
@@ -27,3 +29,21 @@ if (layer_exists("MQ2BG")) {
 }
 
 if (analog) draw_sprite(sCRTOverlay,0,0,0);
+
+switch global.transitionType {
+	case 1: //milk swoop in
+		while (global.transitionTime > 0) {
+			draw_sprite_ext(sMilkTransition,0,view_w_half,view_h_half,global.transitionTime*2,global.transitionTime*2,0,c_white,1);
+			global.transitionTime -= 5;
+		}
+		break;
+	case 2: //milk swoop out
+		while (global.transitionTime > 0) {
+			draw_sprite_ext(sMilkTransition,0,view_w_half,view_h_half,global.transitionTime*2,global.transitionTime*2,0,c_white,1);
+			global.transitionTime -= 5;;
+		}
+		break;
+	default:
+		//do nothing lol
+		break;
+}

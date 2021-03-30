@@ -27,6 +27,9 @@ if (key_space_press) {
 		case 8:
 			change_room(rTowerEntrance, 0, 0, true, char);
 			break;
+		case 11:
+			change_room(rTest, 0, 0, true, char);
+			break;
 		case 18:
 			change_room(rTower2Autoscroll, 0, 0, true, char);
 			break;

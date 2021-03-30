@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 199,
+  "bbox_right": 479,
   "bbox_top": 0,
-  "bbox_bottom": 299,
+  "bbox_bottom": 269,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 200,
-  "height": 300,
+  "width": 480,
+  "height": 270,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"e736950e-450c-4a41-b12e-437a93a13834","path":"sprites/sMilkTransition/sMilkTransition.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e736950e-450c-4a41-b12e-437a93a13834","path":"sprites/sMilkTransition/sMilkTransition.yy",},"LayerId":{"name":"51c1bf5c-4a00-43c0-b2cd-63235c6687e3","path":"sprites/sMilkTransition/sMilkTransition.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sMilkTransition","path":"sprites/sMilkTransition/sMilkTransition.yy",},"resourceVersion":"1.0","name":"e736950e-450c-4a41-b12e-437a93a13834","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c21934df-295d-44ea-8d3a-339ce2007d9e","path":"sprites/sMilkTransition/sMilkTransition.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c21934df-295d-44ea-8d3a-339ce2007d9e","path":"sprites/sMilkTransition/sMilkTransition.yy",},"LayerId":{"name":"8c7cdc8a-ab36-4f1d-8d33-48405c025952","path":"sprites/sMilkTransition/sMilkTransition.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sMilkTransition","path":"sprites/sMilkTransition/sMilkTransition.yy",},"resourceVersion":"1.0","name":"c21934df-295d-44ea-8d3a-339ce2007d9e","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sMilkTransition","path":"sprites/sMilkTransition/sMilkTransition.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"f1b2d9d0-ea54-486f-aa03-a71e23fd9400","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e736950e-450c-4a41-b12e-437a93a13834","path":"sprites/sMilkTransition/sMilkTransition.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"b9be2b0a-1b14-4af3-8a4e-2a7ac5cd503f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c21934df-295d-44ea-8d3a-339ce2007d9e","path":"sprites/sMilkTransition/sMilkTransition.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,11 +65,11 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"51c1bf5c-4a00-43c0-b2cd-63235c6687e3","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8c7cdc8a-ab36-4f1d-8d33-48405c025952","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "UI",
-    "path": "folders/Sprites/UI.yy",
+    "name": "GUI",
+    "path": "folders/Sprites/UI/GUI.yy",
   },
   "resourceVersion": "1.0",
   "name": "sMilkTransition",
