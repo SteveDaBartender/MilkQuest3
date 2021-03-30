@@ -4,6 +4,7 @@ global.debug = false;
 global.gameLock = false;
 global.currentSong = sLevelSelect;
 getInput();
+//go to a level based on the input
 if (key_space_press) {
 	switch (cursorPos) {
 		case 0:
@@ -62,6 +63,7 @@ if (key_down) {
 	}
 }
 
+//moves the cursor up and down, 'cool' is the cooldown
 if (key_up && cool > 5) {
 	cursorPos = clamp(cursorPos-1,0,31);
 	cool = 0;
@@ -70,9 +72,11 @@ if (key_ddown && cool > 5) {
 	cursorPos = clamp(cursorPos+1,0,31);
 	cool = 0;
 }
-
+//increment the cooldown
 cool++;
 
+//changes teammate, or the character that follows you around
+//may use this, may not.
 if (key_down) {
 	switch (teammate) {
 		case "Fezhead":

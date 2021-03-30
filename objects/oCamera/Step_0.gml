@@ -93,6 +93,11 @@ y = clamp(y,view_h_half,room_height-view_h_half);
 //set the camera to the object
 camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
 
+//THIS IS DISGUSTING!!!!!
+
+//Too Bad!
+
+
 if (layer_exists("L2"))
 {
 	layer_x("L2",x/1.5);
@@ -181,3 +186,7 @@ if (layer_exists("TowerBG"))
 	layer_y("TowerBG",y+270);
 }
 
+if (layer_exists("TilesScroll"))
+{
+	tilemap_y(layer_tilemap_get_id(layer_get_id("TilesScroll")),y - 7725);
+}

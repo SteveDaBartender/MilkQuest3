@@ -336,7 +336,7 @@
     {"id":{"name":"sPunch","path":"sounds/sPunch/sPunch.yy",},"order":13,},
     {"id":{"name":"o1Way","path":"objects/o1Way/o1Way.yy",},"order":0,},
     {"id":{"name":"oBoxGravity","path":"objects/oBoxGravity/oBoxGravity.yy",},"order":3,},
-    {"id":{"name":"oParticle","path":"objects/oParticle/oParticle.yy",},"order":23,},
+    {"id":{"name":"oParticle","path":"objects/oParticle/oParticle.yy",},"order":4,},
     {"id":{"name":"oBumper","path":"objects/oBumper/oBumper.yy",},"order":0,},
     {"id":{"name":"oSideSpring","path":"objects/oSideSpring/oSideSpring.yy",},"order":0,},
     {"id":{"name":"oSlope","path":"objects/oSlope/oSlope.yy",},"order":2,},

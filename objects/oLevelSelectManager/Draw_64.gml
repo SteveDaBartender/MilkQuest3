@@ -1,5 +1,6 @@
 var system_name = environment_get_variable("USERNAME");
 
+//oh god super ugly drawing text oh god
 
 draw_set_font(fLevelSelect);
 draw_set_color(validColor);
@@ -7,19 +8,19 @@ draw_text(lvlOffsetR1,5,"00 - Mountainside Peaks");
 draw_text(lvlOffsetR1,25,"01 - Tutorial Caves");
 draw_text(lvlOffsetR1,45,"02 - Verdant Valley");
 draw_set_color(invalidColor);
-draw_text(lvlOffsetR1,65,"03 - ???"); //farm
+draw_text(lvlOffsetR1,65,"03 - ???"); //dm
 draw_set_color(validColor);
 draw_text(lvlOffsetR1,85,"04 - Curious Carnival");
 draw_text(lvlOffsetR1,105,"05 - HESHA Factory");
 draw_set_color(invalidColor);
-draw_text(lvlOffsetR1,125,"06 - ???"); //city
+draw_text(lvlOffsetR1,125,"06 - ???"); //sc
 draw_text(lvlOffsetR1,145,"07 - ???"); //sweet caps
 draw_set_color(validColor);
 draw_text(lvlOffsetR1,165,"08 - Ruined Tower");
 draw_set_color(invalidColor);
-draw_text(lvlOffsetR1,185,"09 - ???"); //reef
+draw_text(lvlOffsetR1,185,"09 - ???"); //arc
 draw_text(lvlOffsetR1,205,"10 - ???"); //last
-draw_text(lvlOffsetR1,225,"11 - ???");
+draw_text(lvlOffsetR1,225,"11 - ???"); //there is no tutorial 2 so idk what to put here
 draw_text(lvlOffsetR1,245,"12 - Verdant Valley Part 2");
 draw_text(lvlOffsetR1,265,"13 - ???");
 draw_text(lvlOffsetR1,285,"14 - Curious Carnival Part 2");
@@ -43,8 +44,8 @@ draw_text(lvlOffsetR2,185,"25 - ???");
 draw_set_color(validColor);
 draw_text(lvlOffsetR2,205,"26 - Bubblegum Surfing");
 draw_set_color(invalidColor);
-draw_text(lvlOffsetR2,225,"27 - ???"); //baced
-draw_text(lvlOffsetR2,245,"28 - ???"); //train
+draw_text(lvlOffsetR2,225,"27 - ???"); //bac
+draw_text(lvlOffsetR2,245,"28 - ???"); //trn
 draw_set_color(validColor);
 draw_text(lvlOffsetR2,265,"29 - HESHA Wastewater"); //wastewater
 draw_text(lvlOffsetR2,285,"30 - ???"); //normal pond
@@ -78,7 +79,7 @@ draw_text(480,400,"X: Change Starting Character");
 draw_text(480,420,"Left/Right: Set Entrance ID");
 draw_text(480,440,"Up/Down: Move Cursor");
 draw_text(480,460,"Z: Select A Stage");
-draw_text(480,460,"Typing Stage ID and pressing Z also works.");
+//draw_text(480,480,"Typing Stage ID and pressing\nZ also works.");   it doesnt yet lol
 
 draw_text(700,380,"Debug Commands (In-Game)");
 draw_text(700,400,"F1: Return to Level Select");
@@ -95,6 +96,8 @@ if (cursorPos <= 15) {
 if (cursorPos > 15 && cursorPos <= 32) {
 	draw_sprite(sFezSelecter, cursorPos ,lvlOffsetR2-40,((cursorPos - 16)*20-10))	
 }
+
+//credits will be moved to their own section soon.
 
 /*
 draw_text(lvlOffsetR1,420,"Credits");

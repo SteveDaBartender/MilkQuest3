@@ -1,6 +1,10 @@
 /// @description create particles while walking.
 ///@param rm
 ///@param object
+
+//ugly rn, will look better once i get around to tagging room IDS
+
+//simply checks what room is input and then creates a particle based on that.
 function walkParticle(argument0, argument1) {
 	var particleSprite = sGrassParticle;
 	if (irandom_range(0,50) = 30) {

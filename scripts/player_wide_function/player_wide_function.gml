@@ -15,8 +15,8 @@ function player_wide_function() {
 		if (global.character = oConeheadMQ2 || global.character = oFezheadMQ2) {
 			room_restart();
 		} else {
-			instance_destroy(self);
-			instance_create_layer(oPlayer.x,oPlayer.y,"Object",global.character);
+			hp = 0;
+			damage_character();
 		}
 		reset_falling_platforms();
 	}

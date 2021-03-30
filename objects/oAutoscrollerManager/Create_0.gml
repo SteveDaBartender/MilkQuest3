@@ -1,3 +1,1 @@
-/// @description Insert description here
-// You can write your code in this editor
-yScrollSpeed = 1.6;
+yScrollSpeed = 1.6; //speed of movement vertically
