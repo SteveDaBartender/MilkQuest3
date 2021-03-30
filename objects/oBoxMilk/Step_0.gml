@@ -22,4 +22,14 @@ switch (global.character) {
 			global.milk += 5;
 		}
 		break;
+	case oKidhead:
+		if (place_meeting(x+sign(char.hsp)*-20,y,char) && char.state = states.punch) {
+			for(i = 0; i < 5; i++) {
+				particle(sBoxParticle,x,y-16,2,3, random_range(-4,4), -2);
+			}
+			instance_destroy(self);
+			audio_play_sound(sMilk, 1, false);
+			global.milk += 5;			
+		}
+	break;
 }
