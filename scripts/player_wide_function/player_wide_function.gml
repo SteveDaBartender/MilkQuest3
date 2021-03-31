@@ -37,6 +37,10 @@ function player_wide_function() {
 		idleTimer++;	
 	} else idleTimer = 0;
 
+	if (place_meeting(x,y+5,oWall)) {
+		smashing = false;	
+	}
+
 	//spring collision
 	if (place_meeting(x,y, oSpring)) {
 		vsp = -20;

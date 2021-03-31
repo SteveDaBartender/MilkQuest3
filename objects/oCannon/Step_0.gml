@@ -14,6 +14,7 @@ if (active) {
 		repeat (20) particle(sParticleSmoke,x,y,0.9,-0.5,random_range(-4,4),random_range(-10,20));
 		audio_play_sound(sCannonExplode, 1, false);
 		active = false;
+		global.character.smashing = true;
 		global.character.x = global.character.x+lengthdir_x(vel*3,angle);
 		global.character.y = global.character.y+lengthdir_y(vel*3,angle);
 		global.character.acl = (cos(degtorad(angle)) * vel) / 1.6;

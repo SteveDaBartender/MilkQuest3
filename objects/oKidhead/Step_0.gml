@@ -65,6 +65,9 @@ switch state {
 	case states.punch:
 		sprite_index = sKidPunch;
 		break;
+	case states.hooked:
+		sprite_index = sKidHang;
+		break;
 }
 if (move != 0) image_xscale = move;
 
