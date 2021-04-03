@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sJumperRun",
-    "path": "sprites/sJumperRun/sJumperRun.yy",
+    "name": "sAmericanCheese",
+    "path": "sprites/sAmericanCheese/sAmericanCheese.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,17 +21,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oJumper","path":"objects/oJumper/oJumper.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"oJumper","path":"objects/oJumper/oJumper.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"oHealthPickup","path":"objects/oHealthPickup/oHealthPickup.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Objects/Enemies.yy",
+    "name": "00 - General Level Assets",
+    "path": "folders/Objects/Level Assets/00 - General Level Assets.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oJumper",
+  "name": "oHealthPickup",
   "tags": [],
   "resourceType": "GMObject",
 }
