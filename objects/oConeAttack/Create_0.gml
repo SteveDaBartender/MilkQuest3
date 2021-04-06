@@ -1,1 +1,0 @@
-coneExist = instance_exists(oConehead);

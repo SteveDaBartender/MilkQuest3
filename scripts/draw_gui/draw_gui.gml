@@ -40,6 +40,7 @@ function draw_gui(){
 		draw_rectangle_color(650,205,700,205-milkHeight,c_white,c_white,c_white,c_white,0.9);
 		
 		this will be added in the future, i need to learn how to draw primatives n shit
+		it also requires the total milks of a level (which i dont have :*( )
 		*/
 		
 		//draw UI sprites
@@ -64,4 +65,17 @@ function draw_gui(){
 	}
 	//delete last entry in the velocity to keep the list in check
 	ds_list_delete(averageHsp, 0);
+	
+	
+	
+	
+	//input display drawer (will likely be disabled in the final)
+	var inputHeight = 535;
+	getInput();
+	if (key_up) draw_sprite_ext(sInputArrow,0,8,inputHeight,1,1,0,c_white,1);
+	if (key_left) draw_sprite_ext(sInputArrow,0,16,inputHeight,1,1,90,c_white,1);
+	if (key_right) draw_sprite_ext(sInputArrow,0,24,inputHeight,1,1,270,c_white,1);
+	if (key_ddown) draw_sprite_ext(sInputArrow,0,32,inputHeight,1,1,180,c_white,1);
+	if (key_space) draw_sprite_ext(sInputZ,0,40,inputHeight,1,1,0,c_white,1);
+	if (key_down_hold) draw_sprite_ext(sInputX,0,48,inputHeight,1,1,0,c_white,1);
 }
