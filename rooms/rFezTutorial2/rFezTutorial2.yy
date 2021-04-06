@@ -371,6 +371,8 @@
   },
   "resourceVersion": "1.0",
   "name": "rFezTutorial2",
-  "tags": [],
+  "tags": [
+    "01",
+  ],
   "resourceType": "GMRoom",
 }

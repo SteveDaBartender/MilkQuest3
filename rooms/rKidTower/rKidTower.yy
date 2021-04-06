@@ -382,6 +382,8 @@
   },
   "resourceVersion": "1.0",
   "name": "rKidTower",
-  "tags": [],
+  "tags": [
+    "08",
+  ],
   "resourceType": "GMRoom",
 }

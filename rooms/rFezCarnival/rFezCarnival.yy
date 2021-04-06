@@ -185,6 +185,8 @@
   },
   "resourceVersion": "1.0",
   "name": "rFezCarnival",
-  "tags": [],
+  "tags": [
+    "04",
+  ],
   "resourceType": "GMRoom",
 }

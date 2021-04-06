@@ -395,6 +395,8 @@
   },
   "resourceVersion": "1.0",
   "name": "rTowerEntrance",
-  "tags": [],
+  "tags": [
+    "08",
+  ],
   "resourceType": "GMRoom",
 }

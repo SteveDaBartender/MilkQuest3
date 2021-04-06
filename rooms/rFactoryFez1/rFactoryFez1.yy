@@ -184,6 +184,8 @@
   },
   "resourceVersion": "1.0",
   "name": "rFactoryFez1",
-  "tags": [],
+  "tags": [
+    "05",
+  ],
   "resourceType": "GMRoom",
 }

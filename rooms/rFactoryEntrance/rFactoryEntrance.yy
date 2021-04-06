@@ -334,6 +334,8 @@
   },
   "resourceVersion": "1.0",
   "name": "rFactoryEntrance",
-  "tags": [],
+  "tags": [
+    "05",
+  ],
   "resourceType": "GMRoom",
 }

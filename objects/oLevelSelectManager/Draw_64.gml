@@ -20,7 +20,9 @@ draw_text(lvlOffsetR1,165,"08 - Ruined Tower");
 draw_set_color(invalidColor);
 draw_text(lvlOffsetR1,185,"09 - ???"); //arc
 draw_text(lvlOffsetR1,205,"10 - ???"); //last
-draw_text(lvlOffsetR1,225,"11 - ???"); //there is no tutorial 2 so idk what to put here
+draw_set_color(validColor);
+draw_text(lvlOffsetR1,225,"11 - Testing Level"); //secret final
+draw_set_color(invalidColor);
 draw_text(lvlOffsetR1,245,"12 - Verdant Valley Part 2");
 draw_text(lvlOffsetR1,265,"13 - ???");
 draw_text(lvlOffsetR1,285,"14 - Curious Carnival Part 2");
@@ -37,10 +39,10 @@ draw_text(lvlOffsetR2,85,"20 - ???");
 draw_set_color(validColor);
 draw_text(lvlOffsetR2,105,"21 - The Boxlands");
 draw_set_color(invalidColor);
-draw_text(lvlOffsetR2,125,"22 - ???");
-draw_text(lvlOffsetR2,145,"23 - ???");
-draw_text(lvlOffsetR2,165,"24 - ???");
-draw_text(lvlOffsetR2,185,"25 - ???");
+draw_text(lvlOffsetR2,125,"22 - ???"); //mortar
+draw_text(lvlOffsetR2,145,"23 - ???"); //depths
+draw_text(lvlOffsetR2,165,"24 - ???"); //sv remix
+draw_text(lvlOffsetR2,185,"25 - ???"); //volc
 draw_set_color(validColor);
 draw_text(lvlOffsetR2,205,"26 - Bubblegum Surfing");
 draw_set_color(invalidColor);
@@ -48,6 +50,7 @@ draw_text(lvlOffsetR2,225,"27 - ???"); //bac
 draw_text(lvlOffsetR2,245,"28 - ???"); //trn
 draw_set_color(validColor);
 draw_text(lvlOffsetR2,265,"29 - HESHA Wastewater"); //wastewater
+draw_set_color(invalidColor);
 draw_text(lvlOffsetR2,285,"30 - ???"); //normal pond
 
 

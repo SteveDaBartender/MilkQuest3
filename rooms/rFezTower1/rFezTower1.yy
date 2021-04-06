@@ -608,6 +608,8 @@
   },
   "resourceVersion": "1.0",
   "name": "rFezTower1",
-  "tags": [],
+  "tags": [
+    "08",
+  ],
   "resourceType": "GMRoom",
 }

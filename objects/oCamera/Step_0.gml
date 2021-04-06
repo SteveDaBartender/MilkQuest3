@@ -182,6 +182,8 @@ if (layer_exists("MQ2BG"))
 
 if (layer_exists("TowerBG"))
 {
+	layer_shader("TowerBG",fxTowerWind);
+	shader_set_uniform_f(shader_get_uniform(fxTowerWind, "Time"),global.globalTimer/1000);
 	layer_x("TowerBG",x+480);
 	layer_y("TowerBG",y+270);
 }

@@ -421,6 +421,8 @@
   },
   "resourceVersion": "1.0",
   "name": "rKidTutorial1",
-  "tags": [],
+  "tags": [
+    "01",
+  ],
   "resourceType": "GMRoom",
 }

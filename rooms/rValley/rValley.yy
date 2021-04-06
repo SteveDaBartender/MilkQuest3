@@ -613,6 +613,8 @@
   },
   "resourceVersion": "1.0",
   "name": "rValley",
-  "tags": [],
+  "tags": [
+    "02",
+  ],
   "resourceType": "GMRoom",
 }

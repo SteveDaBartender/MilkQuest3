@@ -659,6 +659,8 @@
   },
   "resourceVersion": "1.0",
   "name": "rTower2Autoscroll2",
-  "tags": [],
+  "tags": [
+    "17",
+  ],
   "resourceType": "GMRoom",
 }

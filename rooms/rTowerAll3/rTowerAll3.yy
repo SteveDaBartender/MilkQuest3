@@ -279,6 +279,8 @@
   },
   "resourceVersion": "1.0",
   "name": "rTowerAll3",
-  "tags": [],
+  "tags": [
+    "08",
+  ],
   "resourceType": "GMRoom",
 }

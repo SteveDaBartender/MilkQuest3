@@ -1,8 +1,8 @@
 //movement
 if (!active) {
-	if (distance_to_object(global.character) < 15) {
+	if (distance_to_object(global.character) < 100) {
 		vsp = -15;	
-		
+		active = true;
 	}
 } else if (position_meeting(x,y+1,oCollide)){
 	if (global.character.x > x) hsp += .2
@@ -32,7 +32,7 @@ if (place_meeting(x,y+round(vsp),oCollide))	{
 		}
 		hsp = 0;
 	}
-
+y += vsp;
 x += hsp;
 if (hsp != 0) image_xscale = -sign(hsp);
 //enemy death  sequence

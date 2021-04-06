@@ -13,4 +13,4 @@ killType = false;
 
 hsp = 0;
 vsp = 0;
-active = 1;
+active = 0;

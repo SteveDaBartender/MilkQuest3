@@ -1,5 +1,12 @@
 //This sets the music for the room.
 //audio_stop_all();
+
+if (layer_exists("TowerBG"))
+{
+	layer_shader("TowerBG",fxTowerWind);
+	shader_set_uniform_f(shader_get_uniform(fxTowerWind, "Time"),global.globalTimer/1000);
+}
+
 switch (room){
 	case rFezTutorial:
 		audio_play_sound(sCaveFall, 0, false);

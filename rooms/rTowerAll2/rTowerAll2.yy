@@ -700,6 +700,8 @@
   },
   "resourceVersion": "1.0",
   "name": "rTowerAll2",
-  "tags": [],
+  "tags": [
+    "08",
+  ],
   "resourceType": "GMRoom",
 }
