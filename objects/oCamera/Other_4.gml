@@ -1,11 +1,12 @@
 //This sets the music for the room.
 //audio_stop_all();
-
-if (layer_exists("TowerBG"))
-{
-	layer_shader("TowerBG",fxTowerWind);
+/*
+if (room = rTowerEntrance) {
+	layer_shader("TilesGrass",fxTowerWind);
+	layer_script_begin("TilesGrass",tower_update_grass);
 	shader_set_uniform_f(shader_get_uniform(fxTowerWind, "Time"),global.globalTimer/1000);
 }
+*/
 
 switch (room){
 	case rFezTutorial:

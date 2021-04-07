@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"faf796ef-8558-4495-a163-0cca6cc4471e","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "players",
-    "path": "folders/Sprites/players.yy",
+    "name": "Players",
+    "path": "folders/Sprites/Players.yy",
   },
   "resourceVersion": "1.0",
   "name": "sRover",

@@ -1,16 +1,16 @@
 //movement
 if (!active) {
 	if (distance_to_object(global.character) < 100) {
-		vsp = -15;	
+		vsp = -13;	
 		active = true;
 	}
-} else if (position_meeting(x,y+1,oCollide)){
-	if (global.character.x > x) hsp += .2
-	else hsp -= .2;
-} else hsp = 0;
+} else {
+	if (global.character.x > x) hsp += .15
+	else hsp -= .15;
+}
 
 vsp += 0.5;
-hsp *= 0.98;
+hsp *= 0.995;
 //checks if the enemy is supposed to die
 enemyKillScript();
 

@@ -2,6 +2,16 @@
 step++;
 randomObj = global.globalTimer;
 global.globalTimer++;
+
+
+/*
+if (true) { 
+	scr_CRT_appy_to_surface(application_surface, view_camera[0]);
+}	else draw_surface(application_surface, 0,0);
+
+display_set_gui_size(window_get_width(), window_get_height());
+display_set_gui_maximise();
+*/
 //alternate level select for demos
 if (keyboard_check(ord("P")) && keyboard_check(ord("O"))) {
 	change_room(rLevelSelect, 0, 0, true, 0);	
@@ -50,11 +60,6 @@ switch global.resolution {
 		break;
 }
 
-//analog TV mode
-if (analog) {
-	gpu_set_texfilter(true);
-	
-} else gpu_set_texfilter(false);
 
 if (window_get_fullscreen() && maxFulscreenRes && false) {
 	view_hport[0] = display_get_height();
@@ -182,8 +187,6 @@ if (layer_exists("MQ2BG"))
 
 if (layer_exists("TowerBG"))
 {
-	layer_shader("TowerBG",fxTowerWind);
-	shader_set_uniform_f(shader_get_uniform(fxTowerWind, "Time"),global.globalTimer/1000);
 	layer_x("TowerBG",x+480);
 	layer_y("TowerBG",y+270);
 }

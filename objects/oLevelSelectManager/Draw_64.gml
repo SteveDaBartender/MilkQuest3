@@ -52,7 +52,7 @@ draw_set_color(validColor);
 draw_text(lvlOffsetR2,265,"29 - HESHA Wastewater"); //wastewater
 draw_set_color(invalidColor);
 draw_text(lvlOffsetR2,285,"30 - ???"); //normal pond
-
+draw_set_color(validColor);
 
 switch (char) {
 	case oFezhead:
@@ -109,6 +109,9 @@ draw_text(lvlOffsetR1,460,"Music & Design: Quackers T. Encheese");
 draw_text(lvlOffsetR1,480,"Factory & Sky Tracks: dragon98999");
 draw_text(lvlOffsetR1,500,"Musical Assistance: Turretbot");
 draw_text(lvlOffsetR1,520,"Special Thanks: sup3p, FANTIC, James Cleland, Birb, Axelcuty, Doodle");
+
+TO ADD TO CREDITS:
+CRT SHADER: https://marketplace.yoyogames.com/assets/701/crt-pixel-shader
 */
 
 /*

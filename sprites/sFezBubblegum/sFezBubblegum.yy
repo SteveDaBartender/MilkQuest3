@@ -160,7 +160,7 @@
   ],
   "parent": {
     "name": "Fez Sprites",
-    "path": "folders/Sprites/players/Fez Sprites.yy",
+    "path": "folders/Sprites/Players/Fez Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "sFezBubblegum",

@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Dialogue Icons",
-    "path": "folders/Sprites/Dialogue Icons.yy",
+    "path": "folders/Sprites/UI/Dialogue Icons.yy",
   },
   "resourceVersion": "1.0",
   "name": "sFezIcon1",

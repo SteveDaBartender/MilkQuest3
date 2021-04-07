@@ -113,7 +113,7 @@
   ],
   "parent": {
     "name": "Kid Sprites",
-    "path": "folders/Sprites/players/Kid Sprites.yy",
+    "path": "folders/Sprites/Players/Kid Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "sKidPunch",

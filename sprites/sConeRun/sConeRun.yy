@@ -81,7 +81,7 @@
   ],
   "parent": {
     "name": "Cone Sprites",
-    "path": "folders/Sprites/players/Cone Sprites.yy",
+    "path": "folders/Sprites/Players/Cone Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "sConeRun",

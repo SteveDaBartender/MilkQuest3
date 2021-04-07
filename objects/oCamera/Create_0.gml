@@ -4,6 +4,8 @@
 global.transitionType = 0;
 global.transitionTime = 0;
 
+//if (false) instance_create_layer(x,y,layer,obj_CRT_controller);
+
 
 global.spawnX = false;
 	global.spawnY = false;
@@ -28,8 +30,6 @@ enum res {
 	p4k,
 	svga
 }
-analog = false;
-//global.resolution = res.p4k;
 
 step = 0;
 lock = false;
@@ -38,3 +38,4 @@ maxFulscreenRes = false;
 //window_set_size(view_wport[0], view_hport[0]);
 random_set_seed(global.globalTimer)
 randomObj = irandom_range(0,74)
+

@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Hats",
-    "path": "folders/Sprites/Hats.yy",
+    "path": "folders/Sprites/General Sprites/Hats.yy",
   },
   "resourceVersion": "1.0",
   "name": "sConeHat",

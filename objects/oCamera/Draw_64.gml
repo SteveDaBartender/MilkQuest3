@@ -28,8 +28,6 @@ if (layer_exists("MQ2BG")) {
 	draw_rectangle_color(750,0,960,540,c_black,c_black,c_black,c_black,false);
 }
 
-if (analog) draw_sprite(sCRTOverlay,0,0,0);
-
 switch global.transitionType {
 	case 1: //milk swoop in
 		while (global.transitionTime > 0) {
