@@ -14,3 +14,4 @@ killType = false;
 hsp = 0;
 vsp = 0;
 active = 0;
+wakeupRange = 180;

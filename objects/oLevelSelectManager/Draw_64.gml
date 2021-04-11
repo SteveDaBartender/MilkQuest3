@@ -1,5 +1,3 @@
-var system_name = environment_get_variable("USERNAME");
-
 //oh god super ugly drawing text oh god
 
 draw_set_font(fLevelSelect);
@@ -107,7 +105,7 @@ draw_text(lvlOffsetR1,420,"Credits");
 draw_text(lvlOffsetR1,440,"Code, Artwork, Design: Steve the Bartender");
 draw_text(lvlOffsetR1,460,"Music & Design: Quackers T. Encheese");
 draw_text(lvlOffsetR1,480,"Factory & Sky Tracks: dragon98999");
-draw_text(lvlOffsetR1,500,"Musical Assistance: Turretbot");
+draw_text(lvlOffsetR1,500,"helped with like 1 song idr which one: Turretbot");
 draw_text(lvlOffsetR1,520,"Special Thanks: sup3p, FANTIC, James Cleland, Birb, Axelcuty, Doodle");
 
 TO ADD TO CREDITS:
