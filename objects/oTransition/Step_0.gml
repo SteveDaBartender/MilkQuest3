@@ -12,16 +12,15 @@ if (seperateWarps = true) {
 	}
 }
 getInput();
-if (global.transitionType = 0 && !press && place_meeting(x,y,global.character)) || (press && key_up && place_meeting(x,y,global.character)) {
+if (oPersistent.transitionType = 0 && !press && place_meeting(x,y,global.character)) || (press && key_up && place_meeting(x,y,global.character)) {
 	if (xTo != 0) {
 		global.spawnX = xTo;
 		global.spawnY = yTo;
 	}
-	global.transitionTime = 100;
-	global.transitionType = 1;
-}
-if (global.transitionType = 1 && global.transitionTime <= 0) {
+	oPersistent.transitionTime = 100;
+	oPersistent.transitionType = 1;
+} else if (oPersistent.transitionType = 1 && oPersistent.transitionTime <= 0) {
 	change_room(destination, xTo, yTo, stop, 0);
-	global.transitionTime = 100;
-	global.transitionType = 2;
+	oPersistent.transitionTime = 100;
+	oPersistent.transitionType = 2;
 }

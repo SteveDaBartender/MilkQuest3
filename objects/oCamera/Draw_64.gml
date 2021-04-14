@@ -27,21 +27,3 @@ if (layer_exists("MQ2BG")) {
 	draw_rectangle_color(0,0,210,540,c_black,c_black,c_black,c_black,false);
 	draw_rectangle_color(750,0,960,540,c_black,c_black,c_black,c_black,false);
 }
-
-switch global.transitionType {
-	case 1: //milk swoop in
-		while (global.transitionTime > 0) {
-			draw_sprite_ext(sMilkTransition,0,view_w_half,view_h_half,global.transitionTime*2,global.transitionTime*2,0,c_white,1);
-			global.transitionTime -= 5;
-		}
-		break;
-	case 2: //milk swoop out
-		while (global.transitionTime > 0) {
-			draw_sprite_ext(sMilkTransition,0,view_w_half,view_h_half,global.transitionTime*2,global.transitionTime*2,0,c_white,1);
-			global.transitionTime -= 5;;
-		}
-		break;
-	default:
-		//do nothing lol
-		break;
-}

@@ -110,6 +110,8 @@ draw_text(lvlOffsetR1,520,"Special Thanks: sup3p, FANTIC, James Cleland, Birb, A
 
 TO ADD TO CREDITS:
 CRT SHADER: https://marketplace.yoyogames.com/assets/701/crt-pixel-shader
+
+add credits to aseprite/SFXR ?
 */
 
 /*

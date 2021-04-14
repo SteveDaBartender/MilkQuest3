@@ -15,6 +15,8 @@ if (round(xv) == 0) {
 xv *= 0.985;
 x = (2*x+xv)/2;
 
+//tbh this could 100% be done through GMS built in layer properties
+//i was just really fucking dumb when i wrote it
 if (type = 0) {
 	grassx += 40;
 	layer_x("Grass",grassx);

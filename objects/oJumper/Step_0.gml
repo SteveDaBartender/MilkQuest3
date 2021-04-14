@@ -8,7 +8,14 @@ if (!active) {
 	if (global.character.x > x) hsp += .13
 	else hsp -= .13;
 	hsp = clamp(hsp,-8,8)
-	if (global.character.y < y-14 && (place_meeting(x,y+5,oCollide) || place_meeting(x,y+5,o1Way))) vsp = -12;
+	if (irandom_range(0,50) = 10) particle(particleSprite,x,y,0.1,1,hsp * random_range(0.1,0.5) ,random_range(-5,-8));
+	if (global.character.y < y-14 && !place_meeting(x,y-20,oCollide) && (place_meeting(x,y+5,oCollide) || place_meeting(x,y+5,o1Way))) {
+		vsp = -12;
+		if (on_screen_check(self)) audio_play_sound(sJumperHop,1,false);
+		repeat(2) {
+			particle(particleSprite,x,y,0.1,1,hsp * random_range(0.1,0.5) ,random_range(-5,-8));
+		}
+	}
 }
 
 vsp += 0.5;
@@ -41,7 +48,7 @@ enemyKillScript();
 
 //enemy death  sequence
 if (killType != kt.none) {
-	audio_play_sound(sAntKill, 0, false);
+	audio_play_sound(sJumperDeath, 0, false);
 	//speed up player
 	global.character.hsp *= 1.25;
 	//summon smoke

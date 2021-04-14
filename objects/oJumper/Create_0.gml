@@ -14,4 +14,5 @@ killType = false;
 hsp = 0;
 vsp = 0;
 active = 0;
-wakeupRange = 180;
+wakeupRange = 200;
+particleSprite = sGrassParticle;
