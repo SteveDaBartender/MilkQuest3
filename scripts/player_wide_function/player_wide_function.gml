@@ -47,7 +47,7 @@ function player_wide_function() {
 		global.character.roll = false;
 		audio_play_sound(sSpring, 0, false);
 	}
-
+	
 	//bumper check :)
 	if (place_meeting(x+hsp,y+vsp,oBumper)) {
 	

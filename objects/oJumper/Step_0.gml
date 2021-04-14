@@ -21,6 +21,16 @@ if (!active) {
 vsp += 0.5;
 hsp *= 0.996;
 
+	if (place_meeting(x+hsp,y,oSlope) && !place_meeting(x+hsp,y-18,oSlope)) {
+			while (place_meeting(x+hsp,y,oCollide)) y -= 1;	
+	}
+
+	//if there's no block three blocks up then move up
+	if (!place_meeting(x+hsp,y,oSlope) && place_meeting(x+hsp,y+9,oSlope)) {
+			while (!place_meeting(x+hsp,y,oCollide)) y += 1;
+			y -= 1;
+	}
+
 if (place_meeting(x,y+round(vsp),oCollide))	{
 	while (!place_meeting(x,y+sign(vsp),oCollide) && round(vsp) != 0)
 	{
@@ -30,7 +40,7 @@ if (place_meeting(x,y+round(vsp),oCollide))	{
 	if (place_meeting(x,y,oCollide)) y -= 1;
 }
 
-	if (place_meeting(x+hsp,y,oCollide))
+if (place_meeting(x+hsp,y,oCollide))
 	{
 
 		while (!place_meeting(x+sign(hsp),y,oCollide))

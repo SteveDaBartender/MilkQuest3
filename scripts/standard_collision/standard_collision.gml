@@ -5,6 +5,17 @@ function standard_collision() {
 	
 	x = round(x);
 	
+		//if there's no block three blocks up then move up
+	if (place_meeting(x+hsp,y,oSlope) && !place_meeting(x+hsp,y-18,oSlope)) {
+			while (place_meeting(x+hsp,y,oCollide)) y -= 1;	
+	}
+
+	//if there's no block three blocks up then move up
+	if (!place_meeting(x+move,y,oSlope) && place_meeting(x+move,y+9,oSlope)) {
+			while (!place_meeting(x+hsp,y,oCollide)) y += 1;
+			y -= 1;
+	}
+	
 	/*
 		//slope check
 	if (place_meeting(x+hsp,y+vsp,oSlope)) {
@@ -35,18 +46,6 @@ function standard_collision() {
 	//hiii!!!!!!! fumo!!!!!
 	
 	//poopy :)
-		
-		
-	//if there's no block three blocks up then move up
-	if (place_meeting(x+move,y,oSlope) && !place_meeting(x+move,y-18,oSlope)) {
-			while (place_meeting(x+hsp,y,oCollide)) y -= 1;	
-	}
-
-	//if there's no block three blocks up then move up
-	if (!place_meeting(x+move,y,oSlope) && place_meeting(x+move,y+9,oSlope)) {
-			while (!place_meeting(x+hsp,y,oCollide)) y += 1;
-			y -= 1;
-	}
 
 	//horizontal collision check
 	if (place_meeting(x+hsp,y,oCollide))
@@ -57,7 +56,7 @@ function standard_collision() {
 			x += sign(hsp);
 		}
 		acl = 0;
-		if (!(global.character = oFezhead && roll && !place_meeting(x+hsp, y, oWall) && !place_meeting(x+hsp, y, oConveyer))) {
+		if (!place_meeting(x+hsp,y,oSlope) && !(global.character = oFezhead && roll && !place_meeting(x+hsp, y, oWall) && !place_meeting(x+hsp, y, oConveyer))) {
 			hsp = 0;
 		}
 		if (place_meeting(x,y,oCollide)) x -= sign(lastHsp);
@@ -133,6 +132,6 @@ function standard_collision() {
 				audio_play_sound(sJump, 0, false);
 			}
 		}
-	} else drownTimer -= 400;
+	} else drownTimer -= 20;
 	if (drownTimer < 0) drownTimer = 0;
 }

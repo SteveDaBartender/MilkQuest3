@@ -61,7 +61,7 @@ function draw_gui(){
 		draw_set_color(c_white);
 		
 		//draw air meter
-		if (drownTimer > 0) draw_text_transformed(700,180,"Air:" + string(2600 - drownTimer), 2,2, 0);
+		if (drownTimer > 0) draw_text_transformed(700,180,"Air:" + string(2600 - drownTimer), 0.7,0.7, 0);
 	}
 	//delete last entry in the velocity to keep the list in check
 	ds_list_delete(averageHsp, 0);
