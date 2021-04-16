@@ -16,16 +16,6 @@ display_set_gui_maximise();
 if (keyboard_check(ord("P")) && keyboard_check(ord("O"))) {
 	change_room(rLevelSelect, 0, 0, true, 0);	
 }
-if (keyboard_key = 188 && room_exists(room_next(room))) {
-	room_goto_next();
-	audio_stop_all();
-	global.character = oFezhead;
-}
-if (keyboard_key = 190 && room_exists(room_previous(room))) {
-	room_goto_previous();
-	audio_stop_all();
-	global.character = oFezhead;
-}
 
 //buncha different resolutions the game can run in
 switch global.resolution {
