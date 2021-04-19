@@ -6,6 +6,10 @@ global.currentSong = sLevelSelect;
 getInput();
 //go to a level based on the input
 if (key_space_press) {
+	if (teammate = "None") oPersistent.npcFollower = 0;
+	if (teammate = "Fezhead") oPersistent.npcFollower = 1;
+	if (teammate = "Conehead") oPersistent.npcFollower = 2;
+	if (teammate = "Kidhead") oPersistent.npcFollower = 3;
 	switch (cursorPos) {
 		case 0:
 			change_room(rHub, 0, 0, true, char);
@@ -80,7 +84,7 @@ cool++;
 
 //changes teammate, or the character that follows you around
 //may use this, may not.
-if (key_down) {
+if (keyboard_check_pressed(13)) {
 	switch (teammate) {
 		case "Fezhead":
 			teammate = "Conehead";

@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d69b07fb-f0b9-4ed2-9a15-7c8597922380","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Christmas Demo",
     "path": "folders/Sprites/Level Sprites/Christmas Demo.yy",

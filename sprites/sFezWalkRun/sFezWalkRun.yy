@@ -83,6 +83,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"82d9efb1-24a0-4ede-92d4-0377f4fb1d2f","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Fez Sprites",
     "path": "folders/Sprites/Players/Fez Sprites.yy",

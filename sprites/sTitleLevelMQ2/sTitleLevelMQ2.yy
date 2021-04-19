@@ -75,6 +75,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ac7014fa-6f57-44d8-b8cc-fdcf72377423","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "All Milk Quest 2 Sprites",
     "path": "folders/Sprites/All Milk Quest 2 Sprites.yy",

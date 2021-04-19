@@ -66,6 +66,21 @@ switch (char) {
 		draw_text(lvlOffsetR1,385, "Character: Unknown");
 		break;
 }
+switch (teammate) {
+	case "Fezhead":
+		draw_text(lvlOffsetR1,365, "Partner: Fezhead");
+		break;
+	case "Kidhead":
+		draw_text(lvlOffsetR1,365, "Partner: Kid");
+		break;
+	case "Conehead":
+		draw_text(lvlOffsetR1,365, "Partner: Conehead");
+		break;
+	default: 
+		draw_text(lvlOffsetR1,365, "Partner: None");
+		break;
+}
+
 draw_text(lvlOffsetR1,405, "Entrance Number:" + string(entranceNum));
 draw_text(lvlOffsetR1,425, "Key ID:" + string(keyboard_key));
 draw_text(lvlOffsetR1,445, "Cursor ID:" + string(cursorPos));
@@ -114,18 +129,5 @@ CRT SHADER: https://marketplace.yoyogames.com/assets/701/crt-pixel-shader
 add credits to aseprite/SFXR ?
 */
 
-/*
-switch (teammate) {
-	case "Fezhead":
-		draw_text(lvlOffsetR1,365, "Partner: Fezhead");
-		break;
-	case "Kidhead":
-		draw_text(lvlOffsetR1,365, "Partner: Kid");
-		break;
-	case "Conehead":
-		draw_text(lvlOffsetR1,365, "Partner: Conehead");
-		break;
-	default: 
-		draw_text(lvlOffsetR1,365, "Partner: None");
-		break;
-}*/
+
+

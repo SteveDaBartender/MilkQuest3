@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d4136193-e0c8-47a9-8157-6a9cc6a00cf8","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Cone Sprites",
     "path": "folders/Sprites/Players/Cone Sprites.yy",

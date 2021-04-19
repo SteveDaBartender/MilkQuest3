@@ -1,10 +1,8 @@
 //gathers the keyboard info
+if (npc = false) {
 getInput();
-//gives a value of -1, 0 or 1 depending on keys
-//sets the movement speed.
+} else getNpcInput();
 
-//auto sets blocks to visible, because some levels aer untiled
-//oWall.bob = true;
 
 if (!global.gameLock) {
 	

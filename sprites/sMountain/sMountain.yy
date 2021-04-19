@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"56312b18-b79b-4c7b-b8b1-c0771d9d3b7c","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Tutorial Levels",
     "path": "folders/Sprites/Level Sprites/Tutorial Levels.yy",

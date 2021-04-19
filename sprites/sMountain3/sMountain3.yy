@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"eade992e-a5bb-49f8-a913-09a49bed2c10","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Sideway Valley",
     "path": "folders/Sprites/Level Sprites/Sideway Valley.yy",

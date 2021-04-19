@@ -366,6 +366,7 @@
     {"id":{"name":"scr_CRT_turn_on_effect","path":"scripts/scr_CRT_turn_on_effect/scr_CRT_turn_on_effect.yy",},"order":3,},
     {"id":{"name":"o1Way","path":"objects/o1Way/o1Way.yy",},"order":0,},
     {"id":{"name":"oBoxGravity","path":"objects/oBoxGravity/oBoxGravity.yy",},"order":3,},
+    {"id":{"name":"getNpcInput","path":"scripts/getNpcInput/getNpcInput.yy",},"order":11,},
     {"id":{"name":"oParticle","path":"objects/oParticle/oParticle.yy",},"order":4,},
     {"id":{"name":"oBumper","path":"objects/oBumper/oBumper.yy",},"order":0,},
     {"id":{"name":"oSideSpring","path":"objects/oSideSpring/oSideSpring.yy",},"order":0,},
@@ -404,6 +405,7 @@
     {"id":{"name":"tMQ2CarnivalTower","path":"tilesets/tMQ2CarnivalTower/tMQ2CarnivalTower.yy",},"order":13,},
     {"id":{"name":"oWater","path":"objects/oWater/oWater.yy",},"order":11,},
     {"id":{"name":"oTextbox","path":"objects/oTextbox/oTextbox.yy",},"order":3,},
+    {"id":{"name":"rTowerAll4","path":"rooms/rTowerAll4/rTowerAll4.yy",},"order":6,},
     {"id":{"name":"sPlane","path":"sprites/sPlane/sPlane.yy",},"order":10,},
     {"id":{"name":"sSuperSecretFullStorySoundEffectDONOTLEAK","path":"sounds/sSuperSecretFullStorySoundEffectDONOTLEAK/sSuperSecretFullStorySoundEffectDONOTLEAK.yy",},"order":18,},
     {"id":{"name":"oCutsceneTrigger","path":"objects/oCutsceneTrigger/oCutsceneTrigger.yy",},"order":2,},
@@ -503,6 +505,7 @@
     {"roomId":{"name":"rFactoryFez1","path":"rooms/rFactoryFez1/rFactoryFez1.yy",},},
     {"roomId":{"name":"rTower2Autoscroll","path":"rooms/rTower2Autoscroll/rTower2Autoscroll.yy",},},
     {"roomId":{"name":"rTower2Autoscroll2","path":"rooms/rTower2Autoscroll2/rTower2Autoscroll2.yy",},},
+    {"roomId":{"name":"rTowerAll4","path":"rooms/rTowerAll4/rTowerAll4.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

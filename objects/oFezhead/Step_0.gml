@@ -1,5 +1,7 @@
 //gathers the keyboard info
+if (npc = false) {
 getInput();
+} else getNpcInput();
 //gives a value of -1, 0 or 1 depending on keys
 //sets the movement speed.
 

@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c1b0ee8d-a98d-4a96-b4f2-d17d9b39b70e","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Title Screen",
     "path": "folders/Sprites/UI/Title Screen.yy",

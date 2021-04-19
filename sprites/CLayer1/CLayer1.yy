@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"df2648fa-a41a-473b-8bfa-04661ac39ea5","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Carnival",
     "path": "folders/Sprites/Level Sprites/Carnival.yy",

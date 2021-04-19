@@ -25,3 +25,5 @@ lvlOffsetR3 = 305;
 
 //future entrance value to change starting room.
 entranceNum = "Not Implemented";
+
+oPersistent.npcFollower = 0;

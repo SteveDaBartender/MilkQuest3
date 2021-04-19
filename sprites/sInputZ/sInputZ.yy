@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"936a2b95-9448-4312-839e-de25ae1bad40","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "inputSprite",
     "path": "folders/Sprites/UI/GUI/inputSprite.yy",

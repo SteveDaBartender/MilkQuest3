@@ -1,4 +1,6 @@
 function player_init() {
+	npc = 0; //determines if charcter is contrlled by AI
+	
 	hsp = 0; // horizontal movement
 	acl = 0; // acceleration (only added on from like bunmpers)
 	vsp = 0; // vertical movement

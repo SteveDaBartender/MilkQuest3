@@ -10,8 +10,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sTower2.ogg",
-  "duration": 168.665665,
+  "soundFile": "sTower2.mp3",
+  "duration": 221.366638,
   "parent": {
     "name": "Music",
     "path": "folders/Sounds/Music.yy",

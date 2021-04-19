@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4b5d8ba5-ebee-45db-b1ef-4e988e9557bf","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Valley Level",
     "path": "folders/Sprites/Level Sprites/Valley Level.yy",

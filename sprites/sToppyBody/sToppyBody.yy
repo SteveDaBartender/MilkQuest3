@@ -71,6 +71,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0bafe511-4925-4863-a4b3-4235d45acbee","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Toppy Satue",
     "path": "folders/Sprites/Level Sprites/Christmas Demo/Toppy Satue.yy",

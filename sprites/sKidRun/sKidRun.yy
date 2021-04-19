@@ -95,6 +95,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"12aa0eb4-ce9c-4c60-9305-0b16b63433f1","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Kid Sprites",
     "path": "folders/Sprites/Players/Kid Sprites.yy",

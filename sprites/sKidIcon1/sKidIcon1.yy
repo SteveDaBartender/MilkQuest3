@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3b41f791-91d1-4b13-8fcc-2ead2c20468b","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Dialogue Icons",
     "path": "folders/Sprites/UI/Dialogue Icons.yy",

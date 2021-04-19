@@ -1,3 +1,5 @@
+player_init(); //in case oPlayer is interptreted as a actual player 
+
 if (global.spawnY !=0 ) {
 	x = global.spawnX;
 	y = global.spawnY;

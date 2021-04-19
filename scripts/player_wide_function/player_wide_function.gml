@@ -22,7 +22,7 @@ function player_wide_function() {
 	
 	// add !state = states.fishing &&
 	//destroy character if below map
-	if (y > room_height) {
+	if (y > room_height && !npc) {
 		if (global.character = oConeheadMQ2 || global.character = oFezheadMQ2) {
 			room_restart();
 		} else {
@@ -83,7 +83,7 @@ function player_wide_function() {
 	lastHsp = hsp;
 	//moves characters if WASD is pressed in debug mode.
 	
-	if (global.debug) {
+	if (global.debug && !npc) {
 		if (keyboard_check(ord("A")) || gamepad_button_check(0,gp_padl)) x -= 20; 
 		if keyboard_check(ord("D")) || gamepad_button_check(0,gp_padr) x += 20; 
 		if keyboard_check(ord("W")) || gamepad_button_check(0,gp_padu) y -= 20; 
@@ -111,10 +111,25 @@ function player_wide_function() {
 		audio_sound_pitch(global.currentSong,1);
 		image_blend = c_white;
 	}
-	if (global.character.key_debug) {
+	if (global.character.key_debug && !npc) {
 		if (!global.debug) global.debug = true;
 		else global.debug = false;	
 	}
+	
+	if (npc) {
+			var cam = oCamera.cam;
+		var x1 = camera_get_view_x(cam);
+		var y1 = camera_get_view_y(cam);
+		var x2 = x1 + camera_get_view_width(cam);
+		var y2 = y1 + camera_get_view_height(cam);
+		if(!point_in_rectangle(x,y,x1-328,y1-328,x2+328,y2+328)) {
+			x = global.character.x;
+			y = global.character.y;
+			invincibleTimer = 135;
+		} 	
+		
+	}
+	
 	
 	if (place_meeting(x,y,oCannon)) image_alpha = 0;
 	//if (place_meeting(global.character.x,global.character.y-30,oCollide) && place_meeting(global.character.x,global.character.y+3,oCollide)) state = states.squish;

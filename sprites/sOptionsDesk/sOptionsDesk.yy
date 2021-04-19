@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f53acdcd-a145-4efb-bbf9-fa639a817ed9","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Hub Stage",
     "path": "folders/Sprites/Level Sprites/Hub Stage.yy",
