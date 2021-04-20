@@ -1,6 +1,6 @@
 //if player is above add on velocity to player velocity
 //if the player is either conehead or rolling, redice the effect of converyer
-instance_place_list(x,y-1,oPlayer,list, true);
+instance_place_list(x,y-5,oPlayer,list, true);
 var listPos = 0;
 
 while (listPos < ds_list_size(list) && !ds_list_empty(list)) {

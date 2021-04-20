@@ -1,4 +1,4 @@
-if ((place_meeting(x,y,global.character) || global.milkGrabMode = true) && !collected){
+if ((place_meeting(x,y,oPlayer) || global.milkGrabMode = true) && !collected){
 	global.milk++;
 	audio_play_sound(sMilk,1,false);
 	collected = true;

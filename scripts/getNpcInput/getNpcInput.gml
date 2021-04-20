@@ -34,7 +34,15 @@ function getNpcInput(){
 			}
 			break;
 		case 3:
-			if (!place_meeting(x,y+75,o1Way) && !place_meeting(x,y+75,oCollide) && vsp > 3) jump = true;
+			if (place_meeting(x+50,y,oEnemy)) {
+				ability = true;
+				walkRight = true;
+			}
+			if (place_meeting(x-50,y,oEnemy)) {
+				ability = true;
+				walkLeft = true;
+			}
+			if (!place_meeting(x,y+75,o1Way) && !place_meeting(x,y+75,oCollide) && vsp > 3 && global.character.y < y) jump = true;
 			jumpHold = true;
 			//if (!roll && global.character.x + 150 > x || global.character.x - 150 < x) jumpHold = false;
 			break;

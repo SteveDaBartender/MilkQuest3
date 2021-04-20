@@ -4,3 +4,4 @@ yMin = y + 128;
 vsp = -5;
 downSpeed = 4;
 upSpeed = -12;
+list = ds_list_create();

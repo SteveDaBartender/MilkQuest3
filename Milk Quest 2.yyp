@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"sKidSelecter","path":"sprites/sKidSelecter/sKidSelecter.yy",},"order":12,},
     {"id":{"name":"dBeatScriptAllMilks","path":"scripts/dBeatScriptAllMilks/dBeatScriptAllMilks.yy",},"order":0,},
     {"id":{"name":"reset_falling_platforms","path":"scripts/reset_falling_platforms/reset_falling_platforms.yy",},"order":3,},
     {"id":{"name":"sFezTalk","path":"sounds/sFezTalk/sFezTalk.yy",},"order":12,},
@@ -168,6 +169,7 @@
     {"id":{"name":"sHotfall","path":"sprites/sHotfall/sHotfall.yy",},"order":2,},
     {"id":{"name":"sHotrock","path":"sprites/sHotrock/sHotrock.yy",},"order":3,},
     {"id":{"name":"oTiresten","path":"objects/oTiresten/oTiresten.yy",},"order":11,},
+    {"id":{"name":"sConeSelecter","path":"sprites/sConeSelecter/sConeSelecter.yy",},"order":11,},
     {"id":{"name":"sFezIdleMQ2","path":"sprites/sFezIdleMQ2/sFezIdleMQ2.yy",},"order":2,},
     {"id":{"name":"sTitleLevelMQ2","path":"sprites/sTitleLevelMQ2/sTitleLevelMQ2.yy",},"order":14,},
     {"id":{"name":"sSlope","path":"sprites/sSlope/sSlope.yy",},"order":4,},
