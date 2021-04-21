@@ -1,1 +1,1 @@
-destination = rFactoryEntrance;
+destination = rHubCave;

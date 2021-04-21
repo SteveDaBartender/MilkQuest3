@@ -3,19 +3,24 @@ function standard_collision() {
 	
 	
 	
-	x = round(x);
+//	x = round(x);
 	
 		//if there's no block three blocks up then move up
-	if (place_meeting(x+hsp,y,oSlope) && !place_meeting(x+hsp,y-18,oSlope)) {
-			while (place_meeting(x+hsp,y,oCollide)) y -= 1;	
+	if (place_meeting(x+hsp, y , oSlope) && !position_meeting(x+move,y,oWall)) {
+		var slope = instance_place(x+hsp,y,oSlope)
+		while (place_meeting(x+hsp,y,oCollide) && slope.funny > 0 && place_meeting(x+hsp,y,oSlope)) y -= 1;	
 	}
-
-	//if there's no block three blocks up then move up
-	if (!place_meeting(x+move,y,oSlope) && place_meeting(x+move,y+9,oSlope)) {
-			while (!place_meeting(x+hsp,y,oCollide)) y += 1;
+	
+		//if there's no block three blocks up then move up
+		
+	if (!place_meeting(x+move,y,oSlope ) && !position_meeting(x+move,y,oWall)   && place_meeting(x+move,y+10,oSlope)) {
+			var slope = instance_place(x+move,y+10,oSlope)
+			while (!place_meeting(x+hsp,y,oCollide) && slope.funny > 0 && place_meeting(x+move,y+9,oSlope)) y += 1;
+			//if (slope.funny < 0) hsp *= -1;
 			y -= 1;
 	}
 	
+	//if (place_meeting(x,y,oSlope && )) hsp *= -1;
 	/*
 		//slope check
 	if (place_meeting(x+hsp,y+vsp,oSlope)) {

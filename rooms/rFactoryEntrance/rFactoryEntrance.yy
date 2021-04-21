@@ -329,8 +329,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "05 HESHA Factory",
-    "path": "folders/Rooms/05 HESHA Factory.yy",
+    "name": "Part1",
+    "path": "folders/Rooms/05 HESHA Factory/Part1.yy",
   },
   "resourceVersion": "1.0",
   "name": "rFactoryEntrance",

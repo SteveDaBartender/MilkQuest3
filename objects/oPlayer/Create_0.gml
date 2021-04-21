@@ -13,4 +13,5 @@ show_debug_message(string(global.spawnY));
 
 player = instance_create_layer(x,y,"Object",global.character);
 player.vsp = setVsp
-
+global.spawnX = 0;
+global.spawnY = 0;

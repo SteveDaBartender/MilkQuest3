@@ -9,9 +9,6 @@ function driving_script(){
 	
 	hsp *= 0.98
 
-	if (round(hsp) > 5) punch = true;
-	else punch = false;
-
 	if ((place_meeting(x,y+16,oCollide) || position_meeting(x,y+1,o1Way)) && key_space_press && !place_meeting(x,y-13,oCollide))
 	{
 		vsp =-10;

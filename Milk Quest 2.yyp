@@ -427,6 +427,7 @@
     {"id":{"name":"sSantaIcon1","path":"sprites/sSantaIcon1/sSantaIcon1.yy",},"order":7,},
     {"id":{"name":"rTitle","path":"rooms/rTitle/rTitle.yy",},"order":1,},
     {"id":{"name":"squish_script","path":"scripts/squish_script/squish_script.yy",},"order":6,},
+    {"id":{"name":"rFactory2Main","path":"rooms/rFactory2Main/rFactory2Main.yy",},"order":0,},
     {"id":{"name":"rHouse","path":"rooms/rHouse/rHouse.yy",},"order":2,},
     {"id":{"name":"stomp_script","path":"scripts/stomp_script/stomp_script.yy",},"order":1,},
     {"id":{"name":"sFez","path":"sprites/sFez/sFez.yy",},"order":11,},
@@ -516,6 +517,7 @@
     {"roomId":{"name":"rTower2Autoscroll2","path":"rooms/rTower2Autoscroll2/rTower2Autoscroll2.yy",},},
     {"roomId":{"name":"rTowerAll4","path":"rooms/rTowerAll4/rTowerAll4.yy",},},
     {"roomId":{"name":"rHubCave","path":"rooms/rHubCave/rHubCave.yy",},},
+    {"roomId":{"name":"rFactory2Main","path":"rooms/rFactory2Main/rFactory2Main.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -607,6 +609,8 @@
     {"folderPath":"folders/Scripts/Cutscenes/Mountainside Peaks NPCs.yy","order":16,"resourceVersion":"1.0","name":"Mountainside Peaks NPCs","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/Cutscenes/Mountainside Peaks NPCs/Kid Dialogue MP.yy","order":1,"resourceVersion":"1.0","name":"Kid Dialogue MP","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/Cutscenes/Mountainside Peaks NPCs/Cone Dialogue MP.yy","order":2,"resourceVersion":"1.0","name":"Cone Dialogue MP","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Rooms/05 HESHA Factory/Part1.yy","order":2,"resourceVersion":"1.0","name":"Part1","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Rooms/05 HESHA Factory/Part2.yy","order":3,"resourceVersion":"1.0","name":"Part2","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

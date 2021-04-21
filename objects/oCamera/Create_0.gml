@@ -7,8 +7,8 @@ global.transitionTime = 0;
 //if (false) instance_create_layer(x,y,layer,obj_CRT_controller);
 
 
-global.spawnX = false;
-	global.spawnY = false;
+//global.spawnX = false;
+//global.spawnY = false;
 	draw_set_font(fDebug);
 view_enabled=true;
 view_set_visible(0, true);

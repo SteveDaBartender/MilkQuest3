@@ -65,8 +65,8 @@ switch (room){
 	case rHub:
 		oWall.bob = true;
 		o1Way.bob = true;
+		if (global.currentSong != sHub) audio_play_sound(sHub, 0, true);
 		global.currentSong = sHub;
-		audio_play_sound(sHub, 0, true);
 	break;	
 	case rBonSuperBall:
 		audio_play_sound(sSuperBall, 0, true);

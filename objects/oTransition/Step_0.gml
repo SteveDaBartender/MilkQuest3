@@ -16,15 +16,15 @@ if (seperateWarps && avaliable) {
 			break;
 	}
 }
-show_debug_message(string(id) + "  " + string(destination));
+//show_debug_message(string(id) + "  " + string(destination));
 getInput();
 if (avaliable && !press && place_meeting(x,y,oPlayer)) || (press && key_up && place_meeting(x,y,global.character)) {
 	change_room(destination, xTo, yTo, stop, global.character);
 	avaliable = 0;
-	if (xTo != 0) {
+	/*if (xTo != 0) {
 		global.spawnX = xTo;
 		global.spawnY = yTo;
-	}
+	}*/
 	oPersistent.transitionTime = 100;
 	oPersistent.transitionType = 1;
 } else if (oPersistent.transitionType = 1 && oPersistent.transitionTime <= 0) {
