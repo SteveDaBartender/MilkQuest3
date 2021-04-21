@@ -7,7 +7,7 @@ function stomp_script(){
 	vsp += 1;
 	if (place_meeting(x,y,oWater)) vsp += 1.2;
 	if (vsp < 0 || place_meeting(x,y+vsp,oCollide) || position_meeting(x-32,y+1,o1Way) || position_meeting(x+32,y+1,o1Way)) {
-		vsp *= -0.3;
+		//vsp *= -0.3;
 		state = states.normal;
 		roll = 0;
 		instance_create_layer(x+32,y-32,self.layer,oSpiderDust);

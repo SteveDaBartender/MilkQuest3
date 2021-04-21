@@ -48,6 +48,10 @@ function draw_gui(){
 		draw_sprite(sMilkGUI,0,650,25);
 		draw_sprite(sTimer,0,735,55);
 		
+		//shows collected big milks. grayed out as of now.
+		draw_sprite_ext(s1Milk,0,750,9,1,1,0,c_black,1);
+		draw_sprite_ext(s1Milk,0,800,9,1,1,0,c_black,1);
+		draw_sprite_ext(s1Milk,0,850,9,1,1,0,c_black,1);
 		//draws text above milk glass 
 		draw_set_halign(fa_center);
 		draw_text_transformed_color(685,67,string(global.milk),0.73,0.73,0,c_black,c_black,c_black,c_black,1);

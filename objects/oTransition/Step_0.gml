@@ -18,7 +18,7 @@ if (seperateWarps && avaliable) {
 }
 show_debug_message(string(id) + "  " + string(destination));
 getInput();
-if (avaliable && !press && place_meeting(x,y,global.character)) || (press && key_up && place_meeting(x,y,global.character)) {
+if (avaliable && !press && place_meeting(x,y,oPlayer)) || (press && key_up && place_meeting(x,y,global.character)) {
 	change_room(destination, xTo, yTo, stop, global.character);
 	avaliable = 0;
 	if (xTo != 0) {
@@ -32,5 +32,5 @@ if (avaliable && !press && place_meeting(x,y,global.character)) || (press && key
 	show_debug_message("Transitioning to "+ string(destination) + " : " + string(id));
 	oPersistent.transitionTime = 100;
 	oPersistent.transitionType = 2;
-	instance_destroy(self);
+	//instance_destroy(self);
 }

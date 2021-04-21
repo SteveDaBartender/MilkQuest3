@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sTitleFez",
-    "path": "sprites/sTitleFez/sTitleFez.yy",
+    "name": "sFezNoCar",
+    "path": "sprites/sFezNoCar/sFezNoCar.yy",
   },
   "solid": false,
   "visible": true,

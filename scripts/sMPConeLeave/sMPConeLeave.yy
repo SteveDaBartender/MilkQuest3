@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Game Scripts",
-    "path": "folders/Scripts/Game Scripts.yy",
+    "name": "Cone Dialogue MP",
+    "path": "folders/Scripts/Cutscenes/Mountainside Peaks NPCs/Cone Dialogue MP.yy",
   },
   "resourceVersion": "1.0",
-  "name": "reset_falling_platforms",
+  "name": "sMPConeLeave",
   "tags": [],
   "resourceType": "GMScript",
 }
