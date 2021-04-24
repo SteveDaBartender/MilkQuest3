@@ -6,16 +6,7 @@ function player_wide_function() {
 	damage_character();
 	}
 	
-	if (keyboard_key = 188 && room_exists(room_next(room))) {
-		room_goto(room_next(room));
-		audio_stop_all();
-		//global.character = oFezhead;
-	}
-	if (keyboard_key = 190 && room_exists(room_previous(room))) {
-		room_goto(room_previous(room));
-		audio_stop_all();
-		//global.character = oFezhead;
-	}	
+
 	
 	//change the direction the character faces depending on input
 	if ( move != 0) image_xscale = move;

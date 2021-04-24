@@ -41,6 +41,10 @@ switch (room){
 		audio_play_sound(sound, 0, true);
 		global.currentSong = sound;
 	break;
+	case rSurreal2:
+		audio_play_sound(sound8, 0, true);
+		global.currentSong = sound8;
+	break;
 	case rTitleSreenMQ2:
 		audio_play_sound(sTitleScreenMQ2, 0, false);
 		global.currentSong = sTitleScreenMQ2;

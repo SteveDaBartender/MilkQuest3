@@ -15,7 +15,7 @@ draw_sprite(icon[page],0, x-40, y+12);
 
 //adds one to the amount of characters drawn
 charCount += textSpeed;
-draw_set_font(fDebug);
+draw_set_font(fDialogue);
 //sets the string to be printed from the text array, and the length from charCount
 textFinal = string_copy(text[page], 1, charCount);
 draw_text_ext(x + offset,y+20,textFinal, stringHeight, boxWidth - 200);

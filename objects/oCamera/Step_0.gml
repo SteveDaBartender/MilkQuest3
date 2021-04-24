@@ -3,6 +3,16 @@ step++;
 randomObj = global.globalTimer;
 global.globalTimer++;
 
+	if (keyboard_check_pressed(ord("K")) && room_exists(room_next(room))) {
+		room_goto(room_next(room));
+		audio_stop_all();
+		//global.character = oFezhead;
+	}
+	if (keyboard_check_pressed(ord("L")) && room_exists(room_previous(room))) {
+		room_goto(room_previous(room));
+		audio_stop_all();
+		//global.character = oFezhead;
+	}	
 
 /*
 if (true) { 

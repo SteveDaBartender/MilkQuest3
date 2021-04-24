@@ -1,5 +1,6 @@
 //This textbox is copied from DTRPG. 
 //wil be used for story cutscenes.
+draw_set_font(fDialogue);
 icon = sBox;
 text = "[no text defined.]";
 script = dDefault;

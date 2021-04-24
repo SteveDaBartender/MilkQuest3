@@ -1,9 +1,9 @@
 {
-  "compression": 0,
+  "compression": 3,
   "volume": 1.0,
   "preload": false,
-  "bitRate": 128,
-  "sampleRate": 44100,
+  "bitRate": 256,
+  "sampleRate": 48000,
   "type": 0,
   "bitDepth": 1,
   "audioGroupId": {
@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sValley.mp3",
-  "duration": 118.940514,
+  "duration": 161.72908,
   "parent": {
     "name": "Music",
     "path": "folders/Sounds/Music.yy",
