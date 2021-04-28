@@ -23,6 +23,7 @@
     {"id":{"name":"sFezDown","path":"sprites/sFezDown/sFezDown.yy",},"order":6,},
     {"id":{"name":"sFezLives","path":"sprites/sFezLives/sFezLives.yy",},"order":7,},
     {"id":{"name":"sConeheadJumpMQ2","path":"sprites/sConeheadJumpMQ2/sConeheadJumpMQ2.yy",},"order":15,},
+    {"id":{"name":"rHubRight","path":"rooms/rHubRight/rHubRight.yy",},"order":4,},
     {"id":{"name":"sFezWalk","path":"sprites/sFezWalk/sFezWalk.yy",},"order":8,},
     {"id":{"name":"sFezFish","path":"sprites/sFezFish/sFezFish.yy",},"order":9,},
     {"id":{"name":"sSurreal1","path":"sprites/sSurreal1/sSurreal1.yy",},"order":0,},
@@ -526,6 +527,7 @@
     {"roomId":{"name":"rHubCave","path":"rooms/rHubCave/rHubCave.yy",},},
     {"roomId":{"name":"rFactory2Main","path":"rooms/rFactory2Main/rFactory2Main.yy",},},
     {"roomId":{"name":"rSurreal2","path":"rooms/rSurreal2/rSurreal2.yy",},},
+    {"roomId":{"name":"rHubRight","path":"rooms/rHubRight/rHubRight.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
