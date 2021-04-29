@@ -13,6 +13,9 @@ switch state {
 	case states.hooked:
 		hooked_script();
 		break;
+	case states.driving:
+		driving_script();
+		break;
 	case states.down:
 		down_script();
 		break;
@@ -42,6 +45,9 @@ if (place_meeting(x, y+1, oCollide) || place_meeting(x, y+3, o1Way)) {
 
 //Change Animations based upon state
 switch state {
+	case states.driving:
+		sprite_index = sKidSkateboard;
+		break;
 	case states.normal:
 		if (!place_meeting(x,y+1,oCollide) and !place_meeting(x,y+1,o1Way))
 		{
