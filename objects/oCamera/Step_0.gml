@@ -196,4 +196,9 @@ if (layer_exists("TilesScroll"))
 	tilemap_y(layer_tilemap_get_id(layer_get_id("TilesScroll")),y - 7725);
 }
 
+if (layer_exists("HubBGTop"))
+{
+	layer_x("HubBGTop",x+880 - global.character.x/100);
+	layer_y("HubBGTop",y+270);
+}
 

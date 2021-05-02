@@ -467,6 +467,7 @@
     {"id":{"name":"sTirestenDeath","path":"sounds/sTirestenDeath/sTirestenDeath.yy",},"order":20,},
     {"id":{"name":"rTest","path":"rooms/rTest/rTest.yy",},"order":1,},
     {"id":{"name":"sTimer","path":"sprites/sTimer/sTimer.yy",},"order":1,},
+    {"id":{"name":"sHubTopBG","path":"sprites/sHubTopBG/sHubTopBG.yy",},"order":4,},
     {"id":{"name":"rFezTower","path":"rooms/rFezTower/rFezTower.yy",},"order":0,},
     {"id":{"name":"rFishing","path":"rooms/rFishing/rFishing.yy",},"order":1,},
   ],
