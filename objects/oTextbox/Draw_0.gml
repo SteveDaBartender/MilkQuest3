@@ -8,7 +8,7 @@ y = oCamera.y + 100;
 }
 //draw the text box
 
-draw_sprite(sTextGrad,0, x+200, y + 100);
+draw_sprite(sTextGrad,0, x+200, y + 300);
 draw_sprite(sTextbox,0, x+200, y);
 draw_sprite(icon[page],0, x-40, y+12);
 //draw the text
