@@ -356,6 +356,7 @@
     {"id":{"name":"oFezhead","path":"objects/oFezhead/oFezhead.yy",},"order":6,},
     {"id":{"name":"sTowerBG","path":"sprites/sTowerBG/sTowerBG.yy",},"order":4,},
     {"id":{"name":"oRover","path":"objects/oRover/oRover.yy",},"order":7,},
+    {"id":{"name":"sTreelineHubTop","path":"sprites/sTreelineHubTop/sTreelineHubTop.yy",},"order":5,},
     {"id":{"name":"sBrickParticle","path":"sprites/sBrickParticle/sBrickParticle.yy",},"order":3,},
     {"id":{"name":"rHubCave","path":"rooms/rHubCave/rHubCave.yy",},"order":3,},
     {"id":{"name":"fxTowerWind","path":"shaders/fxTowerWind/fxTowerWind.yy",},"order":0,},
