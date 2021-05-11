@@ -7,3 +7,4 @@ if (place_meeting(x,y-8,oPlayer) && key_up_press) {
 if (global.character.state = states.driving) {
 	sprite_index = sNone;
 } else sprite_index = sFezNoCar
+

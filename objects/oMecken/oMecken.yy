@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sSnowMecken",
-    "path": "sprites/sSnowMecken/sSnowMecken.yy",
+    "name": "sMeckenRun",
+    "path": "sprites/sMeckenRun/sMeckenRun.yy",
   },
   "solid": false,
   "visible": true,

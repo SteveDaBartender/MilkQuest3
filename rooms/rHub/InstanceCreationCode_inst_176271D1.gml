@@ -1,2 +1,0 @@
-stop = true;
-destination = rSweetCapSurf

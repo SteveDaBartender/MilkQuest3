@@ -38,7 +38,7 @@ if (key_space_press) {
 			change_room(rTower2Autoscroll, 0, 0, true, char);
 			break;
 		case 15:
-			change_room(rChristmasLevel1, 0, 0, true, char);
+			change_room(rFactory2Main, 0, 0, true, char);
 			break;
 		case 21:
 			change_room(rBonSuperBall, 0, 0, true, char);
@@ -48,6 +48,9 @@ if (key_space_press) {
 			break;
 		case 29:
 			change_room(rFishing, 0, 0, true, oFezhead);
+			break;
+		case 31:
+			change_room(rInputTest, 0, 0, true, oFezhead);
 			break;
 		default:
 			audio_play_sound(sBreak, 1, false);

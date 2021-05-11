@@ -75,7 +75,7 @@ switch (room){
 	case rBonSuperBall:
 		audio_play_sound(sSuperBall, 0, true);
 	break;
-	case rChristmasLevel1:
+	case rFactory2Main:
 		audio_play_sound(sChristmas, 0, true);
 		global.currentSong = sChristmas;
 	break;

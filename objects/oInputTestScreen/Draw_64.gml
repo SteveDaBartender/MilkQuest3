@@ -24,4 +24,10 @@ draw_text(5,y+80,"Gamepad " + string(gamepadTestNum) + "Special: " + string(game
 	key_ddown = keyboard_check(vk_down) || gamepad_button_check(0,gp_padd);
 	key_debug = keyboard_check_pressed(vk_f3) || gamepad_button_check_pressed(0,gp_select);
 
-
+y = 200;
+var milksTemp = 0;
+draw_text(5,y-10,"Big Milks Collected (DS List):");
+repeat 50 {
+	draw_text(5+milksTemp*10,y,string(ds_list_find_value(oPersistent.bigMilksCollected,milksTemp)));
+	milksTemp++;
+}

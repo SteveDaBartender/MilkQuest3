@@ -3,6 +3,8 @@
 function draw_gui(){
 	draw_set_font(fHUD);
 	//adds the current velocity to a list, then calculate the average velocity (for use in the speed bar)
+
+	
 	ds_list_add(averageHsp, hsp);
 	var speedBarVar = 0;
 	var step = 0;

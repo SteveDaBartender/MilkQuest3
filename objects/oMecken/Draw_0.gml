@@ -34,11 +34,11 @@ if (line) {//draw_line(eyeX,eyeY,patrolX,patrolY);
 	        } else p0 = np;
 	    }
 	}
-	draw_line_width_color(x1, y1, rx, ry,2,c_red,c_red);
+	draw_line_width_color(x1, y1, rx, ry,2,color,color);
 }
 //if health is low draw the mechen as red, otherwise make him white
-if (hp = 2) draw_sprite_ext(sSnowMecken,0,x,y,image_xscale,1,0,c_white,1);
-else draw_sprite_ext(sSnowMecken,0,x,y,image_xscale,1,0,c_red,1);
+if (hp = 2) draw_sprite_ext(sprite_index,image_index,x,y,image_xscale,1,0,c_white,1);
+else draw_sprite_ext(sprite_index,image_index*1.3,x,y,image_xscale,1,0,make_color_rgb(255,128,128),1);
 
 
 //draw_sprite(sBox,0,patrolX,patrolY);

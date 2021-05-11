@@ -1,6 +1,9 @@
 //this camera is coded AWFULLY!!! tons of spaghetti here.
 //not gonna go through and recomment it because im gonna rewrite
 
+averageFps = ds_list_create();
+fpsTotal = 0;
+
 global.transitionType = 0;
 global.transitionTime = 0;
 

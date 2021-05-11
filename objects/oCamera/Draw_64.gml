@@ -1,5 +1,9 @@
 char = global.character;
 if (global.debug){
+	ds_list_add(averageFps, fps_real);
+	fpsTotal += fps_real;
+	 realFpsAvg =  fpsTotal / ds_list_size(averageFps);
+	
 	draw_set_colour(c_white);
 	draw_set_font(fDebug);
 	draw_text(0,0 ,"Invincibility Frames:" + string(char.invincibleTimer));
@@ -19,9 +23,10 @@ if (global.debug){
 	draw_text(0,320 ,"TransitionTimer" +string(global.transitionTime));
 	draw_text(0,160 ,"Anim. Frame:" + string(round(char.image_index)));
 	draw_text(0,340, string(room_next(room)));
-	draw_text(880,0 ,string(fps) + " FPS");
-	draw_text(800,20 ,string(fps_real) + " RFPS");
+	draw_text(880,0 ,string(fps) + "Capped FPS");
+	draw_text(800,20 ,string(realFpsAvg) + " Total FPS");
 	//draw_sprite_ext(mask_index,0,x,y,1,1,0,c_aqua,0.5);
+	
 }
 
 if (layer_exists("MQ2BG")) {

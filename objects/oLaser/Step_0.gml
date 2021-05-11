@@ -10,8 +10,8 @@ if (place_meeting(x,y,global.character)) {
 if (direction = 90) direction = point_direction(x,y,goalX,goalY);
 
 //move the snowball based on angle
-x+=lengthdir_x(11,direction);
-y+=lengthdir_y(11,direction);
+x+=lengthdir_x(6,direction);
+y+=lengthdir_y(6,direction);
 
 //this below was some shitty code i tired to make the snowball move wackily but it doesnt work lmao
 

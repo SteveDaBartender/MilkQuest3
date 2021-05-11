@@ -26,7 +26,7 @@ draw_text(lvlOffsetR1,245,"12 - Verdant Valley Part 2");
 draw_text(lvlOffsetR1,265,"13 - ???");
 draw_text(lvlOffsetR1,285,"14 - Curious Carnival Part 2");
 draw_set_color(validColor);
-draw_text(lvlOffsetR1,305,"15 - HESHA Factory Part 2 (Christmas Level)");
+draw_text(lvlOffsetR1,305,"15 - HESHA Factory Part 2");
 draw_set_color(invalidColor);
 draw_text(lvlOffsetR2,5,"16 - ???");
 draw_text(lvlOffsetR2,25,"17 - ???");
@@ -52,7 +52,7 @@ draw_text(lvlOffsetR2,265,"29 - HESHA Wastewater"); //wastewater
 draw_set_color(invalidColor);
 draw_text(lvlOffsetR2,285,"30 - ???"); //normal pond
 draw_set_color(validColor);
-
+draw_text(lvlOffsetR2,305,"31 - Input/Save Viewer"); 
 switch (char) {
 	case oFezhead:
 		selectorSprite = sFezSelecter

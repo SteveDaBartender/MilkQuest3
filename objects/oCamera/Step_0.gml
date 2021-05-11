@@ -185,6 +185,12 @@ if (layer_exists("MQ2BG"))
 	layer_y("MQ2BG",y + 400);
 }
 
+if (layer_exists("lValleyBG"))
+{
+	layer_x("lValleyBG",x+480);
+	layer_y("lValleyBG",y+270);
+}
+
 if (layer_exists("TowerBG"))
 {
 	layer_x("TowerBG",x+480);
