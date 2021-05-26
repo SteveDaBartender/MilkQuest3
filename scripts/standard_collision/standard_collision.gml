@@ -3,7 +3,7 @@ function standard_collision() {
 	
 	
 	
-//	x = round(x);
+  	x = round(x);
 	
 		//if there's no block three blocks up then move up
 	if (place_meeting(x+hsp, y , oSlope) && !position_meeting(x+move,y,oWall)) {
