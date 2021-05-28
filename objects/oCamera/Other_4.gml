@@ -61,14 +61,13 @@ switch (room){
 	case rFezCarnival:
 		oWall.bob = true;
 		o1Way.bob = true;
+		oSlope.bob = true;
 		audio_play_sound(sCarnival, 0, true);
 	break;
 	case rKidTutorial:
 		audio_play_sound(sLevel1, 0, true);
 	break;	
 	case rHub:
-		oWall.bob = true;
-		o1Way.bob = true;
 		if (global.currentSong != sHub) audio_play_sound(sHub, 0, true);
 		global.currentSong = sHub;
 	break;	
@@ -86,17 +85,20 @@ switch (room){
 	case rHouse:
 		oWall.bob = true;
 		o1Way.bob = true;
+		oSlope.bob = true;
 		audio_play_sound(sHouse, 0, true);
 	break;
 	case rTowerEntrance:
 		oWall.bob = true;
 		o1Way.bob = true;
+		oSlope.bob = true;
 		audio_play_sound(sSky, 0, true);
 		global.currentSong = sSky;
 	break;
 	case rTower2Autoscroll:
 		oWall.bob = true;
 		o1Way.bob = true;
+		oSlope.bob = true;
 		audio_play_sound(sTower2, 0, true);
 		global.currentSong = sTower2;
 	break;
@@ -111,6 +113,7 @@ switch (room){
 	break;
 	case rValley:
 		oWall.bob = true;
+		oSlope.bob = true;
 		o1Way.bob = true;
 		audio_play_sound(sValley, 0, true);
 		global.currentSong = sValley;

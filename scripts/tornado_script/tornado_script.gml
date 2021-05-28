@@ -10,6 +10,6 @@ function tornado_script(){
 		roll = false;
 	}
 	vsp *= 0.97;
-	vsp -= 0.045;
+	vsp -= 0.049;
 	//vsp += grv/5;
 }

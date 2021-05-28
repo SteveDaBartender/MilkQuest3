@@ -10,7 +10,7 @@ switch (cursorPos) {
 		draw_text_ext_transformed(descX,descY,"Select any level in the game to play!",30,700,1,1,0);
 		break;
 	case 2:
-		draw_text_ext_transformed(descX,descY,"Compete for the best time in all the stages!",30,700,1,1,0);
+		draw_text_ext_transformed(descX,descY,"Compete for the best time in all the stages! (NOT IMPLEMENTED)",30,700,1,1,0);
 		break;
 	case 3:
 		draw_text_ext_transformed(descX,descY,"Look at progress, achievements, and the like! (NOT IMPLEMENTED) ",30,700,1,1,0);
@@ -19,7 +19,7 @@ switch (cursorPos) {
 		draw_text_ext_transformed(descX,descY,"Tweak the game to your liking! (NOT IMPLEMENTED)",30,700,1,1,0);
 		break;
 	case 5:
-		draw_text_ext_transformed(descX,descY,"See the people who helped made this game!",30,700,1,1,0);
+		draw_text_ext_transformed(descX,descY,"See the people who helped made this game! (NOT IMPLEMENTED)",30,700,1,1,0);
 		break;
 	case 6:
 		draw_text_ext_transformed(descX,descY,"Take a visit to the past with an updated version of Milk Quest 2!",30,700,1,1,0);

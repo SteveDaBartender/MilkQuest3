@@ -22,4 +22,14 @@ draw_text_ext(x + offset,y+20,textFinal, stringHeight, boxWidth - 200);
 //play sound if the character count is not beyond the string length, and char is even..
 if (charCount - 1 < string_length(textFinal) && charCount % 2 == 0) {
 	audio_play_sound(sFezTalk, 3, false);
+} else if (string_count("<as>",  textFinal)) {
+		if(page+1 < array_length_1d(text)){
+		page += 1;
+		charCount = 0;
+	} else {
+		y = oCamera.y + 45;
+		yv = -3;
+		fade = true;
+		global.gameLock = false;
+	}
 }
