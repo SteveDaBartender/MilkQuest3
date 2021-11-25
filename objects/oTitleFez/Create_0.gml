@@ -14,6 +14,7 @@ global.intro = false;
 global.unlockConehead = false;
 global.unlockKid = false;
 global.milkGrabMode = 0;
+global.levelTimer = 0;
 
 global.finished = false;
 global.head = false;

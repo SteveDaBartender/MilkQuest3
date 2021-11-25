@@ -4,10 +4,12 @@ function tornado_script(){
 	roll = true;
 	hsp += move * walksp;
 	hsp *= 0.80
-	if ((place_meeting(x,y+vsp,oCollide) || position_meeting(x,y+vsp,o1Way)) || image_index > 8) {
+	tornadoTimer++;
+	if ((place_meeting(x,y+vsp,oCollide) || position_meeting(x,y+vsp,o1Way)) || tornadoTimer >= 20) {
 		state = states.normal;
 		punch = 1;
 		roll = false;
+		show_debug_message("Torndao Kick Length: " + string(tornadoTimer));
 	}
 	vsp *= 0.97;
 	vsp -= 0.049;

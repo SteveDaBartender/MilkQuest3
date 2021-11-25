@@ -11,6 +11,7 @@ function fezhead_jump(){
 		state = states.tornado;
 		vsp = 0;
 		audio_play_sound(sTornadoSound, 1, false);
+		tornadoTimer = 0;
 	}
 	
 	//initiates jump if collidiable object is below (or rolling) , space is pressed and a block is not above you.

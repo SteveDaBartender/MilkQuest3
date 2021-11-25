@@ -21,6 +21,7 @@ function player_init() {
 	key_up = false; //if up key is pressed (WHY IS THIS HERE?)
 	key_debug = false; //if debug key is pressed
 	smashing = false; //if character was just shot out of a cannon, used for smashing breakable walls.
+	tornadoTimer = 0; //used to help end the tornado kick, as HTML5 causes it to never stop.
 
 	jumpExtendable = false; //decides if you're able to hold Z to jump higher.
 	lastVsp = 0; //used to aid tricky collision scenarios.

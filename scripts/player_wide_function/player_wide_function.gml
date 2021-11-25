@@ -67,7 +67,7 @@ function player_wide_function() {
 	
 	while (place_meeting(x,y,oCollide) && place_meeting(x,y+2,oMovingPlatform) && !place_meeting(x,y,oMovingPlatform)) {
 		var lol = instance_place(x,y+2,oMovingPlatform);
-		x-= lol.x - lol.ox;	
+		hsp-= lol.x - lol.ox;	
 	}
 	
 	lastVsp = vsp;

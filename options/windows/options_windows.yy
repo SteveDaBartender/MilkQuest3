@@ -1,7 +1,7 @@
 {
   "option_windows_display_name": "Milk Quest: Half & Half",
   "option_windows_executable_name": "MilkQuest3",
-  "option_windows_version": "0.3.3.0",
+  "option_windows_version": "0.3.4.0",
   "option_windows_company_info": "Steve The Bartender",
   "option_windows_product_info": "Made in GameMaker Studio 2",
   "option_windows_copyright_info": "I made this :)",

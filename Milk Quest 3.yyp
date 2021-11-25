@@ -491,6 +491,8 @@
     {"name":"Windows","path":"options/windows/options_windows.yy",},
     {"name":"macOS","path":"options/mac/options_mac.yy",},
     {"name":"Main","path":"options/main/options_main.yy",},
+    {"name":"HTML5","path":"options/html5/options_html5.yy",},
+    {"name":"operagx","path":"options/operagx/options_operagx.yy",},
   ],
   "isDnDProject": false,
   "isEcma": false,
@@ -501,6 +503,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"rTitle","path":"rooms/rTitle/rTitle.yy",},},
+    {"roomId":{"name":"rTitleCHRSITMAS","path":"rooms/rTitleCHRSITMAS/rTitleCHRSITMAS.yy",},},
     {"roomId":{"name":"rLevelSelect","path":"rooms/rLevelSelect/rLevelSelect.yy",},},
     {"roomId":{"name":"rHouse","path":"rooms/rHouse/rHouse.yy",},},
     {"roomId":{"name":"rHub","path":"rooms/rHub/rHub.yy",},},
@@ -525,7 +528,6 @@
     {"roomId":{"name":"rChristmasLevel1","path":"rooms/rChristmasLevel1/rChristmasLevel1.yy",},},
     {"roomId":{"name":"rInputTest","path":"rooms/rInputTest/rInputTest.yy",},},
     {"roomId":{"name":"rChristmasHub","path":"rooms/rChristmasHub/rChristmasHub.yy",},},
-    {"roomId":{"name":"rTitleCHRSITMAS","path":"rooms/rTitleCHRSITMAS/rTitleCHRSITMAS.yy",},},
     {"roomId":{"name":"rTowerEntrance","path":"rooms/rTowerEntrance/rTowerEntrance.yy",},},
     {"roomId":{"name":"rSidewayValleyMQ2","path":"rooms/rSidewayValleyMQ2/rSidewayValleyMQ2.yy",},},
     {"roomId":{"name":"rTowerAll2","path":"rooms/rTowerAll2/rTowerAll2.yy",},},
@@ -653,10 +655,10 @@
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"dScriptText.txt","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
-    "IDEVersion": "2.3.2.560",
+    "IDEVersion": "2.3.6.595",
   },
   "resourceVersion": "1.4",
-  "name": "Milk Quest 2",
+  "name": "Milk Quest 3",
   "tags": [],
   "resourceType": "GMProject",
 }
