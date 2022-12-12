@@ -2,7 +2,7 @@
 char = global.character;
 switch (global.character) {
 	case oFezhead:
-		if ((place_meeting(x+sign(char.hsp)*-20,y,char) && char.roll)  || global.milkGrabMode = true) {
+		if ((place_meeting(x+char.image_xscale*-20,y,char) && char.roll)  || global.milkGrabMode = true) {
 			instance_destroy(self);
 			char.hsp = 13*char.image_xscale;
 			for(i = 0; i < 5; i++) {

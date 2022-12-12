@@ -45,7 +45,7 @@ function player_wide_function() {
 
 	//spring collision
 	if (place_meeting(x,y, oSpring)) {
-		vsp = -20;
+		vsp = -22;
 		global.character.roll = false;
 		audio_play_sound(sSpring, 0, false);
 	}

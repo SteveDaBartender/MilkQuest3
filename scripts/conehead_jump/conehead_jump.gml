@@ -3,7 +3,7 @@
 function conehead_jump(){
 	if ((place_meeting(x,y+1,oCollide) || position_meeting(x-32,y+1,o1Way) || position_meeting(x+32,y+1,o1Way) || roll) && key_space_press && !place_meeting(x,y-13,oCollide))
 	{
-		vsp =-10.5;
+		vsp =-11.8;
 		jumpExtendable = 1;
 		audio_play_sound(sJump, 0, false);
 	}

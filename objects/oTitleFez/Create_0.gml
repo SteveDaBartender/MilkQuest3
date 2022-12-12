@@ -1,5 +1,12 @@
 grassx = 0;
 xv = 0;
+
+//beats me why all the gobals are here.
+
+
+global.volMus = 0.3;
+global.volSFX = 0.3;
+
 global.resolution = res.standard;
 global.milk = 0;
 global.spawnConehead = false;
@@ -15,6 +22,7 @@ global.unlockConehead = false;
 global.unlockKid = false;
 global.milkGrabMode = 0;
 global.levelTimer = 0;
+global.sv_cheats = 1;
 
 global.finished = false;
 global.head = false;

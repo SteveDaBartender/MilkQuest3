@@ -3,7 +3,7 @@ if (on_screen_check(self)) {
 	switch (char) {
 		case oFezhead:
 			//if player is fezhead,rolling, and nearby the box, destroy it.
-			if (place_meeting(x+sign(char.hsp)*-20,y,char) && char.roll) {
+			if (place_meeting(x+char.image_xscale*-20,y,char) && char.roll) {
 				instance_destroy(self);
 				//set player speed based on their direction 
 				char.hsp = 13*char.image_xscale;

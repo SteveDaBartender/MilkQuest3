@@ -11,8 +11,8 @@
   "type": 0,
   "bitDepth": 1,
   "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
+    "name": "Music",
+    "path": "audiogroups/Music",
   },
   "soundFile": "sLevelSelect.ogg",
   "duration": 69.318756,

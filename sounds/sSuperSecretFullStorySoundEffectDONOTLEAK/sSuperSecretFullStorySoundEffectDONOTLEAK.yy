@@ -11,8 +11,8 @@
   "type": 0,
   "bitDepth": 0,
   "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
+    "name": "Music",
+    "path": "audiogroups/Music",
   },
   "soundFile": "sSuperSecretFullStorySoundEffectDONOTLEAK.mp3",
   "duration": 42.52735,

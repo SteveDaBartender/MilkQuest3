@@ -11,5 +11,7 @@ function getInput(){
 	key_up_press = keyboard_check_pressed(vk_up) || gamepad_button_check_pressed(gamepadNum,gp_padu);
 	key_ddown = keyboard_check(vk_down) || gamepad_button_check(gamepadNum,gp_padd);
 	key_ddown_press = keyboard_check_pressed(vk_down) || gamepad_button_check_pressed(gamepadNum,gp_padd);
-	key_debug = keyboard_check_pressed(vk_f3) || gamepad_button_check_pressed(gamepadNum,gp_select);
+	if (global.sv_cheats) {
+		key_debug = keyboard_check_pressed(vk_f3) || gamepad_button_check_pressed(gamepadNum,gp_select);
+	}
 }

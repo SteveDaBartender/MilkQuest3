@@ -102,6 +102,8 @@ camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
 
 //Too Bad!
 
+audio_group_set_gain(Music,global.volMus,0)
+audio_group_set_gain(SFX,global.volSFX,0)
 
 if (layer_exists("L2"))
 {

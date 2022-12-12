@@ -4,7 +4,7 @@ var descX = 10;
 var descY = 500;
 switch (cursorPos) {
 	case 0:
-		draw_text_ext_transformed(descX,descY-10,"Begin your adventure to acquire your Milk back from your evil look-a-like! (NOT IMPLEMENTED)",30,700,1,1,0);
+		draw_text_ext_transformed(descX,descY-10,"Help Toppy clean out his factory!",30,700,1,1,0);
 		break;
 	case 1:
 		draw_text_ext_transformed(descX,descY,"Select any level in the game to play!",30,700,1,1,0);
@@ -31,17 +31,10 @@ switch (cursorPos) {
 
 
 var rowYPos = 200;
-draw_set_color(invalidColor);
+draw_set_color(validColor);
 draw_text_transformed(rowXPos,rowYPos,"Start Game",1,1,0);
-draw_set_color(validColor);
-draw_text_transformed(rowXPos,rowYPos+30,"Level Select",1,1,0);
-draw_set_color(invalidColor);
-draw_text_transformed(rowXPos,rowYPos+60,"Time Trials",1,1,0);
-draw_text_transformed(rowXPos,rowYPos+90,"Extras",1,1,0);
-draw_text_transformed(rowXPos,rowYPos+120,"Settings",1,1,0);
-draw_text_transformed(rowXPos,rowYPos+150,"Credits",1,1,0);
-draw_set_color(validColor);
-draw_text_transformed(rowXPos,rowYPos+180,"Milk Quest 2",1,1,0);
+draw_text_transformed(rowXPos,rowYPos+30,"Achievements",1,1,0);
+draw_text_transformed(rowXPos,rowYPos+60,"Settings",1,1,0);
 draw_text_transformed(rowXPos,rowYPos+250,"Exit",1,1,0);
 
 draw_text_transformed(5,10,"Build Version: " +string(GM_version),0.5,0.5,0);

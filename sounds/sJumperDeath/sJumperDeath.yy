@@ -1,4 +1,8 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "sJumperDeath",
+  "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
   "preload": false,
@@ -7,8 +11,8 @@
   "type": 0,
   "bitDepth": 1,
   "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
+    "name": "SFX",
+    "path": "audiogroups/SFX",
   },
   "soundFile": "sJumperDeath.wav",
   "duration": 0.683912,
@@ -16,8 +20,4 @@
     "name": "Jumper",
     "path": "folders/Sounds/Sounds/Jumper.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sJumperDeath",
-  "tags": [],
-  "resourceType": "GMSound",
 }

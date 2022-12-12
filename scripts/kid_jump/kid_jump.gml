@@ -7,14 +7,14 @@ function kid_jump(){
 	
 	if (place_meeting(x,y+1,oCollide)) && (key_space_press)
 	{
-		vsp =-8.5;
+		vsp =-9.5;
 		jumpExtendable = 1;
 		if (!place_meeting(x,y+1,oWall)) roll = false;
 		audio_play_sound(sJump, 1, false);
 	}
 	if (place_meeting(x,y+1,o1Way)) && (key_space_press)
 	{
-		vsp =-8.5;
+		vsp =-9.5;
 		jumpExtendable = 1;
 		if (!place_meeting(x,y+1,o1Way)) roll = false;
 		audio_play_sound(sJump, 1, false);
@@ -22,7 +22,7 @@ function kid_jump(){
 
 	//starts the double jump 
 	if (!roll && key_space_press && !place_meeting(x,y+1,oCollide) && !place_meeting(x,y+1,o1Way)) {
-		vsp = -12;
+		vsp = -13;
 		roll = true;
 		audio_play_sound(sKidRise, 1, false);
 	}

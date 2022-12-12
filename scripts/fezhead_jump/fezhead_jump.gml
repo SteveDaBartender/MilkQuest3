@@ -17,7 +17,7 @@ function fezhead_jump(){
 	//initiates jump if collidiable object is below (or rolling) , space is pressed and a block is not above you.
 	if ((place_meeting(x,y+1,oCollide) || position_meeting(x,y+1,o1Way) || roll) && key_space_press && !place_meeting(x,y-13,oCollide))
 	{
-		vsp =-10;
+		vsp =-11;
 		roll = false;
 		jumpExtendable = 1;
 		audio_play_sound(sJump, 0, false);

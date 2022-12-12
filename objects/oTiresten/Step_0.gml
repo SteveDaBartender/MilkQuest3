@@ -2,27 +2,17 @@
 // You can write your code in this editor
 
 //this dude's code is literally the same as the ant except he zooms
+hsp = spd * image_xscale
+obj_collision_step();
 
-
-if (place_meeting(x+image_xscale*3,y,oSlope) && !place_meeting(x+image_xscale*3,y-18,oSlope)) {
-	while (place_meeting(x+(3*image_xscale),y,oCollide)) y -= 1;	
-}
-
-	//if there's no block three blocks up then image_xscale up
-if (!place_meeting(x+image_xscale,y,oSlope) && place_meeting(x+image_xscale,y+9,oSlope)) {
-	while (!place_meeting(x+(3*image_xscale),y,oCollide)) y += 1;
-	y -= 1;
-}
-
-while !(position_meeting(x,y+1,oCollide) || position_meeting(x,y+1,oSlope) || position_meeting(x,y+1,o1Way)) {
-	y += 1;
-	if (y > room_height) instance_destroy(self);
-}
-x += 6.3 * -image_xscale;
-if (!place_meeting(x+image_xscale*6,y,oSlope) && (!position_meeting(x,y+1,oCollide) && !position_meeting(x,y+1,o1Way)) || (place_meeting(x,y-32,oCollide) || place_meeting(x,y-32,o1Way))){
+if (!place_meeting(x+hsp*2,y+5,oCollide) && place_meeting(x,y+5,oCollide) || place_meeting(x+(-5*image_xscale),y,oWall)){
 	image_xscale *= -1;
-	x += 3 * -image_xscale;
+	x += spd * -2;
 }
+
+if (y > room_height) instance_destroy(self);
+
+
 
 	//if there's no block three blocks up then image_xscale up
 

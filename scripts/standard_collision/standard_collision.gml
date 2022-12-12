@@ -65,6 +65,7 @@ function standard_collision() {
             x += sign(hsp);
         } else {
             hsp = 0;
+			acl = 0;
             break;
         }
     }
@@ -73,7 +74,9 @@ function standard_collision() {
     if (roll) {
         slopeacl *= 0.5;
     } else slopeacl *= 0.94;
-    acl *=0.95;
+	
+	if (global.character != oConehead) acl *= 0.96;
+	else acl *= 0.95;
     //calculate horizontal movement
     hsp += acl;
     hsp += slopeacl;

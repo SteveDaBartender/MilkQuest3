@@ -2,8 +2,22 @@
 // You can write your code in this editor
 getInput();
 
+if (!audio_is_playing(sTitleScreen) && audio_group_is_loaded(Music)) {
+	audio_play_sound(sTitleScreen,0,true);
+}
+
 if (key_space_press) {
 	switch (cursorPos) {
+		case 0:
+				audio_stop_all();
+				global.character = oFezhead;
+				global.spawnConehead = false;
+				global.xSpawn = 0;
+				global.ySpawn = 0;
+				load_game_data();
+				global.currentSong = sCHub;
+				room_goto(rChristmasHub);
+			break;
 		case 1:
 			load_game_data(oPersistent.saveSlot);
 			room_goto(rLevelSelect);
