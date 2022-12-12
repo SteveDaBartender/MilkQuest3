@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sSidewayValleyBgMQ2",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 700,
   "height": 700,
   "textureGroupId": {
@@ -24,12 +28,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"ed2a44fc-24c0-424f-baef-126b107a6e79","path":"sprites/sSidewayValleyBgMQ2/sSidewayValleyBgMQ2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ed2a44fc-24c0-424f-baef-126b107a6e79","path":"sprites/sSidewayValleyBgMQ2/sSidewayValleyBgMQ2.yy",},"LayerId":{"name":"bc7a979d-8186-4f94-b8f2-23d40debec3d","path":"sprites/sSidewayValleyBgMQ2/sSidewayValleyBgMQ2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sSidewayValleyBgMQ2","path":"sprites/sSidewayValleyBgMQ2/sSidewayValleyBgMQ2.yy",},"resourceVersion":"1.0","name":"ed2a44fc-24c0-424f-baef-126b107a6e79","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ed2a44fc-24c0-424f-baef-126b107a6e79",},
   ],
   "sequence": {
-    "spriteId": {"name":"sSidewayValleyBgMQ2","path":"sprites/sSidewayValleyBgMQ2/sSidewayValleyBgMQ2.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sSidewayValleyBgMQ2",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,9 +44,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"a49cecae-e92c-4b20-9f9f-bffd27b765d5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ed2a44fc-24c0-424f-baef-126b107a6e79","path":"sprites/sSidewayValleyBgMQ2/sSidewayValleyBgMQ2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +62,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sSidewayValleyBgMQ2","path":"sprites/sSidewayValleyBgMQ2/sSidewayValleyBgMQ2.yy",},
-    "resourceVersion": "1.3",
-    "name": "sSidewayValleyBgMQ2",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"bc7a979d-8186-4f94-b8f2-23d40debec3d","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"bc7a979d-8186-4f94-b8f2-23d40debec3d","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "All Milk Quest 2 Sprites",
     "path": "folders/Sprites/All Milk Quest 2 Sprites.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sSidewayValleyBgMQ2",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

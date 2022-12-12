@@ -61,7 +61,6 @@ switch (room){
 	case rFezCarnival:
 		oWall.bob = true;
 		o1Way.bob = true;
-		oSlope.bob = true;
 		audio_play_sound(sCarnival, 0, true);
 	break;
 	case rKidTutorial:

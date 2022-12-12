@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sTileset2MQ2Cone",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 400,
   "height": 400,
   "textureGroupId": {
@@ -24,12 +28,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"06a532a7-5a36-4d32-a227-7877c2928509","path":"sprites/sTileset2MQ2Cone/sTileset2MQ2Cone.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"06a532a7-5a36-4d32-a227-7877c2928509","path":"sprites/sTileset2MQ2Cone/sTileset2MQ2Cone.yy",},"LayerId":{"name":"d9a29ed9-efdd-44b4-bcc0-d253c904ef2f","path":"sprites/sTileset2MQ2Cone/sTileset2MQ2Cone.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sTileset2MQ2Cone","path":"sprites/sTileset2MQ2Cone/sTileset2MQ2Cone.yy",},"resourceVersion":"1.0","name":"06a532a7-5a36-4d32-a227-7877c2928509","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"06a532a7-5a36-4d32-a227-7877c2928509",},
   ],
   "sequence": {
-    "spriteId": {"name":"sTileset2MQ2Cone","path":"sprites/sTileset2MQ2Cone/sTileset2MQ2Cone.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sTileset2MQ2Cone",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,9 +44,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"493bad6f-82d8-4d42-8176-33e60fe9a0e5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"06a532a7-5a36-4d32-a227-7877c2928509","path":"sprites/sTileset2MQ2Cone/sTileset2MQ2Cone.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +62,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sTileset2MQ2Cone","path":"sprites/sTileset2MQ2Cone/sTileset2MQ2Cone.yy",},
-    "resourceVersion": "1.3",
-    "name": "sTileset2MQ2Cone",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d9a29ed9-efdd-44b4-bcc0-d253c904ef2f","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d9a29ed9-efdd-44b4-bcc0-d253c904ef2f","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "All Milk Quest 2 Sprites",
     "path": "folders/Sprites/All Milk Quest 2 Sprites.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sTileset2MQ2Cone",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

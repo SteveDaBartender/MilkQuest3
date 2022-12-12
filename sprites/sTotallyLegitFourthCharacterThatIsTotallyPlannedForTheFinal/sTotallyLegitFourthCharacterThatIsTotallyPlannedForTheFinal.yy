@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sTotallyLegitFourthCharacterThatIsTotallyPlannedForTheFinal",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 80,
   "height": 100,
   "textureGroupId": {
@@ -24,12 +28,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"cd0fb755-cba8-4bcf-8402-a515a12d4cfd","path":"sprites/sTotallyLegitFourthCharacterThatIsTotallyPlannedForTheFinal/sTotallyLegitFourthCharacterThatIsTotallyPlannedForTheFinal.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cd0fb755-cba8-4bcf-8402-a515a12d4cfd","path":"sprites/sTotallyLegitFourthCharacterThatIsTotallyPlannedForTheFinal/sTotallyLegitFourthCharacterThatIsTotallyPlannedForTheFinal.yy",},"LayerId":{"name":"9615d531-372e-4647-802f-da8721670e4e","path":"sprites/sTotallyLegitFourthCharacterThatIsTotallyPlannedForTheFinal/sTotallyLegitFourthCharacterThatIsTotallyPlannedForTheFinal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sTotallyLegitFourthCharacterThatIsTotallyPlannedForTheFinal","path":"sprites/sTotallyLegitFourthCharacterThatIsTotallyPlannedForTheFinal/sTotallyLegitFourthCharacterThatIsTotallyPlannedForTheFinal.yy",},"resourceVersion":"1.0","name":"cd0fb755-cba8-4bcf-8402-a515a12d4cfd","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cd0fb755-cba8-4bcf-8402-a515a12d4cfd",},
   ],
   "sequence": {
-    "spriteId": {"name":"sTotallyLegitFourthCharacterThatIsTotallyPlannedForTheFinal","path":"sprites/sTotallyLegitFourthCharacterThatIsTotallyPlannedForTheFinal/sTotallyLegitFourthCharacterThatIsTotallyPlannedForTheFinal.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sTotallyLegitFourthCharacterThatIsTotallyPlannedForTheFinal",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,9 +44,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"d1ea7a4a-59f7-4306-a472-ef19dbca7ef2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cd0fb755-cba8-4bcf-8402-a515a12d4cfd","path":"sprites/sTotallyLegitFourthCharacterThatIsTotallyPlannedForTheFinal/sTotallyLegitFourthCharacterThatIsTotallyPlannedForTheFinal.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +62,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sTotallyLegitFourthCharacterThatIsTotallyPlannedForTheFinal","path":"sprites/sTotallyLegitFourthCharacterThatIsTotallyPlannedForTheFinal/sTotallyLegitFourthCharacterThatIsTotallyPlannedForTheFinal.yy",},
-    "resourceVersion": "1.3",
-    "name": "sTotallyLegitFourthCharacterThatIsTotallyPlannedForTheFinal",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9615d531-372e-4647-802f-da8721670e4e","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9615d531-372e-4647-802f-da8721670e4e","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sTotallyLegitFourthCharacterThatIsTotallyPlannedForTheFinal",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sKidSkateboard",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 64,
   "height": 64,
   "textureGroupId": {
@@ -24,18 +28,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"871c22b7-ad41-4182-beee-7b419e8ad2bc","path":"sprites/sKidSkateboard/sKidSkateboard.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"871c22b7-ad41-4182-beee-7b419e8ad2bc","path":"sprites/sKidSkateboard/sKidSkateboard.yy",},"LayerId":{"name":"a931c149-9f3e-4caf-93cb-3f82621ca775","path":"sprites/sKidSkateboard/sKidSkateboard.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sKidSkateboard","path":"sprites/sKidSkateboard/sKidSkateboard.yy",},"resourceVersion":"1.0","name":"871c22b7-ad41-4182-beee-7b419e8ad2bc","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"cdf3cb75-edfb-4ac7-926f-0cc65131ff87","path":"sprites/sKidSkateboard/sKidSkateboard.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cdf3cb75-edfb-4ac7-926f-0cc65131ff87","path":"sprites/sKidSkateboard/sKidSkateboard.yy",},"LayerId":{"name":"a931c149-9f3e-4caf-93cb-3f82621ca775","path":"sprites/sKidSkateboard/sKidSkateboard.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sKidSkateboard","path":"sprites/sKidSkateboard/sKidSkateboard.yy",},"resourceVersion":"1.0","name":"cdf3cb75-edfb-4ac7-926f-0cc65131ff87","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f617f368-3cb2-4ecf-9c38-323279cf8b28","path":"sprites/sKidSkateboard/sKidSkateboard.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f617f368-3cb2-4ecf-9c38-323279cf8b28","path":"sprites/sKidSkateboard/sKidSkateboard.yy",},"LayerId":{"name":"a931c149-9f3e-4caf-93cb-3f82621ca775","path":"sprites/sKidSkateboard/sKidSkateboard.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sKidSkateboard","path":"sprites/sKidSkateboard/sKidSkateboard.yy",},"resourceVersion":"1.0","name":"f617f368-3cb2-4ecf-9c38-323279cf8b28","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"871c22b7-ad41-4182-beee-7b419e8ad2bc",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cdf3cb75-edfb-4ac7-926f-0cc65131ff87",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f617f368-3cb2-4ecf-9c38-323279cf8b28",},
   ],
   "sequence": {
-    "spriteId": {"name":"sKidSkateboard","path":"sprites/sKidSkateboard/sKidSkateboard.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sKidSkateboard",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -46,11 +46,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"cbb3e071-828e-4492-8fc3-237a77b6e021","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"871c22b7-ad41-4182-beee-7b419e8ad2bc","path":"sprites/sKidSkateboard/sKidSkateboard.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"1dcb256a-11df-49ef-9edb-0b1030f70dd1","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cdf3cb75-edfb-4ac7-926f-0cc65131ff87","path":"sprites/sKidSkateboard/sKidSkateboard.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"e945b12d-ad73-4c65-84f6-e167a326ded8","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f617f368-3cb2-4ecf-9c38-323279cf8b28","path":"sprites/sKidSkateboard/sKidSkateboard.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,22 +66,13 @@
     "yorigin": 63,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sKidSkateboard","path":"sprites/sKidSkateboard/sKidSkateboard.yy",},
-    "resourceVersion": "1.3",
-    "name": "sKidSkateboard",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a931c149-9f3e-4caf-93cb-3f82621ca775","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a931c149-9f3e-4caf-93cb-3f82621ca775","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Kid Sprites",
     "path": "folders/Sprites/Players/Kid Sprites.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sKidSkateboard",
-  "tags": [],
-  "resourceType": "GMSprite",
 }
