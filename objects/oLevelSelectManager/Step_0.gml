@@ -12,48 +12,13 @@ if (key_space_press) {
 	if (teammate = "Kidhead") oPersistent.npcFollower = 3;
 	switch (cursorPos) {
 		case 0:
-			change_room(rHub, 0, 0, true, char);
+			change_room(rTitle, 0, 0, true, char);
 			break;
 		case 1:
-			if char = oFezhead change_room(rFezTutorial, 0, 0, true, char);
-			if char = oConehead change_room(rConeTutorial, 0, 0, true, char);
-			if char = oKidhead change_room(rKidTutorial, 0, 0, true, char);
+			change_room(rChristmasHub, 0, 0, true, char);
 			break;
 		case 2:
-			change_room(rValley, 0, 0, true, char);
-			break;
-		case 4:
-			change_room(rFezCarnival, 0, 0, true, char);
-			break;
-		case 5:
-			change_room(rFactoryEntrance, 0, 0, true, char);
-			break;
-		case 8:
-			change_room(rTowerEntrance, 0, 0, true, char);
-			break;
-		case 11:
-			change_room(rTest, 0, 0, true, char);
-			break;
-		case 18:
-			change_room(rTower2Autoscroll, 0, 0, true, char);
-			break;
-		case 15:
-			change_room(rFactory2Main, 0, 0, true, char);
-			break;
-		case 21:
-			change_room(rBonSuperBall, 0, 0, true, char);
-			break;
-		case 26:
-			change_room(rSweetCapSurf, 0, 0, true, char);
-			break;
-		case 29:
-			change_room(rFishing, 0, 0, true, oFezhead);
-			break;
-		case 31:
-			change_room(rInputTest, 0, 0, true, oFezhead);
-			break;
-		default:
-			audio_play_sound(sBreak, 1, false);
+			change_room(rChristmasLevel1, 0, 0, true, char);
 			break;
 	}
 }

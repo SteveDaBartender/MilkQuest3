@@ -1,4 +1,8 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "sTitleScreen",
+  "conversionMode": 0,
   "compression": 3,
   "volume": 0.76,
   "preload": false,
@@ -11,13 +15,9 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sTitleScreen.ogg",
-  "duration": 107.505,
+  "duration": 107.5,
   "parent": {
     "name": "Music",
     "path": "folders/Sounds/Music.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sTitleScreen",
-  "tags": [],
-  "resourceType": "GMSound",
 }

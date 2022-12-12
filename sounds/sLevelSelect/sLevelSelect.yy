@@ -1,4 +1,8 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "sLevelSelect",
+  "conversionMode": 0,
   "compression": 3,
   "volume": 0.71,
   "preload": false,
@@ -11,13 +15,9 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sLevelSelect.ogg",
-  "duration": 69.32375,
+  "duration": 69.318756,
   "parent": {
     "name": "Music",
     "path": "folders/Sounds/Music.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sLevelSelect",
-  "tags": [],
-  "resourceType": "GMSound",
 }

@@ -1,4 +1,8 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "sDiedToDeath",
+  "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
   "preload": false,
@@ -11,13 +15,9 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sDiedToDeath.wav",
-  "duration": 2.782279,
+  "duration": 2.777279,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds/Sounds.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sDiedToDeath",
-  "tags": [],
-  "resourceType": "GMSound",
 }

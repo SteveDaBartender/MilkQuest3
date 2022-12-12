@@ -3,56 +3,11 @@ var selectorSprite = sKidSelecter;
 
 draw_set_font(fLevelSelect);
 draw_set_color(validColor);
-draw_text(lvlOffsetR1,5,"00 - Mountainside Peaks");
-draw_text(lvlOffsetR1,25,"01 - Tutorial Caves");
-draw_text(lvlOffsetR1,45,"02 - Verdant Valley");
-draw_set_color(invalidColor);
-draw_text(lvlOffsetR1,65,"03 - ???"); //dm
-draw_set_color(validColor);
-draw_text(lvlOffsetR1,85,"04 - Curious Carnival");
-draw_text(lvlOffsetR1,105,"05 - HESHA Factory");
-draw_set_color(invalidColor);
-draw_text(lvlOffsetR1,125,"06 - ???"); //sc
-draw_text(lvlOffsetR1,145,"07 - ???"); //sweet caps
-draw_set_color(validColor);
-draw_text(lvlOffsetR1,165,"08 - Ruined Tower");
-draw_set_color(invalidColor);
-draw_text(lvlOffsetR1,185,"09 - ???"); //arc
-draw_text(lvlOffsetR1,205,"10 - ???"); //last
-draw_set_color(validColor);
-draw_text(lvlOffsetR1,225,"11 - Testing Level"); //secret final
-draw_set_color(invalidColor);
-draw_text(lvlOffsetR1,245,"12 - Verdant Valley Part 2");
-draw_text(lvlOffsetR1,265,"13 - ???");
-draw_text(lvlOffsetR1,285,"14 - Curious Carnival Part 2");
-draw_set_color(validColor);
-draw_text(lvlOffsetR1,305,"15 - HESHA Factory Part 2");
-draw_set_color(invalidColor);
-draw_text(lvlOffsetR2,5,"16 - ???");
-draw_text(lvlOffsetR2,25,"17 - ???");
-draw_set_color(validColor);
-draw_text(lvlOffsetR2,45,"18 - Ruined Tower Part 2");
-draw_set_color(invalidColor);
-draw_text(lvlOffsetR2,65,"19 - ???");
-draw_text(lvlOffsetR2,85,"20 - ???");
-draw_set_color(validColor);
-draw_text(lvlOffsetR2,105,"21 - The Boxlands");
-draw_set_color(invalidColor);
-draw_text(lvlOffsetR2,125,"22 - ???"); //mortar
-draw_text(lvlOffsetR2,145,"23 - ???"); //depths
-draw_text(lvlOffsetR2,165,"24 - ???"); //sv remix
-draw_text(lvlOffsetR2,185,"25 - ???"); //volc
-draw_set_color(validColor);
-draw_text(lvlOffsetR2,205,"26 - Bubblegum Surfing");
-draw_set_color(invalidColor);
-draw_text(lvlOffsetR2,225,"27 - ???"); //bac
-draw_text(lvlOffsetR2,245,"28 - ???"); //trn
-draw_set_color(validColor);
-draw_text(lvlOffsetR2,265,"29 - HESHA Wastewater"); //wastewater
-draw_set_color(invalidColor);
-draw_text(lvlOffsetR2,285,"30 - ???"); //normal pond
-draw_set_color(validColor);
-draw_text(lvlOffsetR2,305,"31 - Input/Save Viewer"); 
+draw_text(lvlOffsetR1,5,"00 - Title Screen");
+draw_text(lvlOffsetR1,25,"01 - Christmas Hub");
+draw_text(lvlOffsetR1,45,"02 - HESHA Basement");
+draw_text(lvlOffsetR1,45,"03 - Settings");
+
 switch (char) {
 	case oFezhead:
 		selectorSprite = sFezSelecter
@@ -91,7 +46,7 @@ draw_text(lvlOffsetR1,405, "Entrance Number:" + string(entranceNum));
 draw_text(lvlOffsetR1,425, "Key ID:" + string(keyboard_key));
 draw_text(lvlOffsetR1,445, "Cursor ID:" + string(cursorPos));
 
-draw_text(460,5,"Milk Quest 3 'Half & Half' - Super Cool Testing Level Select");
+draw_text(460,5,"Milk Quest: Milk And Cookies - Entirely Useless Level Select");
 draw_text(460,25,"Build Date:  " + date_date_string(GM_build_date) + "  " +date_time_string(GM_build_date));
 draw_text(800,25,"Version: " + string(GM_version));
 draw_text(460,45,"Contact: milkquestgame@gmail.com");
@@ -121,19 +76,10 @@ if (cursorPos > 15 && cursorPos <= 32) {
 
 //credits will be moved to their own section soon.
 
-/*
+
 draw_text(lvlOffsetR1,420,"Credits");
 draw_text(lvlOffsetR1,440,"Code, Artwork, Design: Steve the Bartender");
-draw_text(lvlOffsetR1,460,"Music & Design: Quackers T. Encheese");
-draw_text(lvlOffsetR1,480,"Factory & Sky Tracks: dragon98999");
-draw_text(lvlOffsetR1,500,"helped with like 1 song idr which one: Turretbot");
+draw_text(lvlOffsetR1,460,"Music & Design: Caramel");
 draw_text(lvlOffsetR1,520,"Special Thanks: sup3p, FANTIC, James Cleland, Birb, Axelcuty, Doodle");
-
-TO ADD TO CREDITS:
-CRT SHADER: https://marketplace.yoyogames.com/assets/701/crt-pixel-shader
-
-add credits to aseprite/SFXR ?
-*/
-
 
 

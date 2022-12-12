@@ -1,4 +1,8 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "sCannonExplode",
+  "conversionMode": 0,
   "compression": 0,
   "volume": 0.83,
   "preload": false,
@@ -11,13 +15,9 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sCannonExplode.wav",
-  "duration": 0.327834,
+  "duration": 0.322834,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds/Sounds.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sCannonExplode",
-  "tags": [],
-  "resourceType": "GMSound",
 }
