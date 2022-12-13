@@ -30,7 +30,7 @@ if (place_meeting(x,y-9,global.character) && global.character.vsp >= 0 && !place
 //moves player horizontally
 if (place_meeting(x,y-1,global.character) && moveX){
 	show_debug_message("hsp check 1");
-	global.character.x += x - ox;
+	//global.character.x += x - ox;
 	show_debug_message("hsp check 1 end");
 }
 

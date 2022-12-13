@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMTileSet",
+  "resourceVersion": "1.0",
+  "name": "tChristmas",
   "spriteId": {
     "name": "sChristmasTileset",
     "path": "sprites/sChristmasTileset/sChristmasTileset.yy",
@@ -18,14 +21,33 @@
   "out_tilevborder": 2,
   "out_columns": 12,
   "tile_count": 150,
-  "autoTileSets": [],
+  "autoTileSets": [
+    {"resourceType":"GMAutoTileSet","resourceVersion":"1.0","name":"autotile_1","tiles":[
+        12,
+        41,
+        42,
+        2,
+        51,
+        11,
+        52,
+        1,
+        53,
+        43,
+        13,
+        3,
+        22,
+        21,
+        23,
+        0,
+      ],"closed_edge":false,},
+  ],
   "tileAnimationFrames": [
-    {"frames":[
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"animation_1","frames":[
         14,
         35,
         36,
         37,
-      ],"resourceVersion":"1.0","name":"animation_1","tags":[],"resourceType":"GMTileAnimation",},
+      ],},
   ],
   "tileAnimationSpeed": 3.0,
   "tileAnimation": {
@@ -642,8 +664,4 @@
     "name": "Tile Sets",
     "path": "folders/Tile Sets.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "tChristmas",
-  "tags": [],
-  "resourceType": "GMTileSet",
 }
