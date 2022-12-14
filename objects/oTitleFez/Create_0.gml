@@ -23,6 +23,7 @@ global.unlockKid = false;
 global.milkGrabMode = 0;
 global.levelTimer = 0;
 global.sv_cheats = 1;
+global.godmode = 0;
 
 global.finished = false;
 global.head = false;

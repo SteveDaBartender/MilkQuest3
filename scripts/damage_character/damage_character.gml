@@ -2,7 +2,7 @@ function damage_character() {
 	var funny = false;
 	var player = global.character;
 	//if not invinicble hurt them
-	if (player.invincibleTimer == 0) {
+	if (player.invincibleTimer == 0 && !global.godmode) {
 		player.invincibleTimer = 100;
 		//if (place_meeting(x,y,oSpikes)) player.invincibleTimer = 200;
 		audio_play_sound(sHurt, 1, false);
@@ -16,12 +16,13 @@ function damage_character() {
 		instance_create_layer(oPlayer.x,oPlayer.y,"Object",player);
 		audio_play_sound(sDiedToDeath,1,false);
 		reset_falling_platforms()
-		//resets the autoscroll if its used
+		/*
 		if (instance_exists(oAutoscrollerManager)) {
 			oAutoscrollerManager.y = global.spawnY + 150;
 			oCannon.active = false;	
 			oAutoscrollerManager.lock = true;
 		}
+		*/
 	}
 	//return "true" if the player didn't die (this is stored as a variable as if it wasnt it caused the
 	//plaer to not die sometimes

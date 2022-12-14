@@ -1,11 +1,5 @@
 function player_wide_function() {
 	
-	//room_speed = 50; if you wanna play in 50hz like a loser
-	if(keyboard_check_pressed(ord("R"))) {
-	hp = 0;
-	damage_character();
-	}
-	
 
 	
 	//change the direction the character faces depending on input

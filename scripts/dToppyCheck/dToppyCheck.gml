@@ -28,28 +28,28 @@ function dToppyCheck(){
 	icon[11] = "Beat the challenge while collecting all the milk."
 	icon[12] = sToppyIcon1;
 	icon[12] = "Oh, and if any of the parts are floating, blame the code wizards."
-/*
+	/*
 	var txtval = 7;
-	//if (!global.body) {
+	if (!global.body) {
 		txtval++;
 		icon[txtval] = sToppyIcon1;
 		icon[txtval] = "Beat the challenge normally (you should've already done this...)."
-	//}
-	//if (!global.head) {
+	}
+	if (!global.head) {
 		txtval++;
 		icon[txtval] = sToppyIcon1;
 		icon[txtval] = "Beat the challenge while collecting less than 10 milks."
-	//}
-	//if (!global.leg) {
+	}
+	if (!global.leg) {
 		txtval++;
 		icon[txtval] = sToppyIcon1;
 		icon[txtval] = "Beat the challenge in 4 minutes or less."
-	//}
-	//if (!global.arm) {
+	}
+	if (!global.arm) {
 		txtval++;
 		icon[txtval] = sToppyIcon1;
 		icon[txtval] = "Beat the challenge while collecting all the milk."
-	//}
+	}
 	txtval++;
 	icon[txtval] = sToppyIcon1;
 	icon[txtval] = "Oh, and if any of the parts are floating, blame the code wizards."

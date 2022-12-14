@@ -15,5 +15,5 @@ function dBeatScriptFast(){
 	icon[5] = sFezIcon1;
 	text[5] = "Why are you in such a bad mood today? Have some christmas joy!"
 	icon[6] = sConeIcon1
-	text[6] = "CONEHEAD: IT'S NOT CHRISTMAS. CHRISTMAS WAS THREE WEEKS AGO."
+	text[6] = "IT'S NOT CHRISTMAS. CHRISTMAS WAS THREE WEEKS AGO."
 }
