@@ -6,8 +6,8 @@
   "compression": 0,
   "volume": 1.0,
   "preload": false,
-  "bitRate": 16,
-  "sampleRate": 5512,
+  "bitRate": 128,
+  "sampleRate": 48000,
   "type": 0,
   "bitDepth": 1,
   "audioGroupId": {
@@ -15,7 +15,7 @@
     "path": "audiogroups/SFX",
   },
   "soundFile": "sMunch.mp3",
-  "duration": 1.102143,
+  "duration": 1.097143,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds/Sounds.yy",

@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+if live_call() return live_result;
 if (place_meeting(x,y+8,global.character)) {
 	switch global.character {
 		case oFezhead:
@@ -12,7 +13,7 @@ if (place_meeting(x,y+8,global.character)) {
 				change_character(oKidhead);
 			} else {
 				audio_play_sound(sBreak, 1, false);
-				global.character.y -= 100;
+				//global.character.y += 100;
 			}
 			break;
 		case oConehead:

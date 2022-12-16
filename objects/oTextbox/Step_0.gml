@@ -1,3 +1,4 @@
+global.gameLock = true;
 getInput();
 if (fade) {
 	if (y < oCamera.y + 200) {

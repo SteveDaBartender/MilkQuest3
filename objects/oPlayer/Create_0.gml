@@ -1,6 +1,6 @@
 player_init(); //in case oPlayer is interptreted as a actual player 
 
-if (global.spawnY !=0 ) {
+if (global.spawnY !=0 && room != rChristmasHub) {
 	x = global.spawnX;
 	y = global.spawnY;
 	show_debug_message("player spawn moved :)");

@@ -25,5 +25,6 @@ function dChristmasIntro() {
 	icon[11] = sToppyIcon1;
 	text[11] = "That's enough information you need, good luck in there!"
 	global.intro = 1;
+	global.character.image_speed = 1;
 	save_game_data();
 }

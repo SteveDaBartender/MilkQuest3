@@ -20,6 +20,9 @@ if (key_space_press) {
 		case 2:
 			change_room(rChristmasLevel1, 0, 0, true, char);
 			break;
+		case 3:
+			change_room(rNewTutorial, 0, 0, true, char);
+			break;
 	}
 }
 

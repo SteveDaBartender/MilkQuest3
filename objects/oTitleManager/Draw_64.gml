@@ -7,13 +7,13 @@ switch (cursorPos) {
 		draw_text_ext_transformed(descX,descY-10,"Help Toppy clean out his factory!",30,700,1,1,0);
 		break;
 	case 1:
-		draw_text_ext_transformed(descX,descY,"Select any level in the game to play!",30,700,1,1,0);
+		draw_text_ext_transformed(descX,descY,"Never played Milk Quest before? Come here to learn the basics.",30,700,1,1,0);
 		break;
 	case 2:
-		draw_text_ext_transformed(descX,descY,"Compete for the best time in all the stages! (NOT IMPLEMENTED)",30,700,1,1,0);
+		draw_text_ext_transformed(descX,descY,"achievement .",30,700,1,1,0);
 		break;
 	case 3:
-		draw_text_ext_transformed(descX,descY,"Look at progress, achievements, and the like! (NOT IMPLEMENTED) ",30,700,1,1,0);
+		draw_text_ext_transformed(descX,descY,"Tweak the game to your liking!",30,700,1,1,0);
 		break;
 	case 4:
 		draw_text_ext_transformed(descX,descY,"Tweak the game to your liking! (NOT IMPLEMENTED)",30,700,1,1,0);
@@ -33,8 +33,9 @@ switch (cursorPos) {
 var rowYPos = 200;
 draw_set_color(validColor);
 draw_text_transformed(rowXPos,rowYPos,"Start Game",1,1,0);
-draw_text_transformed(rowXPos,rowYPos+30,"Achievements",1,1,0);
-draw_text_transformed(rowXPos,rowYPos+60,"Settings",1,1,0);
+draw_text_transformed(rowXPos,rowYPos+30,"Tutorial",1,1,0);
+draw_text_transformed(rowXPos,rowYPos+60,"Achievements",1,1,0);
+draw_text_transformed(rowXPos,rowYPos+90,"Settings",1,1,0);
 draw_text_transformed(rowXPos,rowYPos+250,"Exit",1,1,0);
 
 draw_text_transformed(5,10,"Build Version: " +string(GM_version),0.5,0.5,0);

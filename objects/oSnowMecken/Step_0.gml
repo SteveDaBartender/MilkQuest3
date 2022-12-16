@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 line = false;
-if (!collision_line(eyeX,eyeY,global.character.x,global.character.y,oCollide, false, false) && collision_line(eyeX,eyeY,patrolX,patrolY,global.character, false, false)){
+if ( on_screen_check(self) && !collision_line(eyeX,eyeY,global.character.x,global.character.y,oCollide, false, false) && collision_line(eyeX,eyeY,patrolX,patrolY,global.character, false, false)){
 	draw_set_colour(c_red);
 	line = true;
 	//theta = 0;

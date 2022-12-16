@@ -4,7 +4,7 @@ function room_live_update(){
 	var charx = global.character.x;
 	var chary = global.character.y;
 	var towerX = 0
-	audio_play_sound(sSuperSecretFullStorySoundEffectDONOTLEAK,0,false);
+	//audio_play_sound(sSuperSecretFullStorySoundEffectDONOTLEAK,0,false);
 	room_goto_live(room);
 	global.spawnX = charx
 	global.spawnY = chary

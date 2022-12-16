@@ -27,5 +27,5 @@ function dBeatScriptFinished(){
 	icon[11] = sConeIcon1;
 	text[11] = "isn't"
 	icon[12] = sConeIcon1;
-	text[12] = "CHRRRIIIIISSSTTTMAAAAAAAAAAAAAAASSSSSSSSSSSSSSS!!!!!!!!!!!!!!!!"
+	text[12] = "CHRRRIIISSSTTTMAAAAAAAAAASSSSSSSSSS!!!"
 }

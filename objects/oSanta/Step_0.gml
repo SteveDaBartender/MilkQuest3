@@ -5,7 +5,3 @@ if (global.body) {
 } else {
 	script = dSantaFirst;
 }
-if (place_meeting(x,y,global.character) && global.character.key_up_press && complete) {
-	call_textbox(script);	
-	complete = false;
-}

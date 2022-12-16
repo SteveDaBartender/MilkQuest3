@@ -67,6 +67,6 @@ switch state {
 		break;
 }
 standard_collision();
-fezhead_draw();
 player_wide_function();
 }
+fezhead_draw();

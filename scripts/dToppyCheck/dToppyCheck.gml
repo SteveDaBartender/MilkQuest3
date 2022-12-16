@@ -19,15 +19,15 @@ function dToppyCheck(){
 	icon[7] = sToppyIcon1;
 	text[7] = "The golden statue surely is something, be sure to fully assemble it by completing these tasks: "
 	icon[8] = sToppyIcon1;
-	icon[8] = "Beat the challenge normally (you should've already done this...)."
+	text[8] = "Beat the challenge normally (you should've already done this...)."
 	icon[9] = sToppyIcon1;
-	icon[9] = "Beat the challenge while collecting less than 10 milks."
+	text[9] = "Beat the challenge while collecting less than 10 milks."
 	icon[10] = sToppyIcon1;
-	icon[10] = "Beat the challenge in 5 minutes or less."
+	text[10] = "Beat the challenge in 5 minutes or less."
 	icon[11] = sToppyIcon1;
-	icon[11] = "Beat the challenge while collecting all the milk."
+	text[11] = "Beat the challenge while collecting all the milk."
 	icon[12] = sToppyIcon1;
-	icon[12] = "Oh, and if any of the parts are floating, blame the code wizards."
+	text[12] = "Oh, and if any of the parts are floating, blame the code wizards."
 	/*
 	var txtval = 7;
 	if (!global.body) {

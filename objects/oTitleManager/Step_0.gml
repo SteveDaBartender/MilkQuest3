@@ -2,11 +2,11 @@
 // You can write your code in this editor
 getInput();
 
-if (!audio_is_playing(sTitleScreen) && audio_group_is_loaded(Music)) {
+if (!audio_is_playing(sTitleScreen) && audio_group_is_loaded(Music) && !lock) {
 	audio_play_sound(sTitleScreen,0,true);
 }
 
-if (key_space_press) {
+if (key_space_press) && !lock {
 	switch (cursorPos) {
 		case 0:
 				audio_stop_all();
@@ -16,12 +16,32 @@ if (key_space_press) {
 				global.ySpawn = 0;
 				load_game_data();
 				global.currentSong = sCHub;
-				room_goto(rChristmasHub);
+				oFade.state = 1;
+				lock = true
+				oFade.destination = rChristmasHub;
 			break;
 		case 1:
-			load_game_data(oPersistent.saveSlot);
-			room_goto(rLevelSelect);
+			oFade.state = 1;
+			lock = true
+			oFade.destination = rNewTutorial;
 			audio_stop_all();
+			global.character = oFezhead;
+			global.spawnConehead = false;
+			global.xSpawn = 0;
+			global.ySpawn = 0;
+			audio_stop_all();
+		break;
+		case 2:
+				oFade.state = 1;
+				lock = true
+				oFade.destination = rLevelSelect;
+				audio_stop_all();
+			audio_stop_all();
+			break;
+		case 3:
+				oFade.state = 1;
+				lock = true
+				oFade.destination = rSettings;
 		break;
 		case 6:
 				global.character = oFezheadMQ2;

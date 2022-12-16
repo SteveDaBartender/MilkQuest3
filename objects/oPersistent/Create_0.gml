@@ -18,4 +18,6 @@ repeat 50 {
 	ds_list_add(bigMilksCollected,0);
 }
 
-load_game_data(saveSlot);
+
+global.volMus = 0.3;
+global.volSFX = 0.3;

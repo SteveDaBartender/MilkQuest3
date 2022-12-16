@@ -49,7 +49,7 @@ function player_init() {
 		instance_create_layer(x,y-32,"Object",oConehead2P)
 	}
 
-	if (global.spawnX != false && !cpOverride) {
+	if (global.spawnX != false && room != rChristmasHub && !cpOverride) {
 		x = global.spawnX;
 		y = global.spawnY;
 	}

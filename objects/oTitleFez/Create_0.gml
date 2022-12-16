@@ -4,9 +4,6 @@ xv = 0;
 //beats me why all the gobals are here.
 
 
-global.volMus = 0.3;
-global.volSFX = 0.3;
-
 global.resolution = res.standard;
 global.milk = 0;
 global.spawnConehead = false;

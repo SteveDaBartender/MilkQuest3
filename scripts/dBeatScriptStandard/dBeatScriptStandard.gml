@@ -3,7 +3,7 @@
 function dBeatScriptStandard(){
 	myTextbox = noone;
 	icon[0] = sToppyIcon1;
-	text[0] = "Well done, lads! You got through it!"
+	text[0] = "Well done, lads! You got through it! And, you grabbed the Golden Cookie too."
 	icon[1] = sConeIcon1;
 	text[1] = "yeah, and we nearly died."
 	icon[2] = sToppyIcon1;
@@ -13,5 +13,5 @@ function dBeatScriptStandard(){
 	icon[4] = sFezIcon1;
 	text[4] = "This body seems familiar..."
 	icon[5] = sToppyIcon1;
-	text[5] = "It's dashing, is it not? It's pure gold, too! Now go see if you can do anything better."
+	text[5] = "It's dashing, is it not? It's pure gold, too! Now go see if you can do anything better. Talk to me if you want any advice."
 }

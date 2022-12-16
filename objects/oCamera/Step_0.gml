@@ -68,6 +68,11 @@ if (instance_exists(follow))
 	yTo = follow.y - 60;
 }
 
+if (room = rChristmasHub && !instance_exists(oTextbox)) {
+	yTo = 0;	
+	drag = 50;
+}
+
 //move the camera object
 x += (xTo - x) / drag;
 y += (yTo - y) / drag;
@@ -88,122 +93,18 @@ y = clamp(y,view_h_half,room_height-view_h_half);
 //set the camera to the object
 camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
 
-//THIS IS DISGUSTING!!!!!
-
 //Too Bad!
 
 audio_group_set_gain(Music,global.volMus,0)
 audio_group_set_gain(SFX,global.volSFX,0)
 
-if (layer_exists("L2"))
-{
-	layer_x("L2",x/1.5);
-	layer_y("L2",y-75);
-}
-if (layer_exists("L3"))
-{
-	layer_x("L3",x/1.8);
-	layer_y("L3",y-425);
-	image_yscale = -1;
-}
-if (layer_exists("Hills"))
-{
-	layer_x("Hills",x/3);
-}
-if (layer_exists("L1"))
-{
-	layer_x("L1",x/1.8);
-	layer_y("L1",y-50);
-}
-if (layer_exists("L4"))
-{
-	layer_x("L4",x/2);
-	layer_y("L4",y-50);
-}
-
-
-//water in the valley level
-if (layer_exists("lValleyWater"))
-{
-	layer_x("lValleyWater",x/15);
-	layer_y("lValleyWater",room_height - y/10 - 1850);
-}
-//Grass in the valley level
-if (layer_exists("lValleyGrass"))
-{
-	layer_x("lValleyGrass",x/12);
-	layer_y("lValleyGrass",room_height - y/10-350);
-}
-//mountain 1 in the valley level
-if (layer_exists("lValleyMnt1"))
-{
-	layer_x("lValleyMnt1",x/8);
-	layer_y("lValleyMnt1",room_height - y/10-800);
-}
-//mountain 2 in the valley level
-if (layer_exists("lValleyMnt2"))
-{
-	layer_x("lValleyMnt2",x/5);
-	layer_y("lValleyMnt2",room_height - y/10-1000);
-}
-
-//water in the hub background
-if (layer_exists("lHubWater"))
-{
-	layer_x("lHubWater",x/5 +  step/4);
-	layer_y("lHubWater",y+100);
-}
-if (layer_exists("CL1"))
-{
-	layer_x("CL1",x/1.6);
-	layer_y("CL1",y-200);
-}
-if (layer_exists("CL2"))
-{
-	layer_x("CL2",x/1.75);
-	layer_y("CL2",y-200);
-}
 if (layer_exists("CBGFUNNY"))
 {
 	layer_x("CBGFUNNY",x/2.75);
 	layer_y("CBGFUNNY",y/2.75);
 }
 
-
-//ALL MQ2 backgrounds
-if (layer_exists("MQ2BG"))
-{
-	layer_x("MQ2BG",x + 400);
-	layer_y("MQ2BG",y + 400);
-}
-
-if (layer_exists("lValleyBG"))
-{
-	layer_x("lValleyBG",x+480);
-	layer_y("lValleyBG",y+270);
-}
-
-if (layer_exists("TowerBG"))
-{
-	layer_x("TowerBG",x+480);
-	layer_y("TowerBG",y+270);
-}
-
 if (layer_exists("TilesScroll"))
 {
 	tilemap_y(layer_tilemap_get_id(layer_get_id("TilesScroll")),y - 7725);
 }
-
-if (layer_exists("HubBGTopTrees"))
-{
-	layer_x("HubBGTopTrees",x+880 - global.character.x/5);
-	layer_y("HubBGTopTrees",y-310);
-}
-
-
-if (layer_exists("HubBGTop"))
-{
-	layer_x("HubBGTop",x+880 - global.character.x/100);
-	layer_y("HubBGTop",y+270);
-}
-

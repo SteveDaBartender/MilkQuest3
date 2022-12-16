@@ -6,7 +6,7 @@ draw_set_color(validColor);
 draw_text(lvlOffsetR1,5,"00 - Title Screen");
 draw_text(lvlOffsetR1,25,"01 - Christmas Hub");
 draw_text(lvlOffsetR1,45,"02 - HESHA Basement");
-draw_text(lvlOffsetR1,45,"03 - Settings");
+draw_text(lvlOffsetR1,65,"03 - Tutorial");
 
 switch (char) {
 	case oFezhead:
