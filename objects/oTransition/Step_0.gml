@@ -23,10 +23,10 @@ if (avaliable && !press && place_meeting(x,y,oPlayer)) || (press && key_up && pl
 	global.gameLock = true;
 	avaliable = 0;
 	if (stop) audio_stop_all()
-	/*if (xTo != 0) {
+	if (xTo != 0) {
 		global.spawnX = xTo;
 		global.spawnY = yTo;
-	}*/
+	}
 } else if (oPersistent.transitionType = 1 && oPersistent.transitionTime <= 0) {
 	//change_room(destination, xTo, yTo, stop, global.character);
 	show_debug_message("Transitioning to "+ string(destination) + " : " + string(id));

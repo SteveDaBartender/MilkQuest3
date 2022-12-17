@@ -11,9 +11,9 @@ draw_roundrect(16,70,272,228,false);
 
 //credits
 draw_set_font(fSettings);
-draw_roundrect(16,240,272,528,false);	
+draw_roundrect(16,240,272,538,false);	
 //music
-draw_roundrect(304,240,528,528,false);	
+draw_roundrect(304,240,528,538,false);	
 
 //the new normal
 draw_set_alpha(1);	
@@ -23,17 +23,20 @@ draw_text_transformed(30,17,"Return",0.6,0.6,0);
 draw_text_transformed(30,250,"Credits",1,1,0);
 draw_text_transformed(30,290,"Programming",0.5,0.5,0);
 draw_text_transformed(30,310,"Steve the Bartender",0.33,0.33,0);
-draw_text_transformed(30,330,"Music",0.55,0.5,0);
-draw_text_transformed(30,350,"Caramel (Menu)",0.33,0.33,0);
-draw_text_transformed(30,365,"Varadox (\"Factory\" Meledy)",0.33,0.33,0);
-draw_text_transformed(30,380,"Planning & Testing",0.5,0.5,0);
-draw_text_transformed(30,400,"Steve the Bartender",0.33,0.33,0);
-draw_text_transformed(30,415,"Caramel",0.33,0.33,0);
+draw_text_transformed(30,325,"Music",0.55,0.5,0);
+draw_text_transformed(30,345,"Caramel",0.33,0.33,0);
+draw_text_transformed(30,360,"Varadox (\"Factory\" Meledy)",0.33,0.33,0);
+draw_text_transformed(30,375,"Planning & Design",0.5,0.5,0);
+draw_text_transformed(30,395,"Steve the Bartender",0.33,0.33,0);
+draw_text_transformed(30,410,"Caramel",0.33,0.33,0);
+draw_text_transformed(30,420,"Play Testing",0.5,0.5,0);
+draw_text_transformed(30,440,"YOU.",0.33,0.33,0);
 draw_text_transformed(30,455,"Special Thanks",0.5,0.5,0);
 draw_text_transformed(30,475,"rou.sr (Discord Rich Presence)",0.33,0.33,0);
 draw_text_transformed(30,490,"GMLive",0.33,0.33,0);
-draw_text_transformed(30,510,"v" + string(GM_version),0.33,0.33,0);
-draw_text_transformed(90,510,"milkquestgame@gmail.com",0.33,0.33,0);
+draw_text_transformed(30,505,"rt-shell",0.33,0.33,0);
+draw_text_transformed(30,520,"v" + string(GM_version),0.33,0.33,0);
+draw_text_transformed(90,520,"milkquestgame@gmail.com",0.33,0.33,0);
 //volume meters
 draw_text_transformed(30,80,"Volume",1,1,0);
 draw_text_transformed(30,120,"Music",0.5,0.5,0);
@@ -67,7 +70,7 @@ draw_set_halign(fa_center);
 var alpha = sin(global.globalTimer/60)+1.2
 //draw_sprite_ext(sSettingsArrow,0,416+width/2+thesin,507,1,1,0,c_white,alpha)
 //draw_sprite_ext(sSettingsArrow,0,416-width/2-thesin,507,-1,1,0,c_white,alpha)
-draw_text_transformed(416,500,string(songList[songId,1]),0.33,0.33,0);
+draw_text_transformed(416,500,string(songList[songId,1]),0.5,0.5,0);
 draw_set_halign(fa_left);
 
 //selection box

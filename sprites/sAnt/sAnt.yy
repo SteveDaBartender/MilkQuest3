@@ -39,7 +39,7 @@
     "name": "sAnt",
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 2.5,
+    "playbackSpeed": 3.5,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

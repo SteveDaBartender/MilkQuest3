@@ -12,4 +12,4 @@ hp = 1;
 killType = false;
 
 //allows for the rare 'drip ant'
-if (irandom_range(1,1000) = 1000) sprite_index = sAntDrip;
+if (irandom_range(1,1000) = 500) sprite_index = sAntDrip;

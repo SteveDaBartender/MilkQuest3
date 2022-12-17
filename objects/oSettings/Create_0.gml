@@ -5,9 +5,9 @@ songList = [
 	[sTitleScreen,"Snowy Coffee"],
 	[sCHub,"Resting Area"],
 	[sChristmas,"Cold, Colder Yet Colder"],
-	[sMilkFanfare,"Dairy Dance"],
 	[sTutorial,"Familiar Song"],
-	[sTitleScreenDraft,"A Milk Quest Christmas (Bonus Track)"],
+	[sMilkFanfare,"Dairy Dance"],
+	[sTitleScreenDraft,"A Milk Quest Christmas"]
 ]
 currentlyPlaying = 0;
 lol = 0;

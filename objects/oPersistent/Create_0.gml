@@ -1,3 +1,14 @@
+global.debug = false;
+global.sv_cheats = 1;
+global.godmode = 0;
+global.finished = false;
+global.head = false;
+global.leg = false;
+global.arm = false;
+global.body = false;
+global.besttime = 999999;
+global.intro = 0;
+	
 //used for transitions
 transitionTime = 0;
 transitionType = 0;
@@ -21,3 +32,4 @@ repeat 50 {
 
 global.volMus = 0.3;
 global.volSFX = 0.3;
+

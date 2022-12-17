@@ -39,7 +39,7 @@
     "name": "sAntDrip",
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 2.8,
+    "playbackSpeed": 4.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
