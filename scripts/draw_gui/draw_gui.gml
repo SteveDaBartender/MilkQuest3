@@ -14,7 +14,7 @@ function draw_gui(){
 	}
 	speedBarVar = speedBarVar / ds_list_size(averageHsp);
 	
-	if (!global.debug && room != rChristmasHub) {
+	if (!global.debug && room != rChristmasHub && room != rHub) {
 		//draw character's head
 		switch (global.character) {
 			case oFezhead:

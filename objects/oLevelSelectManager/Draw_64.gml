@@ -7,7 +7,7 @@ draw_text(lvlOffsetR1,5,"00 - Title Screen");
 draw_text(lvlOffsetR1,25,"01 - Christmas Hub");
 draw_text(lvlOffsetR1,45,"02 - HESHA Basement");
 draw_text(lvlOffsetR1,65,"03 - Tutorial");
-
+draw_text(lvlOffsetR1,85,"04 - Intro Cutscene (May reset save data)");
 switch (char) {
 	case oFezhead:
 		selectorSprite = sFezSelecter

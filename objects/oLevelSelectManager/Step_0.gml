@@ -23,6 +23,9 @@ if (key_space_press) {
 		case 3:
 			change_room(rNewTutorial, 0, 0, true, char);
 			break;
+		case 4:
+			change_room(rHub, 0, 0, true, char);
+			break;
 	}
 }
 

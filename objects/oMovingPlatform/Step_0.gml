@@ -1,3 +1,4 @@
+if live_call() return live_result;
 /// @description Insert description here
 // You can write your code in this editor
 if (!locked) {
@@ -16,7 +17,7 @@ while (place_meeting(x,y-1,global.character) && global.character.vsp >= 0){
 	show_debug_message("vsp check 1");
 	cycle++;
 	global.character.y -= sign(global.character.vsp+0.1);
-	if (cycle > 250 || place_meeting(global.character.x,global.character.y+1,oWall)) {
+	if (cycle > 50 || place_meeting(global.character.x,global.character.y+1,oWall)) {
 		break;
 	}
 	show_debug_message("vsp check 1 end");

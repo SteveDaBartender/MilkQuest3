@@ -15,10 +15,12 @@ if (key_space_press) && !lock {
 				global.xSpawn = 0;
 				global.ySpawn = 0;
 				load_game_data();
-				global.currentSong = sCHub;
 				oFade.state = 1;
 				lock = true
-				oFade.destination = rChristmasHub;
+				global.currentSong = sCHub;
+				if (global.intro) {
+					oFade.destination = rChristmasHub;
+				} else oFade.destination = rHub
 			break;
 		case 1:
 			oFade.state = 1;

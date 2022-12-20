@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "oWater",
   "spriteId": {
     "name": "sWaterEditor",
     "path": "sprites/sWaterEditor/sWaterEditor.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -27,8 +31,4 @@
     "name": "00 - General Level Assets",
     "path": "folders/Objects/Level Assets/00 - General Level Assets.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "oWater",
-  "tags": [],
-  "resourceType": "GMObject",
 }
