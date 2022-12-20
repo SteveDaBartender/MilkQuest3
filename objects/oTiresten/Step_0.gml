@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+if (on_screen_check(self)) {
 //this dude's code is literally the same as the ant except he zooms
 hsp = spd * image_xscale
 obj_collision_step();
@@ -33,5 +33,6 @@ if (killType != kt.none) {
 	instance_destroy(self);
 } else if (place_meeting(x,y+global.character.vsp,global.character)){
 	damage_character();
+}
 }
 //if ((global.character.vsp > 0 && globa

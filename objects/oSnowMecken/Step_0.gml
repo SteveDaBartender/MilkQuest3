@@ -1,7 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 line = false;
-if ( on_screen_check(self) && !collision_line(eyeX,eyeY,global.character.x,global.character.y,oCollide, false, false) && collision_line(eyeX,eyeY,patrolX,patrolY,global.character, false, false)){
+if (on_screen_check(self)) {
+if (!collision_line(eyeX,eyeY,global.character.x,global.character.y,oCollide, false, false) && collision_line(eyeX,eyeY,patrolX,patrolY,global.character, false, false)){
 	draw_set_colour(c_red);
 	line = true;
 	//theta = 0;
@@ -64,4 +65,5 @@ if (killType != kt.none && hitTimer < 0) {
 	global.character.y -= 20;
 } else if (place_meeting(x,y+global.character.vsp,global.character) && hitTimer < 0){
 	damage_character();
+}
 }
