@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMTileSet",
+  "resourceVersion": "1.0",
+  "name": "tHub",
   "spriteId": {
     "name": "sHubTileset",
     "path": "sprites/sHubTileset/sHubTileset.yy",
@@ -19,7 +22,7 @@
   "out_columns": 17,
   "tile_count": 285,
   "autoTileSets": [
-    {"tiles":[
+    {"resourceType":"GMAutoTileSet","resourceVersion":"1.0","name":"autotile_1","tiles":[
         0,
         0,
         0,
@@ -67,27 +70,27 @@
         0,
         0,
         0,
-      ],"closed_edge":false,"resourceVersion":"1.0","name":"autotile_1","tags":[],"resourceType":"GMAutoTileSet",},
+      ],"closed_edge":false,},
   ],
   "tileAnimationFrames": [
-    {"frames":[
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"smallGrass1","frames":[
         156,
         153,
         154,
         155,
-      ],"resourceVersion":"1.0","name":"smallGrass1","tags":[],"resourceType":"GMTileAnimation",},
-    {"frames":[
+      ],},
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"tallGrass1","frames":[
         168,
         171,
         169,
         170,
-      ],"resourceVersion":"1.0","name":"tallGrass1","tags":[],"resourceType":"GMTileAnimation",},
-    {"frames":[
+      ],},
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"smallGrass2","frames":[
         153,
         154,
         155,
         156,
-      ],"resourceVersion":"1.0","name":"smallGrass2","tags":[],"resourceType":"GMTileAnimation",},
+      ],},
   ],
   "tileAnimationSpeed": 2.0,
   "tileAnimation": {
@@ -1244,8 +1247,4 @@
     "name": "Tile Sets",
     "path": "folders/Tile Sets.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "tHub",
-  "tags": [],
-  "resourceType": "GMTileSet",
 }

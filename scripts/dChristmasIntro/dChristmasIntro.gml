@@ -14,7 +14,7 @@ function dChristmasIntro() {
 	text[5] = "Shut up, Sigmund Freud."
 	icon[6] = sToppyIcon1;
 	text[6] = "The goal is simple: Reach the end with the golden biscuit. Once you do, you will be transported back here."
-	icon[7] = sNone;
+	icon[7] = sKidIcon1;
 	text[7] = "That sounds like fun!"
 	icon[8] = sToppyIcon1;
 	text[8] = "It is indeed, I think... "
