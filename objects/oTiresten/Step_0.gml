@@ -1,13 +1,14 @@
+if live_call() return live_result;
 /// @description Insert description here
 // You can write your code in this editor
 if (on_screen_check(self)) {
 //this dude's code is literally the same as the ant except he zooms
 hsp = spd * image_xscale
 obj_collision_step();
-
-if (!place_meeting(x+hsp*2,y+5,oCollide) && place_meeting(x,y+5,oCollide) || place_meeting(x+(-5*image_xscale),y,oWall)){
+//turn around if at edge or hitting wall
+if (((!place_meeting(x+hsp*3,y+10,oCollide) && !place_meeting(x+hsp*3,y+5,o1Way)) && place_meeting(x+hsp,y+10,oCollide)) || (place_meeting(x+hsp*2,y-3,oCollide))){
 	image_xscale *= -1;
-	x += spd * -2;
+	x += spd * -1;
 }
 
 if (y > room_height) instance_destroy(self);

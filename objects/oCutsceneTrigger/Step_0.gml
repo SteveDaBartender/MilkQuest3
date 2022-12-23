@@ -10,5 +10,5 @@ if (place_meeting(x,y,global.character) && cond && !complete) {
 	call_textbox(script);	
 	audio_play_sound(sJump,1,false);
 	complete = true;
-	if (condition = "readOnce") global.intro = false;
+	if (condition = "readOnce") global.intro = true;
 }

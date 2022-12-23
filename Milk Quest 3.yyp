@@ -187,6 +187,7 @@
     {"id":{"name":"fTitleScreen","path":"fonts/fTitleScreen/fTitleScreen.yy",},"order":3,},
     {"id":{"name":"sh_christmas_progress","path":"scripts/sh_christmas_progress/sh_christmas_progress.yy",},"order":22,},
     {"id":{"name":"sMountainC","path":"sprites/sMountainC/sMountainC.yy",},"order":8,},
+    {"id":{"name":"sMeckenArm","path":"sprites/sMeckenArm/sMeckenArm.yy",},"order":5,},
     {"id":{"name":"sButtonStart2","path":"sprites/sButtonStart2/sButtonStart2.yy",},"order":3,},
     {"id":{"name":"sFezheadTitleFallMQ2","path":"sprites/sFezheadTitleFallMQ2/sFezheadTitleFallMQ2.yy",},"order":11,},
     {"id":{"name":"sLogoSmall","path":"sprites/sLogoSmall/sLogoSmall.yy",},"order":3,},

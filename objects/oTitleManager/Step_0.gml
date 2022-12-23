@@ -18,7 +18,7 @@ if (key_space_press) && !lock {
 				oFade.state = 1;
 				lock = true
 				global.currentSong = sCHub;
-				if (global.intro) {
+				if (global.intro == 1) {
 					oFade.destination = rChristmasHub;
 				} else oFade.destination = rHub
 			break;
@@ -36,22 +36,9 @@ if (key_space_press) && !lock {
 		case 2:
 				oFade.state = 1;
 				lock = true
-				oFade.destination = rLevelSelect;
-				audio_stop_all();
-			audio_stop_all();
-			break;
-		case 3:
-				oFade.state = 1;
-				lock = true
 				oFade.destination = rSettings;
 		break;
-		case 6:
-				global.character = oFezheadMQ2;
-			global.spawnConehead = false;
-			audio_stop_all()
-			room_goto(rTitleSreenMQ2);
-		break;
-		case 7:
+		case 3:
 			game_end();
 		break;
 		default:
@@ -62,11 +49,11 @@ if (key_space_press) && !lock {
 var oldCursorPos = cursorPos;
 //moves the cursor up and down, 'cool' is the cooldown
 if (key_up && cool > 5) {
-	cursorPos = clamp(cursorPos-1,0,7);
+	cursorPos = clamp(cursorPos-1,0,3);
 	cool = 0;
 }
 if (key_ddown && cool > 5) {
-	cursorPos = clamp(cursorPos+1,0,7);
+	cursorPos = clamp(cursorPos+1,0,3);
 	cool = 0;
 }
 if ( oldCursorPos != cursorPos) {

@@ -29,6 +29,15 @@ if (global.debug){
 	
 }
 
+if (global.sv_cheats) {
+	draw_text(0,400,"Intro: " + string(global.intro));
+	draw_text(0,420,"Body: " + string(global.body));
+	draw_text(0,440,"Head: " + string(global.head));
+	draw_text(0,460,"Arms: " + string(global.arm));
+	draw_text(0,480,"Legs: " + string(global.leg));
+	draw_text(0,500,"Completion: " + string(global.finished));
+}
+
 if (layer_exists("MQ2BG")) {
 	draw_rectangle_color(0,0,210,540,c_black,c_black,c_black,c_black,false);
 	draw_rectangle_color(750,0,960,540,c_black,c_black,c_black,c_black,false);

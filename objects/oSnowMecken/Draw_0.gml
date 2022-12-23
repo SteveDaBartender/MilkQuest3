@@ -1,8 +1,6 @@
-/// @description Insert description here
-// You can write your code in this editor
-
+if live_call() return live_result;
 //this entire fuckin algorithm was found on r/gamemaker it draws a line that stops when it hits a wall
-if (line) {//draw_line(eyeX,eyeY,patrolX,patrolY);
+if (line && on_screen_check(self)) {//draw_line(eyeX,eyeY,patrolX,patrolY);
 	var x1, y1, x2, y2;
 	x1 = eyeX;
 	y1 = eyeY; 
@@ -39,6 +37,8 @@ if (line) {//draw_line(eyeX,eyeY,patrolX,patrolY);
 //if health is low draw the mechen as red, otherwise make him white
 if (hp = 2) draw_sprite_ext(sSnowMecken,0,x,y,image_xscale,1,0,c_white,1);
 else draw_sprite_ext(sSnowMecken,0,x,y,image_xscale,1,0,c_red,1);
-
+var armAngle = global.globalTimer*-10
+if (draw_get_color() != c_red) armAngle = 180
+draw_sprite_ext(sMeckenArm,0,x+(45*image_xscale),y+63,1,1,armAngle,c_white,1)
 
 //draw_sprite(sBox,0,patrolX,patrolY);

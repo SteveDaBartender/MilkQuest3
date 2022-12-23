@@ -5,7 +5,7 @@ and that Mario must take a bus to the next stage. In the Mushroom Kingdom, buses
 operate on an oddly specific schedule, such that every 21 frames a bus departs. 
 When Mario reaches the end of a stage, he must wait for the next bus to depart.*/
 if (key_up && cool > 21) {
-	cursorPos = clamp(cursorPos-1,0,4);
+	cursorPos = clamp(cursorPos-1,0,8);
 	cool = 0;
 	//spaghetti fix because i am too lazy rn to make a actual patch :)
 	if (cursorPos == 3 && gameVer != browser_not_a_browser) {
@@ -13,7 +13,7 @@ if (key_up && cool > 21) {
 	}
 }
 if (key_ddown && cool > 21) {
-	cursorPos = clamp(cursorPos+1,0,4);
+	cursorPos = clamp(cursorPos+1,0,8);
 	cool = 0;
 	if (cursorPos == 3 && gameVer != browser_not_a_browser) {
 		cursorPos = 4	
@@ -102,6 +102,48 @@ switch (cursorPos) {
 			audio_stop_all();
 			currentlyPlaying = audio_play_sound(songList[songId,0],0,true);
 	
+		}
+		break;
+	case 5:
+		goalX1=560
+		goalX2=784
+		goalY1=299
+		goalY2=340
+		if (oPersistent.key_space_press) {
+			audio_play_sound(sBreak,1,false);	
+		}
+		break;
+	case 6:
+		goalX1=560
+		goalX2=784
+		goalY1=339
+		goalY2=380
+		if (oPersistent.key_space_press) {
+			audio_play_sound(sBreak,1,false);	
+		}
+		break;
+	case 7:
+		goalX1=560
+		goalX2=784
+		goalY1=380
+		goalY2=430
+		if (gameVer == browser_firefox) goalY2 += 15
+		if (oPersistent.key_space_press) {
+			clipboard_set_text("SNEED!!!")
+			audio_play_sound(sCheckpointGrab,1,false);	
+		}
+		break;
+	case 8:
+		goalX1=560
+		goalX2=784
+		goalY1=479
+		goalY2=539
+		if (oPersistent.key_space_press && oPersistent.key_down) {
+			clear_game_data()
+			audio_sound_gain(currentlyPlaying,0,60);
+			audio_play_sound(sDiedToDeath,0,false);
+			oFade.destination = rTitle;
+			oFade.state = 1;
 		}
 		break;
 }
