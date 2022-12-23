@@ -15,7 +15,7 @@
     "path": "audiogroups/SFX",
   },
   "soundFile": "sCheckpointGrab.ogg",
-  "duration": 1.723753,
+  "duration": 1.718753,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds/Sounds.yy",

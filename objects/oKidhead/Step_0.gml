@@ -1,9 +1,17 @@
 //gathers the keyboard info
-if (npc = false) {
-getInput();
-} else getNpcInput();
-
-
+if (!controlLock) {
+	if (npc = false) {
+	getInput();
+	} else getNpcInput();
+}
+if (controlLock) {
+key_right = 0;
+key_left = 0;
+key_space = 0
+key_space_press = 0
+key_down = 0
+key_down_hold = 0
+}
 if (!global.gameLock) {
 	
 //calculate horz. movement
@@ -71,6 +79,9 @@ switch state {
 		break;
 	case states.hooked:
 		sprite_index = sKidHang;
+		break;
+	case states.burn:
+		sprite_index = sKidBurn;
 		break;
 }
 if (move != 0) image_xscale = move;

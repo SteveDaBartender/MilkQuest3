@@ -1,7 +1,17 @@
 //gathers the keyboard info
-if (npc = false) {
-getInput();
-} else getNpcInput();
+if (!cutsceneLock && !controlLock) {
+	if (npc = false) {
+	getInput();
+	} else getNpcInput();
+}
+if (controlLock) {
+key_right = 0;
+key_left = 0;
+key_space = 0
+key_space_press = 0
+key_down = 0
+key_down_hold = 0
+}
 //gives a value of -1, 0 or 1 depending on keys
 //sets the movement speed.
 

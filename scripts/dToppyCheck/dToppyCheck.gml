@@ -21,11 +21,11 @@ function dToppyCheck(){
 	icon[8] = sToppyIcon1;
 	text[8] = "Beat the challenge normally (you should've already done this...)."
 	icon[9] = sToppyIcon1;
-	text[9] = "Beat the challenge while collecting less than 10 milks."
+	text[9] = "Beat the challenge while collecting less than 5 milks."
 	icon[10] = sToppyIcon1;
 	text[10] = "Beat the challenge in 5 minutes or less."
 	icon[11] = sToppyIcon1;
-	text[11] = "Beat the challenge while collecting all the milk."
+	text[11] = "Beat the challenge while collecting 140 or more milks."
 	icon[12] = sToppyIcon1;
 	text[12] = "Oh, and if any of the parts are floating, blame the code wizards."
 	/*

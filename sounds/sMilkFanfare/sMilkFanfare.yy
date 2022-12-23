@@ -14,8 +14,8 @@
     "name": "SFX",
     "path": "audiogroups/SFX",
   },
-  "soundFile": "sMilkFanfare.mp3",
-  "duration": 9.435204,
+  "soundFile": "sMilkFanfare.ogg",
+  "duration": 7.124989,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds/Sounds.yy",

@@ -59,4 +59,7 @@ function player_init() {
 	 repeat (13) {
 		ds_list_add(averageHsp, 0);	 
 	 }
+	 
+	 controlLock = false;
+	 getInput();
 }

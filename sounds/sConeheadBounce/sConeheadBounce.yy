@@ -15,7 +15,7 @@
     "path": "audiogroups/SFX",
   },
   "soundFile": "sConeheadBounce.wav",
-  "duration": 0.30822,
+  "duration": 0.30322,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds/Sounds.yy",

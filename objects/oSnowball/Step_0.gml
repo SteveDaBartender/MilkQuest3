@@ -3,8 +3,9 @@ if (place_meeting(x,y,oCollide)) instance_destroy(self); //if touching wall, des
 //if touching the character, change their acceleration
 //and speed based on the snowball's angle
 if (place_meeting(x,y,global.character)) { 
-	global.character.hsp = lengthdir_x(20,direction);
-	global.character.acl = lengthdir_x(3,direction);
+	global.character.hsp = lengthdir_x(15,direction);
+	global.character.acl = lengthdir_x(2,direction);
+	if (global.character == oConehead) global.character.acl /= 2
 	instance_destroy(self);
 }
 //changes the default direction to one of the player

@@ -1,7 +1,17 @@
 //gathers the keyboard info
-if (!npc) {
-getInput();
-} else getNpcInput();
+if (!controlLock) {
+	if (!npc) {
+	getInput();
+	} else getNpcInput();
+}
+if (controlLock) {
+key_right = 0;
+key_left = 0;
+key_space = 0
+key_space_press = 0
+key_down = 0
+key_down_hold = 0
+}
 //gives a value of -1, 0 or 1 depending on keys
 //sets the movement speed.
 
@@ -72,6 +82,9 @@ if (state = states.stomp) angle = 0;
 // ANIMATION //
 image_speed = 1;
 switch state {
+	case states.burn:
+		sprite_index = sConeBurn;
+		break;
 	case states.stomp:
 		sprite_index = sConeBoom;
 		break;

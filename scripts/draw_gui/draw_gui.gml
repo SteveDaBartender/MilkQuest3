@@ -1,6 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function draw_gui(){
+	if live_call() return live_result;
 	draw_set_font(fHUD);
 	//adds the current velocity to a list, then calculate the average velocity (for use in the speed bar)
 
@@ -49,11 +50,14 @@ function draw_gui(){
 		draw_sprite(sSpeedmeter,0,5,105);
 		draw_sprite(sMilkGUI,0,650,25);
 		draw_sprite(sTimer,0,735,55);
-		
+		var cclr = c_black
+		var kclr = c_black
+		if (global.unlockKid) kclr = c_white
+		if (global.unlockConehead) cclr = c_white
 		//shows collected big milks. grayed out as of now.
-		draw_sprite_ext(s1Milk,0,750,9,1,1,0,c_black,1);
-		draw_sprite_ext(s1Milk,0,800,9,1,1,0,c_black,1);
-		draw_sprite_ext(s1Milk,0,850,9,1,1,0,c_black,1);
+		draw_sprite_ext(sFezBlock,0,770,19,1,1,0,c_white,1);
+		draw_sprite_ext(sConeBlock,0,820,19,1,1,0,cclr,1);
+		draw_sprite_ext(sKidBlock,0,870,19,1,1,0,kclr,1);
 		//draws text above milk glass 
 		draw_set_halign(fa_center);
 		draw_text_transformed_color(685,67,string(global.milk),0.73,0.73,0,c_black,c_black,c_black,c_black,1);

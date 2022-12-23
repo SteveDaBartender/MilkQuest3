@@ -21,7 +21,7 @@ saveSlot = 0;
 
 //internal ID used to figure out what version of the saving algorithm is used.
 //will rpobably be used to reset savefiles between updates.
-saveVersion = 0.1;
+saveVersion = 2;
 
 //creates a list of big milks gathered.
 bigMilksCollected = ds_list_create();

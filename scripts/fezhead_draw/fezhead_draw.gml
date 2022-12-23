@@ -29,6 +29,7 @@ function fezhead_draw(){
 			else sprite_index = sFezDown;
 			break;
 		case states.normal:
+		if (!cutsceneLock) {
 			if (roll){
 				sprite_index =sFezRoll;
 			} else if (!place_meeting(x,y+1,oCollide) && !position_meeting(x,y+1,o1Way))
@@ -75,6 +76,7 @@ function fezhead_draw(){
 					walkParticle(room,global.character);
 				}
 			}
+		}
 			break;
 	
 	}

@@ -15,7 +15,7 @@
     "path": "audiogroups/SFX",
   },
   "soundFile": "sMilkAppear.ogg",
-  "duration": 7.255,
+  "duration": 7.25,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds/Sounds.yy",

@@ -15,7 +15,7 @@ killType = kt.none;
 //mode defines how the mecken moves it's line of sight
 mode = "circle"
 //how long before each snowball
-snowballCooldown = 35;
+snowballCooldown = 40;
 //the starting point at which the eye's line will be drawn
 eyeY = y + 30;
 eyeX = x - 14;
