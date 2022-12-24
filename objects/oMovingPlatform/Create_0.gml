@@ -9,3 +9,4 @@ theta_speed = 1;
 moveX = true;
 moveY = false;
 locked = false;
+offset = 0

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMTileSet",
+  "resourceVersion": "1.0",
+  "name": "tSidewayValleyMQ2",
   "spriteId": {
     "name": "sSidewayValleyMQ2",
     "path": "sprites/sSidewayValleyMQ2/sSidewayValleyMQ2.yy",
@@ -60,8 +63,4 @@
     "name": "Tile Sets",
     "path": "folders/Tile Sets.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "tSidewayValleyMQ2",
-  "tags": [],
-  "resourceType": "GMTileSet",
 }

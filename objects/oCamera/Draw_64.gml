@@ -25,17 +25,16 @@ if (global.debug){
 	draw_text(0,340, string(room_next(room)));
 	draw_text(880,0 ,string(fps) + "Capped FPS");
 	draw_text(800,20 ,string(realFpsAvg) + " Total FPS");
-	//draw_sprite_ext(mask_index,0,x,y,1,1,0,c_aqua,0.5);
-	
-}
-
-if (global.sv_cheats) {
+	draw_text(0,360,"Time Left: " + string(oPlayer.timeleft));
+	draw_text(0,380,"Best Time: " + string(global.besttime));
 	draw_text(0,400,"Intro: " + string(global.intro));
 	draw_text(0,420,"Body: " + string(global.body));
 	draw_text(0,440,"Head: " + string(global.head));
 	draw_text(0,460,"Arms: " + string(global.arm));
 	draw_text(0,480,"Legs: " + string(global.leg));
 	draw_text(0,500,"Completion: " + string(global.finished));
+	//draw_sprite_ext(mask_index,0,x,y,1,1,0,c_aqua,0.5);
+	
 }
 
 if (layer_exists("MQ2BG")) {

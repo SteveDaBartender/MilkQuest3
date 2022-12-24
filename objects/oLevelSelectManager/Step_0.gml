@@ -26,6 +26,9 @@ if (key_space_press) {
 		case 4:
 			change_room(rHub, 0, 0, true, char);
 			break;
+		case 5:
+			change_room(rTest, 0, 0, true, char);
+			break;
 	}
 }
 
@@ -46,11 +49,11 @@ if (key_down) {
 
 //moves the cursor up and down, 'cool' is the cooldown
 if (key_up && cool > 5) {
-	cursorPos = clamp(cursorPos-1,0,31);
+	cursorPos = clamp(cursorPos-1,0,5);
 	cool = 0;
 }
 if (key_ddown && cool > 5) {
-	cursorPos = clamp(cursorPos+1,0,31);
+	cursorPos = clamp(cursorPos+1,0,5);
 	cool = 0;
 }
 //increment the cooldown

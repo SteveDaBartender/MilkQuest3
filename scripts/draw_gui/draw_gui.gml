@@ -54,6 +54,10 @@ function draw_gui(){
 		var kclr = c_black
 		if (global.unlockKid) kclr = c_white
 		if (global.unlockConehead) cclr = c_white
+		//milk glass level that raises based on level
+		var totalMilk = 50
+		if (room = rChristmasLevel1) totalMilk = 150;
+		draw_sprite_part_ext(sMilkFull,0,0,0,600,108*(global.milk/totalMilk),650,133,1,-1,c_white,1)
 		//shows collected big milks. grayed out as of now.
 		draw_sprite_ext(sFezBlock,0,770,19,1,1,0,c_white,1);
 		draw_sprite_ext(sConeBlock,0,820,19,1,1,0,cclr,1);
@@ -61,7 +65,8 @@ function draw_gui(){
 		//draws text above milk glass 
 		draw_set_halign(fa_center);
 		draw_text_transformed_color(685,67,string(global.milk),0.73,0.73,0,c_black,c_black,c_black,c_black,1);
-		draw_text_transformed(685,65,string(global.milk),0.7,0.7,0);
+		var tclr = #bbbbbb
+		draw_text_transformed_color(685,65,string(global.milk),0.7,0.7,0,tclr,tclr,tclr,tclr,1);
 		draw_set_halign(fa_left);
 		
 		//draws clock's hand

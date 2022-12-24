@@ -499,6 +499,7 @@
     {"id":{"name":"dSantaFirst","path":"scripts/dSantaFirst/dSantaFirst.yy",},"order":7,},
     {"id":{"name":"rLevelSelect","path":"rooms/rLevelSelect/rLevelSelect.yy",},"order":4,},
     {"id":{"name":"GMLive_roomLoader","path":"scripts/GMLive_roomLoader/GMLive_roomLoader.yy",},"order":2,},
+    {"id":{"name":"generate_mqmc_code","path":"scripts/generate_mqmc_code/generate_mqmc_code.yy",},"order":16,},
     {"id":{"name":"sSantaIcon1","path":"sprites/sSantaIcon1/sSantaIcon1.yy",},"order":7,},
     {"id":{"name":"rTitle","path":"rooms/rTitle/rTitle.yy",},"order":1,},
     {"id":{"name":"squish_script","path":"scripts/squish_script/squish_script.yy",},"order":6,},
@@ -535,6 +536,7 @@
     {"id":{"name":"sCannon","path":"sprites/sCannon/sCannon.yy",},"order":1,},
     {"id":{"name":"sConeIcon2","path":"sprites/sConeIcon2/sConeIcon2.yy",},"order":4,},
     {"id":{"name":"oEndScreen","path":"objects/oEndScreen/oEndScreen.yy",},"order":36,},
+    {"id":{"name":"base_convert","path":"scripts/base_convert/base_convert.yy",},"order":17,},
     {"id":{"name":"sTirestenDeath","path":"sounds/sTirestenDeath/sTirestenDeath.yy",},"order":20,},
     {"id":{"name":"sh_audio_stop_all","path":"scripts/sh_audio_stop_all/sh_audio_stop_all.yy",},"order":2,},
     {"id":{"name":"GMLive_compiler","path":"scripts/GMLive_compiler/GMLive_compiler.yy",},"order":1,},
@@ -718,6 +720,7 @@
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","loadType":"default","directory":"","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
+    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"noCrop","isScaled":true,"compressFormat":"bz2","loadType":"default","directory":"","autocrop":false,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"dScriptText.txt","CopyToMask":-1,"filePath":"datafiles",},

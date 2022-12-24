@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMTileSet",
+  "resourceVersion": "1.0",
+  "name": "tPico1",
   "spriteId": null,
   "tileWidth": 8,
   "tileHeight": 8,
@@ -288,8 +291,4 @@
     "name": "Tile Sets",
     "path": "folders/Tile Sets.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "tPico1",
-  "tags": [],
-  "resourceType": "GMTileSet",
 }

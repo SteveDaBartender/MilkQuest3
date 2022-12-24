@@ -21,8 +21,8 @@
   "width": 72,
   "height": 108,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "noCrop",
+    "path": "texturegroups/noCrop",
   },
   "swatchColours": null,
   "gridX": 0,

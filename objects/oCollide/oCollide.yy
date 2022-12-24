@@ -1,7 +1,11 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "oCollide",
   "spriteId": null,
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -24,8 +28,4 @@
     "name": "Level Assets",
     "path": "folders/Objects/Level Assets.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "oCollide",
-  "tags": [],
-  "resourceType": "GMObject",
 }

@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "oSideSpring",
   "spriteId": {
     "name": "sWall0",
     "path": "sprites/sWall0/sWall0.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -27,8 +31,4 @@
     "name": "Level Assets",
     "path": "folders/Objects/Level Assets.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "oSideSpring",
-  "tags": [],
-  "resourceType": "GMObject",
 }

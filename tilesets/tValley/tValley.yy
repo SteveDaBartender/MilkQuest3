@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMTileSet",
+  "resourceVersion": "1.0",
+  "name": "tValley",
   "spriteId": {
     "name": "sValleyTileset",
     "path": "sprites/sValleyTileset/sValleyTileset.yy",
@@ -320,8 +323,4 @@
     "name": "Tile Sets",
     "path": "folders/Tile Sets.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "tValley",
-  "tags": [],
-  "resourceType": "GMTileSet",
 }

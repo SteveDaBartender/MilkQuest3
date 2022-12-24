@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMTileSet",
+  "resourceVersion": "1.0",
+  "name": "tMQ2CarnivalTowerCone",
   "spriteId": {
     "name": "sTileset2MQ2Cone",
     "path": "sprites/sTileset2MQ2Cone/sTileset2MQ2Cone.yy",
@@ -20,30 +23,30 @@
   "tile_count": 64,
   "autoTileSets": [],
   "tileAnimationFrames": [
-    {"frames":[
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"animation_1","frames":[
         36,
         38,
         52,
         54,
-      ],"resourceVersion":"1.0","name":"animation_1","tags":[],"resourceType":"GMTileAnimation",},
-    {"frames":[
+      ],},
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"animation_2","frames":[
         37,
         39,
         53,
         55,
-      ],"resourceVersion":"1.0","name":"animation_2","tags":[],"resourceType":"GMTileAnimation",},
-    {"frames":[
+      ],},
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"carnivalNoRed","frames":[
         4,
         11,
         12,
         19,
-      ],"resourceVersion":"1.0","name":"carnivalNoRed","tags":[],"resourceType":"GMTileAnimation",},
-    {"frames":[
+      ],},
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"carnivalRed","frames":[
         1,
         8,
         9,
         17,
-      ],"resourceVersion":"1.0","name":"carnivalRed","tags":[],"resourceType":"GMTileAnimation",},
+      ],},
   ],
   "tileAnimationSpeed": 15.0,
   "tileAnimation": {
@@ -316,8 +319,4 @@
     "name": "Tile Sets",
     "path": "folders/Tile Sets.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "tMQ2CarnivalTowerCone",
-  "tags": [],
-  "resourceType": "GMTileSet",
 }

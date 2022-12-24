@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMTileSet",
+  "resourceVersion": "1.0",
+  "name": "tTest",
   "spriteId": {
     "name": "sTestTIle",
     "path": "sprites/sTestTIle/sTestTIle.yy",
@@ -143,8 +146,4 @@
     "name": "Tile Sets",
     "path": "folders/Tile Sets.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "tTest",
-  "tags": [],
-  "resourceType": "GMTileSet",
 }

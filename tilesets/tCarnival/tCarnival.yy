@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMTileSet",
+  "resourceVersion": "1.0",
+  "name": "tCarnival",
   "spriteId": {
     "name": "sCarnivalTileset",
     "path": "sprites/sCarnivalTileset/sCarnivalTileset.yy",
@@ -135,8 +138,4 @@
     "name": "Tile Sets",
     "path": "folders/Tile Sets.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "tCarnival",
-  "tags": [],
-  "resourceType": "GMTileSet",
 }

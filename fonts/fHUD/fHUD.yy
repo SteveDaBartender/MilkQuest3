@@ -1,8 +1,12 @@
 {
+  "resourceType": "GMFont",
+  "resourceVersion": "1.0",
+  "name": "fHUD",
   "hinting": 0,
   "glyphOperations": 0,
   "interpreter": 0,
   "pointRounding": 0,
+  "applyKerning": 0,
   "fontName": "Ubuntu Medium",
   "styleName": "Medium",
   "size": 50.0,
@@ -20,6 +24,7 @@
     "path": "texturegroups/Default",
   },
   "ascenderOffset": 0,
+  "ascender": 0,
   "glyphs": {
     "32": {"x":2,"y":2,"w":16,"h":77,"character":32,"shift":16,"offset":0,},
     "33": {"x":203,"y":160,"w":12,"h":77,"character":33,"shift":21,"offset":4,},
@@ -130,8 +135,4 @@
     "name": "Fonts",
     "path": "folders/Fonts.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "fHUD",
-  "tags": [],
-  "resourceType": "GMFont",
 }

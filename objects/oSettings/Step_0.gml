@@ -129,7 +129,7 @@ switch (cursorPos) {
 		goalY2=430
 		if (gameVer == browser_firefox) goalY2 += 15
 		if (oPersistent.key_space_press) {
-			clipboard_set_text("SNEED!!!")
+			clipboard_set_text(generate_mqmc_code())
 			audio_play_sound(sCheckpointGrab,1,false);	
 		}
 		break;

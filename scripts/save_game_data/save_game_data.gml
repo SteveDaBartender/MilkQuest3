@@ -14,5 +14,7 @@ function save_game_data(argument0){
 	ini_write_real("savedata","body",global.body)
 	ini_write_real("savedata","complete",global.finished)
 	
+	ini_write_real("persistent","besttime",global.besttime)
+	
 	ini_close();
 }

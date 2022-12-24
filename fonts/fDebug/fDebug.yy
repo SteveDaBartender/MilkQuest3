@@ -1,8 +1,12 @@
 {
+  "resourceType": "GMFont",
+  "resourceVersion": "1.0",
+  "name": "fDebug",
   "hinting": 0,
   "glyphOperations": 0,
   "interpreter": 0,
   "pointRounding": 0,
+  "applyKerning": 0,
   "fontName": "VCR OSD Mono",
   "styleName": "Regular",
   "size": 15.0,
@@ -20,6 +24,7 @@
     "path": "texturegroups/Default",
   },
   "ascenderOffset": 0,
+  "ascender": 0,
   "glyphs": {
     "32": {"x":2,"y":2,"w":12,"h":21,"character":32,"shift":12,"offset":0,},
     "33": {"x":52,"y":71,"w":3,"h":21,"character":33,"shift":12,"offset":3,},
@@ -130,8 +135,4 @@
     "name": "Fonts",
     "path": "folders/Fonts.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "fDebug",
-  "tags": [],
-  "resourceType": "GMFont",
 }

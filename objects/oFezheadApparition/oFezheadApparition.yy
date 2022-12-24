@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "oFezheadApparition",
   "spriteId": {
     "name": "apparition",
     "path": "sprites/apparition/apparition.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -27,8 +31,4 @@
     "name": "Misc.",
     "path": "folders/Objects/Misc..yy",
   },
-  "resourceVersion": "1.0",
-  "name": "oFezheadApparition",
-  "tags": [],
-  "resourceType": "GMObject",
 }

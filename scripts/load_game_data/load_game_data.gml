@@ -9,6 +9,8 @@ function load_game_data(argument0){
 	global.body = ini_read_real("savedata","body",0)
 	global.finished = ini_read_real("savedata","complete",0)
 
+	global.besttime = ini_read_real("persistent","besttime",99999)
+
 	show_debug_message("loaded game!");
 	ini_close();
 }
