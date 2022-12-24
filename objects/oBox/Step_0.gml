@@ -1,5 +1,5 @@
 char = global.character;
-if (on_screen_check(self)) {
+
 	switch (char) {
 		case oFezhead:
 			//if player is fezhead,rolling, and nearby the box, destroy it.
@@ -25,4 +25,3 @@ if (on_screen_check(self)) {
 			}
 			break;
 	}
-}

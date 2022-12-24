@@ -64,6 +64,9 @@ function player_wide_function() {
 		hsp-= lol.x - lol.ox;	
 	}
 	
+	var milk = instance_place(x,y,oMilk)
+	if (milk != noone) milk.pt = true;
+	
 	lastVsp = vsp;
 	lastHsp = hsp;
 	//moves characters if WASD is pressed in debug mode.

@@ -12,10 +12,6 @@ if (true) {
 display_set_gui_size(window_get_width(), window_get_height());
 display_set_gui_maximise();
 */
-//alternate level select for demos
-if (keyboard_check(ord("P")) && keyboard_check(ord("O"))) {
-	change_room(rLevelSelect, 0, 0, true, 0);	
-}
 
 //buncha different resolutions the game can run in
 switch global.resolution {
@@ -56,7 +52,7 @@ if (window_get_fullscreen() && maxFulscreenRes && false) {
 	view_wport[0] = display_get_width();
 }
 
-surface_resize(application_surface,view_wport[0],view_hport[0])
+//surface_resize(application_surface,view_wport[0],view_hport[0])
 camera_set_view_size(cam, view_wport[0], view_hport[0]);
 view_w_half = camera_get_view_width(cam) * 0.5;
 view_h_half = camera_get_view_height(cam) * 0.5;

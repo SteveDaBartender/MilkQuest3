@@ -30,6 +30,6 @@ repeat 50 {
 }
 
 
-global.volMus = 0.3;
-global.volSFX = 0.3;
+global.volMus = 0.5;
+global.volSFX = 0.5;
 

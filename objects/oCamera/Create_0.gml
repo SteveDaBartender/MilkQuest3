@@ -3,7 +3,9 @@
 
 
 averageFps = ds_list_create();
-fpsTotal = 0;
+repeat (120) {
+	ds_list_add(averageFps, fps_real);	
+}
 
 global.transitionType = 0;
 global.transitionTime = 0;

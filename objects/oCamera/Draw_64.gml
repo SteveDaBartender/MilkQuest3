@@ -1,8 +1,15 @@
 char = global.character;
 if (global.debug){
 	ds_list_add(averageFps, fps_real);
-	fpsTotal += fps_real;
-	 realFpsAvg =  fpsTotal / ds_list_size(averageFps);
+	var hihomer = 0;
+	var realFpsAvg = 0;
+	var lenny = ds_list_size(averageFps);
+	repeat(lenny) {
+		realFpsAvg += ds_list_find_value(averageFps,hihomer);
+		hihomer++;
+	}
+	ds_list_delete(averageFps,0);
+	realFpsAvg /= lenny;
 	
 	draw_set_colour(c_white);
 	draw_set_font(fDebug);
