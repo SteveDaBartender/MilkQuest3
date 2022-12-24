@@ -14,3 +14,4 @@ switch (npcFollower) {
 			npc.npc = true;
 			break;
 }
+

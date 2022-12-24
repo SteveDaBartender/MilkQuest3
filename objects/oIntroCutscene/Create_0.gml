@@ -8,3 +8,4 @@ mailboxState = 1
 carState = true;
 carX = 1550
 y = 520
+fadeOpacity = 0

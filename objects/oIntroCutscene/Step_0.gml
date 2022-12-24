@@ -27,22 +27,24 @@ switch (step) {
 		if (global.character.x >= 1335) {
 			timer = 0
 			step++;
+			call_textbox(dIntro1)
 		}
 		break;
 	case 3:
 		global.character.cutsceneLock = true;
 		global.character.sprite_index = sFezBack
 		timer++;
-		if (timer >= 60) {
+		if (!instance_exists(oTextbox)) {
 			timer = 0
-			step++;
+			step = 4;
+			call_textbox(dIntro2)
 		}
 		break;
 	case 4:
 		global.character.sprite_index = sFezLetter
 		mailboxState = 2;
 		timer++;
-		if (timer >= 60) {
+		if (!instance_exists(oTextbox)) {
 			timer = 0
 			step++;
 			global.character.cutsceneLock = false;
@@ -71,18 +73,28 @@ switch (step) {
 		if (global.character.x <= 100) {
 			step++
 			timer = 0
+		}
+		break;
+	case 7:
+		fadeOpacity += 0.03;
+		if (fadeOpacity >= 1) {
+			step++
+			timer = 0
 			global.character.x = 4000
 			x = 4000
 			global.character.hsp = -7
 			y -= 70
+			global.character.y = 543
 		}
 		break;
-	case 7:
+	case 8:
+		fadeOpacity -= 0.03
+		//fadeOpacity = 0
 		if (global.character.x <= 3752) {
 			step++;		
 		}
 		break;
-	case 8:
+	case 9:
 		carState = true;
 		carX = global.character.x 
 		x = 3750
@@ -91,7 +103,7 @@ switch (step) {
 		step++;
 		global.character.controlLock = false;
 		break;
-	case 9:
+	case 10:
 		x = global.character.x+100
 		x = clamp(x,3200,5000)
 		break;

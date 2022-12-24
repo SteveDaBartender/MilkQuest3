@@ -38,7 +38,7 @@ if (!audio_is_playing(sMilkFanfare) && collected) {
 
 if (place_meeting(x,y,global.character)) {
 	audio_stop_all()
-	if (oPlayer.timeleft <= global.besttime) global.besttime = oPlayer.timeleft
+	if (oPlayer.timeleft <= global.besttime) global.besttime = clamp(oPlayer.timeleft,1,3600)
 	audio_play_sound(sMilkFanfare,0,false)
 	y += 10000;
 	show_debug_message("YOU ARE WIN.")

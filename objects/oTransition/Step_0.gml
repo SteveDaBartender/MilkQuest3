@@ -22,6 +22,7 @@ if (avaliable && !press && place_meeting(x,y,oPlayer)) || (press && key_up && pl
 	oFade.destination = destination
 	global.gameLock = true;
 	avaliable = 0;
+	global.gustavoFring = global.levelTimer
 	if (stop) audio_stop_all()
 	if (xTo != 0) {
 		global.spawnX = xTo;

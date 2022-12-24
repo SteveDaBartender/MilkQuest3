@@ -81,6 +81,6 @@ if (cursorPos > 15 && cursorPos <= 32) {
 draw_text(lvlOffsetR1,420,"Credits");
 draw_text(lvlOffsetR1,440,"Code, Artwork, Design: Steve the Bartender");
 draw_text(lvlOffsetR1,460,"Music & Design: Caramel");
-draw_text(lvlOffsetR1,520,"Special Thanks: sup3p, FANTIC, James Cleland, Birb, Axelcuty, Doodle");
+draw_text(lvlOffsetR1,520,"Special Thanks: sup3p, FANTIC, James, Birb, Axelcuty, Doodle");
 
 
