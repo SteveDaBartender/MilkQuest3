@@ -13,7 +13,7 @@ if (round(xv) == 0) {
 }
 
 xv *= 0.985;
-x = (2*x+xv)/2;
+x = clamp((2*x+xv)/2,0,750);
 
 //tbh this could 100% be done through GMS built in layer properties
 //i was just really fucking dumb when i wrote it
@@ -29,4 +29,5 @@ if (type = 0) {
 	{
 		layer_x("TitleMountain",grassx/30);
 	}
-} else if (type = 1) sprite_index = sKidSkateboard;
+} else if (type = 1) {sprite_index = sKidSkateboard;} else if (type = 2) sprite_index = sConeRocket;
+

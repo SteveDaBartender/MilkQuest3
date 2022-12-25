@@ -173,6 +173,7 @@
     {"id":{"name":"sSlope","path":"sprites/sSlope/sSlope.yy",},"order":4,},
     {"id":{"name":"sTestTIle","path":"sprites/sTestTIle/sTestTIle.yy",},"order":6,},
     {"id":{"name":"sh_godmode","path":"scripts/sh_godmode/sh_godmode.yy",},"order":9,},
+    {"id":{"name":"sConeRocket","path":"sprites/sConeRocket/sConeRocket.yy",},"order":9,},
     {"id":{"name":"sMovPlatEditor","path":"sprites/sMovPlatEditor/sMovPlatEditor.yy",},"order":23,},
     {"id":{"name":"tFactory","path":"tilesets/tFactory/tFactory.yy",},"order":7,},
     {"id":{"name":"sFezSelecter","path":"sprites/sFezSelecter/sFezSelecter.yy",},"order":9,},

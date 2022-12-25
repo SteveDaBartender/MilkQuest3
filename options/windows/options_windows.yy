@@ -4,7 +4,7 @@
   "name": "Windows",
   "option_windows_display_name": "Milk Quest: Milk & Cookies",
   "option_windows_executable_name": "MilkQuest3",
-  "option_windows_version": "1.1.0.0",
+  "option_windows_version": "1.1.1.0",
   "option_windows_company_info": "Steve The Bartender",
   "option_windows_product_info": "Made in GameMaker Studio 2",
   "option_windows_copyright_info": "I made this :)",
