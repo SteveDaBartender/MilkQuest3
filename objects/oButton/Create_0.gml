@@ -4,7 +4,6 @@ stop = false;
 switch (id) {
 //from here the graphic and room is set
 	case inst_43C2991F:
-		destination = rFezTutorial;
 		stop = true;
 		sprite_index = sButtonStart;
 		break;
@@ -12,9 +11,6 @@ switch (id) {
 		destination = rChristmasHub;
 		stop = false;
 		sprite_index = sButtonClear;
-		break;
-	case inst_MQ2Button:
-		sprite_index = sMilkQuest2Button;
 		break;
 	case inst_TitleScreenButton:
 		sprite_index = sButtonStart;

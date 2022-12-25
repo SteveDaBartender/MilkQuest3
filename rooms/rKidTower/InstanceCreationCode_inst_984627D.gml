@@ -1,2 +1,0 @@
-moveX = false;
-moveY = true;

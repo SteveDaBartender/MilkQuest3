@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "oFezheadTitleMQ2",
-  "spriteId": {
-    "name": "sFezheadTitleFallMQ2",
-    "path": "sprites/sFezheadTitleFallMQ2/sFezheadTitleFallMQ2.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

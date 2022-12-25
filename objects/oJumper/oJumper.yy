@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "oJumper",
-  "spriteId": {
-    "name": "sJumperRun",
-    "path": "sprites/sJumperRun/sJumperRun.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

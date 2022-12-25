@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "oBubblegum",
-  "spriteId": {
-    "name": "sBubbleIdle",
-    "path": "sprites/sBubbleIdle/sBubbleIdle.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

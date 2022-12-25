@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "oConeheadMQ2",
-  "spriteId": {
-    "name": "sConeheadJumpMQ2",
-    "path": "sprites/sConeheadJumpMQ2/sConeheadJumpMQ2.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

@@ -18,9 +18,7 @@
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Object","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_573D47D3","properties":[],"isDnd":false,"objectId":{"name":"oTitleFez","path":"objects/oTitleFez/oTitleFez.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":163.0,"y":291.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_TitleScreenButton","properties":[],"isDnd":false,"objectId":{"name":"oButton","path":"objects/oButton/oButton.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-192.0,"y":256.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7E01C3E2","properties":[],"isDnd":false,"objectId":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":448.0,"y":672.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_MQ2Button","properties":[],"isDnd":false,"objectId":{"name":"oButton","path":"objects/oButton/oButton.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-192.0,"y":160.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_657B0B96","properties":[],"isDnd":false,"objectId":{"name":"oTitleFez","path":"objects/oTitleFez/oTitleFez.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":384.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_115A034F","properties":[],"isDnd":false,"objectId":{"name":"oPersistent","path":"objects/oPersistent/oPersistent.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":128.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4480D93D","properties":[],"isDnd":false,"objectId":{"name":"oTitleManager","path":"objects/oTitleManager/oTitleManager.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":512.0,"y":224.0,},
@@ -45,9 +43,7 @@
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_573D47D3","path":"rooms/rTitle/rTitle.yy",},
-    {"name":"inst_TitleScreenButton","path":"rooms/rTitle/rTitle.yy",},
     {"name":"inst_7E01C3E2","path":"rooms/rTitle/rTitle.yy",},
-    {"name":"inst_MQ2Button","path":"rooms/rTitle/rTitle.yy",},
     {"name":"inst_657B0B96","path":"rooms/rTitle/rTitle.yy",},
     {"name":"inst_115A034F","path":"rooms/rTitle/rTitle.yy",},
     {"name":"inst_4480D93D","path":"rooms/rTitle/rTitle.yy",},

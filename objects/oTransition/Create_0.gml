@@ -1,4 +1,4 @@
-destination = rFezTower;
+destination = rChristmasHub;
 stop = false;
 xTo = 0;
 yTo = 0;

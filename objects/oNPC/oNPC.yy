@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "oNPC",
-  "spriteId": {
-    "name": "sNuttIdle",
-    "path": "sprites/sNuttIdle/sNuttIdle.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

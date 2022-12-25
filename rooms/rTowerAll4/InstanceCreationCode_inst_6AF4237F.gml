@@ -1,1 +1,0 @@
-if (global.character != oConehead ) instance_destroy(self);

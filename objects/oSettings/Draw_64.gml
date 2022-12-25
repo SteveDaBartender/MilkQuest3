@@ -28,12 +28,12 @@ draw_text_transformed(30,290,"Programming",0.5,0.5,0);
 draw_text_transformed(30,310,"Steve the Bartender",0.33,0.33,0);
 draw_text_transformed(30,325,"Music",0.55,0.5,0);
 draw_text_transformed(30,345,"Caramel",0.33,0.33,0);
-draw_text_transformed(30,360,"Varadox (\"Factory\" Meledy)",0.33,0.33,0);
+draw_text_transformed(30,360,"Varadox (\"Factory\" Melody)",0.33,0.33,0);
 draw_text_transformed(30,375,"Planning & Design",0.5,0.5,0);
 draw_text_transformed(30,395,"Steve the Bartender",0.33,0.33,0);
 draw_text_transformed(30,410,"Caramel",0.33,0.33,0);
 draw_text_transformed(30,420,"Play Testing",0.5,0.5,0);
-draw_text_transformed(30,440,"YOU.",0.33,0.33,0);
+draw_text_transformed(30,440,"Caramel",0.33,0.33,0);
 draw_text_transformed(30,455,"Special Thanks",0.5,0.5,0);
 draw_text_transformed(30,475,"rou.sr (Discord Rich Presence)",0.33,0.33,0);
 draw_text_transformed(30,490,"GMLive",0.33,0.33,0);
@@ -67,12 +67,13 @@ draw_set_alpha(1);
 //spinny record
 draw_text_transformed(314,250,"Sound Test",1,1,0);
 draw_sprite_ext(sRecordSettings,0,417,392,0.9,0.9,image_angle,c_white,1);
-var width = (string_width(string(songList[songId,1]))*0.33)+30
+var width = (string_width(string(songList[songId,1]))*0.33)+48
+if (songId = 2 || songId = 5) width = 12312839816238791
 var thesin = sin(global.globalTimer/100)*3
 draw_set_halign(fa_center);
 var alpha = sin(global.globalTimer/60)+1.2
-//draw_sprite_ext(sSettingsArrow,0,416+width/2+thesin,507,1,1,0,c_white,alpha)
-//draw_sprite_ext(sSettingsArrow,0,416-width/2-thesin,507,-1,1,0,c_white,alpha)
+draw_sprite_ext(sSettingsArrow,0,416+width/2+thesin,507,0.5,0.5,0,c_white,alpha)
+draw_sprite_ext(sSettingsArrow,0,416-width/2-thesin,507,-0.5,0.5,0,c_white,alpha)
 draw_text_transformed(416,500,string(songList[songId,1]),0.5,0.5,0);
 draw_set_halign(fa_left);
 

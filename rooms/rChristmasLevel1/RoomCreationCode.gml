@@ -3,3 +3,5 @@ global.currentSong = sChristmas
 
 global.unlockConehead = false
 global.unlockKid = false
+
+global.milk = 0;

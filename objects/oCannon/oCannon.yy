@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "oCannon",
-  "spriteId": {
-    "name": "sCannonHold",
-    "path": "sprites/sCannonHold/sCannonHold.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

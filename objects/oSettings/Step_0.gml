@@ -41,6 +41,7 @@ switch (cursorPos) {
 			oFade.state = 1;
 			audio_sound_gain(currentlyPlaying,0,500);
 			oFade.destination = rTitle;
+			audio_play_sound(sMenuClose,0,false);
 		}
 		break;
 	case 1:
@@ -74,6 +75,7 @@ switch (cursorPos) {
 		goalY1=200
 		if (gameVer = browser_not_a_browser) {
 			if (key_space_press) {
+				audio_play_sound(sMenuMove,0,false);
 				if (window_get_fullscreen()) {
 					window_set_fullscreen(false);
 				}else {

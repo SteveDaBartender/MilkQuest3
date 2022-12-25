@@ -1,1 +1,0 @@
-wakeupRange = 200;

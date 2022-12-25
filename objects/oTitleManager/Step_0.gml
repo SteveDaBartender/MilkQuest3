@@ -10,6 +10,7 @@ if (key_space_press) && !lock {
 	switch (cursorPos) {
 		case 0:
 				audio_stop_all();
+				audio_play_sound(sStartSound,0,false);
 				global.character = oFezhead;
 				global.spawnConehead = false;
 				global.xSpawn = 0;
@@ -27,6 +28,7 @@ if (key_space_press) && !lock {
 			lock = true
 			oFade.destination = rNewTutorial;
 			audio_stop_all();
+			audio_play_sound(sStartSound,0,false);
 			global.character = oFezhead;
 			global.spawnConehead = false;
 			global.xSpawn = 0;
@@ -37,6 +39,7 @@ if (key_space_press) && !lock {
 				oFade.state = 1;
 				lock = true
 				oFade.destination = rSettings;
+				audio_play_sound(sMenuOpen,0,false);
 		break;
 		case 3:
 			game_end();

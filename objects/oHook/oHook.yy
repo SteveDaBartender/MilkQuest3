@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "oHook",
-  "spriteId": {
-    "name": "sHook",
-    "path": "sprites/sHook/sHook.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

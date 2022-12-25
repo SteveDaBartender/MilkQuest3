@@ -1,1 +1,0 @@
-theta = random(360)

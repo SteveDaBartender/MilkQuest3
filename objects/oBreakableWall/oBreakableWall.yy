@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "oBreakableWall",
-  "spriteId": {
-    "name": "sBreakableWall",
-    "path": "sprites/sBreakableWall/sBreakableWall.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "oFishHook",
-  "spriteId": {
-    "name": "sFishingHook",
-    "path": "sprites/sFishingHook/sFishingHook.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

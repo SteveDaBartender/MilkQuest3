@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "oCharacterSelectMQ2",
-  "spriteId": {
-    "name": "sCharacterSelectMQ2",
-    "path": "sprites/sCharacterSelectMQ2/sCharacterSelectMQ2.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

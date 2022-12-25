@@ -8,7 +8,7 @@ if (!audio_is_playing(sMilkFanfare) && collected) {
 		global.leg = true;
 		global.toppyDialogue = "leg"
 	}
-	if (global.milk <= 5 && !global.head) {
+	if (global.milk <= 10 && !global.head) {
 		global.head = true;
 		global.toppyDialogue = "head"
 	} 

@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "oFezheadMQ2",
-  "spriteId": {
-    "name": "sFezIdleMQ2",
-    "path": "sprites/sFezIdleMQ2/sFezIdleMQ2.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

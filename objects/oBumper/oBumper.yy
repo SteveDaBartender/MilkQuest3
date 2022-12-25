@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "oBumper",
-  "spriteId": {
-    "name": "sBumper",
-    "path": "sprites/sBumper/sBumper.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

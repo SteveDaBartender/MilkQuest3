@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "oWheelCarriage",
-  "spriteId": {
-    "name": "sCarriage",
-    "path": "sprites/sCarriage/sCarriage.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

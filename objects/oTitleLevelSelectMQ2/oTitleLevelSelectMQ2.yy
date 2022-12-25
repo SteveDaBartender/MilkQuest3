@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "oTitleLevelSelectMQ2",
-  "spriteId": {
-    "name": "sTitleLevelMQ2",
-    "path": "sprites/sTitleLevelMQ2/sTitleLevelMQ2.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
