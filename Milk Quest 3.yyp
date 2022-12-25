@@ -158,6 +158,7 @@
     {"id":{"name":"sTitleWater","path":"sprites/sTitleWater/sTitleWater.yy",},"order":0,},
     {"id":{"name":"oAllSprites","path":"objects/oAllSprites/oAllSprites.yy",},"order":1,},
     {"id":{"name":"sCheckpointGrab","path":"sounds/sCheckpointGrab/sCheckpointGrab.yy",},"order":22,},
+    {"id":{"name":"sTutBG","path":"sprites/sTutBG/sTutBG.yy",},"order":49,},
     {"id":{"name":"sJumperDie","path":"sprites/sJumperDie/sJumperDie.yy",},"order":3,},
     {"id":{"name":"sSnowMecken","path":"sprites/sSnowMecken/sSnowMecken.yy",},"order":2,},
     {"id":{"name":"conehead_jump","path":"scripts/conehead_jump/conehead_jump.yy",},"order":0,},

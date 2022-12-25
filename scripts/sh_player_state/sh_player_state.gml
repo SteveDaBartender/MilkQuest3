@@ -1,6 +1,8 @@
 function sh_player_state(args){
-	oPlayer.state = args[1]
-	return "Sucecfully changed player state.";
+	if (global.sv_cheats) {
+		oPlayer.state = args[1]
+		return "Sucecfully changed player state.";
+	} else return "Please Enable Cheats."
 }
 function meta_player_state() {
 	return {

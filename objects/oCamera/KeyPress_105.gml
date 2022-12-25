@@ -1,1 +1,1 @@
-change_character(oKidhead);
+if (global.sv_cheats) change_character(oKidhead);

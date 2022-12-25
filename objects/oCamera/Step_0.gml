@@ -98,7 +98,10 @@ if (layer_exists("CBGFUNNY"))
 	layer_x("CBGFUNNY",x/2.75);
 	layer_y("CBGFUNNY",y/2.75);
 }
-
+if (layer_exists("tutorialBG"))
+{
+	layer_x("tutorialBG",x/3);
+}
 if (layer_exists("TilesScroll"))
 {
 	tilemap_y(layer_tilemap_get_id(layer_get_id("TilesScroll")),y - 7725);

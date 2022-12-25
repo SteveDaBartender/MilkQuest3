@@ -1,8 +1,10 @@
 function sh_fps (args) {
-	if (args[1] != "") {
-	room_speed = round(clamp(args[1],0,9999))
-	return "Set FPS to " + string(room_speed) + ".";
-	} else return "Current FPS is " + string(room_speed)
+	if (global.sv_cheats) {
+		if (args[1] != "") {
+		room_speed = round(clamp(args[1],0,9999))
+		return "Set FPS to " + string(room_speed) + ".";
+		} else return "Current FPS is " + string(room_speed)
+	} else return "Please Enable Cheats."
 }
 function meta_fps(){
 	return {

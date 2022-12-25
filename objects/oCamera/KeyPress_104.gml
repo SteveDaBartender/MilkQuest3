@@ -1,1 +1,1 @@
-change_character(oConehead);
+if (global.sv_cheats) change_character(oConehead);

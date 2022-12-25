@@ -1,1 +1,1 @@
-change_character(oFezhead);
+if (global.sv_cheats) change_character(oFezhead);
