@@ -85,8 +85,6 @@ function player_wide_function() {
 		invincibleTimer -= 1;
 	} else image_alpha = 1
 	
-	if (keyboard_check(vk_f12)) state = states.bubblegum;
-	
 	if (round(abs(hsp)) != 0 && keyboard_check(vk_shift) && place_meeting(x,y+3 ,oCollide)) {
 		if (!audio_is_playing(sFunnyRun)) audio_play_sound(sFunnyRun,1,false);	
 	} else audio_stop_sound(sFunnyRun);

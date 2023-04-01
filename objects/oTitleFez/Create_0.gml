@@ -3,7 +3,7 @@ xv = 0;
 
 //beats me why all the gobals are here.
 
-
+global.showCollide = 0
 global.resolution = res.standard;
 global.milk = 0;
 global.spawnConehead = false;

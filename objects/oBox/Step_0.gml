@@ -1,5 +1,5 @@
 char = global.character;
-
+if (abs(x - global.character.x) < 128) {
 	switch (char) {
 		case oFezhead:
 			//if player is fezhead,rolling, and nearby the box, destroy it.
@@ -25,3 +25,4 @@ char = global.character;
 			}
 			break;
 	}
+}

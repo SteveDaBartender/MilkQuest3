@@ -29,7 +29,6 @@ if (!audio_is_playing(sMilkFanfare) && collected) {
 	global.milk = 0;
 	global.intro = true;
 	global.character.controlLock = false;
-	//global.character = oFezhead
 	oFade.state = 1
 	oFade.destination = rChristmasHub
 	global.gameLock = true;

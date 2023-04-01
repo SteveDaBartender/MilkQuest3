@@ -10,3 +10,6 @@ moveX = true;
 moveY = false;
 locked = false;
 offset = 0
+
+salt = irandom_range(0,19)
+onScreen = false;

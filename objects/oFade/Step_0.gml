@@ -14,6 +14,7 @@ switch state {
 	 break;
 	 case 2:
 		if (destination != "none")room_goto(destination);
+		global.character = oFezhead
 		state = 0;
 		global.gameLock = false;
 		break;

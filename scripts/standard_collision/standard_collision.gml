@@ -1,7 +1,7 @@
 function standard_collision() {
     //Let's try this again.
     //I heavily referenced (stole) this article to make this: https://zackbellgames.com/2014/10/28/understanding-collision-basics/ thanks bro ;)
-	//if live_call() return live_result;
+	if live_call() return live_result;
 
     //Vertical Collision Check
     repeat(abs(vsp)) {
@@ -26,39 +26,39 @@ function standard_collision() {
     //Horizontal Check
     repeat(abs(hsp)) {
 
-        //going up a slope
-        var yUp = 0
-        for (var i = 1; i < 6; i += 1) {
-            if (place_meeting(x + sign(hsp),y, oCollide) && !place_meeting(x + sign(hsp), y-i, oCollide)) {
-                yUp = i;
-				if (!roll) {
-					slopeacl = (-0.2*i) * image_xscale
-				} else if (i>2) slopeacl = (-0.25*i) * image_xscale
-				jumpExtendable = 0;
-				if (i>2) hsp += (-0.2*i) * image_xscale
-                break;
-            }
-			yUp = 0
-			slopeacl = 0
-        }
-        y -= yUp
-		
-
-        //going down a slope
-        var yDown = 0
-        for (var i = 1; i < 6; i += 1) {
-            if (!place_meeting(x + sign(hsp),y, oCollide) && !place_meeting(x + sign(hsp), y+i, oCollide) && place_meeting(x + sign(hsp), y+i+1, oCollide)) {
-                yDown = i;
-				slopeacl = (0.25*i) * image_xscale
-				if (crouch) slopeacl *= 2
-				//jumpExtendable = 0;
-                break;
-            }
-			yDown = 0
-			//show_debug_message("over")
-        }
-		if (vsp<0) yDown = 0
-        y += yDown
+		if (place_meeting(x + sign(hsp),y, oCollide)) {
+	        //going up a slope
+	        var yUp = 0
+	        for (var i = 1; i < 4; i += 1) {
+	            if (!place_meeting(x + sign(hsp), y-i, oCollide)) {
+	                yUp = i;
+					if (!roll) {
+						slopeacl = (-0.2*i) * image_xscale
+					} else if (i>2) slopeacl = (-0.25*i) * image_xscale
+					jumpExtendable = 0;
+					if (i>2) hsp += (-0.2*i) * image_xscale
+	                break;
+	            }
+				yUp = 0
+				slopeacl = 0
+	        }
+	        y -= yUp
+		} else {
+	        //going down a slope
+	        var yDown = 0
+	        for (var i = 1; i < 4; i += 1) {
+	            if (!place_meeting(x + sign(hsp), y+i, oCollide) && place_meeting(x + sign(hsp), y+i+1, oCollide)) {
+	                yDown = i;
+					slopeacl = (0.25*i) * image_xscale
+					//jumpExtendable = 0;
+	                break;
+	            }
+				yDown = 0
+				//show_debug_message("over")
+	        }
+			if (vsp<0) yDown = 0
+	        y += yDown
+		}
         
         //actual hsp shit
         if (!place_meeting(x+sign(hsp),y,oCollide)) {

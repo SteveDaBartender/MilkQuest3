@@ -25,7 +25,9 @@ if (collected) {
 	y = y + lengthdir_y(moveSpeed,angle);
 	//OH MY GOD WHAT IS THAT WAHT IS THAT WHAT IS THAT
 	//IT HURTS MY EYES AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-if (collision_rectangle(milkHudX + camera_get_view_x(cam), milkHudY + camera_get_view_y(cam), milkHudX + camera_get_view_x(cam) + 50, milkHudY + camera_get_view_y(cam) +100,oMilk,false,false)) {
+	var hudX = milkHudX + camera_get_view_x(cam) 
+	var hudY = milkHudY + camera_get_view_y(cam) 
+if (collision_rectangle(hudX, hudY, hudX + 50, milkHudY + hudY +100,oMilk,false,false)) {
 		instance_destroy(self)	
 	}
 }

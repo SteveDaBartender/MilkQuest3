@@ -44,7 +44,7 @@ hitTimer--;
 enemyKillScript()
 
 if (killType != kt.none && hitTimer < 0) {
-	if (hp = 1) {
+	if (hp <= 1) {
 		audio_play_sound(sAntKill, 0, false);
 		global.character.hsp *= 1.25;
 		for (i = 0; i < 35; i += 1) {
@@ -60,9 +60,6 @@ if (killType != kt.none && hitTimer < 0) {
 		hp -=1;
 		hitTimer = 50
 	}
-} else if (global.character.vsp > 0 && global.character.state = states.normal && place_meeting(x,y+global.character-22,global.character)) {
-	global.character.vsp = -15;	
-	global.character.y -= 20;
 } else if (place_meeting(x,y+global.character.vsp,global.character) && hitTimer < 0){
 	damage_character();
 }
