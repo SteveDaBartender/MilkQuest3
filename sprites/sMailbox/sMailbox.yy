@@ -69,8 +69,8 @@
   "swatchColours": null,
   "swfPrecision": 2.525,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "IntroHub",
+    "path": "texturegroups/IntroHub",
   },
   "type": 0,
   "VTile": false,

@@ -6,3 +6,5 @@ milkHudY = 25;
 moveSpeed = 0;
 cam = view_camera[0];
 pt = false
+
+instance_deactivate_object(self)

@@ -65,8 +65,8 @@
   "swatchColours": null,
   "swfPrecision": 2.525,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "Conehead",
+    "path": "texturegroups/Conehead",
   },
   "type": 0,
   "VTile": false,

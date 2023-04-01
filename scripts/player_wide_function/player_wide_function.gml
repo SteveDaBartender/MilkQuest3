@@ -64,9 +64,21 @@ function player_wide_function() {
 		hsp-= lol.x - lol.ox;	
 	}
 	
+	//deactivate offscreen instances of enemies
+	if (global.globalTimer%120==0) {
+		instance_deactivate_object(oEnemy);
+		instance_deactivate_object(oMilk);
+		instance_deactivate_object(oMovingPlatform);
+	}
+	//activate all deactivated instances
+	if (global.globalTimer%10==0) {
+		instance_activate_region(x-540,y-280,x+540,y+280,true);
+	}
+
 	var milk = instance_place(x,y,oMilk)
-	if (milk != noone) milk.pt = true;
-	
+	if (milk != noone) {
+		milk.pt = true;
+	}
 	lastVsp = vsp;
 	lastHsp = hsp;
 	//moves characters if WASD is pressed in debug mode.

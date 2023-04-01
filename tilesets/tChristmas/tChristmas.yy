@@ -40,8 +40,8 @@
   },
   "spriteNoExport": true,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "Freezer",
+    "path": "texturegroups/Freezer",
   },
   "tile_count": 150,
   "tileAnimation": {

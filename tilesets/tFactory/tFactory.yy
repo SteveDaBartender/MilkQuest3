@@ -27,8 +27,8 @@
   },
   "spriteNoExport": true,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "IntroHub",
+    "path": "texturegroups/IntroHub",
   },
   "tile_count": 108,
   "tileAnimation": {

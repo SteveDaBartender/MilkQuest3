@@ -40,8 +40,8 @@
   },
   "spriteNoExport": true,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "Tutorial",
+    "path": "texturegroups/Tutorial",
   },
   "tile_count": 100,
   "tileAnimation": {

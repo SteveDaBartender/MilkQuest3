@@ -34,3 +34,5 @@ vmax = 360;
 timer = 0;
 //decides if the line should be drawn
 line = true;
+
+ instance_deactivate_object(self);

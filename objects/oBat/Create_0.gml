@@ -13,3 +13,4 @@ dustKill = true;
 kickKill = true;
 hp = 1;
 killType = false;
+ instance_deactivate_object(self);

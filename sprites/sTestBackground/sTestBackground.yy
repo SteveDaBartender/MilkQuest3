@@ -65,8 +65,8 @@
   "swatchColours": null,
   "swfPrecision": 2.525,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "LevelSelect",
+    "path": "texturegroups/LevelSelect",
   },
   "type": 0,
   "VTile": true,

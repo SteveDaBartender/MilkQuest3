@@ -13,3 +13,5 @@ offset = 0
 
 salt = irandom_range(0,19)
 onScreen = false;
+
+ instance_deactivate_object(self);

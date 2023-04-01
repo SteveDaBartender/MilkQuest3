@@ -18,3 +18,4 @@ frict = 0.93;
 spd = -6
 
 acl = 0
+ instance_deactivate_object(self);
