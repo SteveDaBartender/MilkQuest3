@@ -71,8 +71,8 @@ function player_wide_function() {
 		instance_deactivate_object(oMovingPlatform);
 	}
 	//activate all deactivated instances
-	if (global.globalTimer%10==0) {
-		instance_activate_region(x-540,y-280,x+540,y+280,true);
+	if (global.globalTimer%10==0 || global.levelTimer < 120) {
+		instance_activate_region(x-640,y-380,2*740,2*380,true);
 	}
 
 	var milk = instance_place(x,y,oMilk)

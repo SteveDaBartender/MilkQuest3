@@ -63,4 +63,5 @@ function player_init() {
 	 controlLock = false;
 	 getInput();
 	 
+	 
 }
