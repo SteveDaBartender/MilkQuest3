@@ -9,7 +9,7 @@ function clear_game_data(){
 	ini_write_real("savedata","body",0)
 	ini_write_real("savedata","complete",0)
 	
-	ini_write_real("stats", "best time", 999999)
+	ini_write_real("persistent","besttime",global.besttime)
 	
 	show_debug_message("clearing save");
 	
