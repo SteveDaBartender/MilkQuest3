@@ -1,6 +1,9 @@
 //activate if touching player and this checkpoint isnt active
 if (place_meeting(x,y,global.character) && !active) {
 	oCheckpoint.active = false; //set every other checkpoint to inactive
+	with(oCheckpoint) { //this is here for HTML5
+		self.active = false;
+	}
 	active = true; //makes this checkpoint active
 	global.character.hp = 3; //set character's health to full
 	global.spawnX = x

@@ -43,7 +43,9 @@ function fezhead_draw(){
 				}
 				if (vsp < 3 && sprite_index != sFezGroundtoJump) {
 					sprite_index = sFezJump
-				} else if (sprite_index != sFezGroundtoJump) sprite_index = sFezFall;
+				} else if (sprite_index != sFezGroundtoJump) {
+					sprite_index = sFezFall;
+				}
 			}
 			else
 			{
@@ -54,8 +56,14 @@ function fezhead_draw(){
 						image_index = 4;	
 					}
 					else if (sprite_index == sFezWalkRun) {
-						image_index--;
-						if (image_index <= 0) sprite_index = sFez;
+						try {
+							image_index--;
+						} catch (_exception) {
+							show_debug_message("I HATE THE GMS2 WEB COMPILER !!!!")
+						}
+						if (image_index <= 0) {
+							sprite_index = sFez;
+						}
 					}
 					//idle animation stuff, quite complicated.
 					 else if (image_index > image_number - 1) {
@@ -81,11 +89,9 @@ function fezhead_draw(){
 	
 	}
 
-
 	if (sprite_index = sFezWalk){
 		image_speed = hsp/5;
 	} else image_speed = 1;
 	if (sprite_index = sFezBubblegum) image_speed = 0;
 }
-
 draw_self()

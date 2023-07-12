@@ -1,5 +1,5 @@
 global.debug = false;
-global.sv_cheats = 1;
+global.sv_cheats = false;
 global.godmode = 0;
 global.finished = false;
 global.head = false;
