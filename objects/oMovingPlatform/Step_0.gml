@@ -1,6 +1,7 @@
 if live_call() return live_result;
 /// @description Insert description here
 // You can write your code in this editor
+if (!global.gameLock) {
 if (global.globalTimer+salt % 20 = 0) onScreen = on_screen_check(self)
 	if (!locked) {
 		theta += theta_speed;
@@ -50,3 +51,4 @@ if (global.globalTimer+salt % 20 = 0) onScreen = on_screen_check(self)
 
 		if (place_meeting(x,y-5,global.character)) locked = false;
 	}
+}

@@ -1,4 +1,4 @@
-
+if (!global.gameLock) {
 //move enemy up/down based on theta
 theta += theta_speed;
 if (theta >= 360) theta -= 360;
@@ -26,3 +26,4 @@ if (killType != kt.none) {
 	damage_character();
 }
 //if ((global.character.vsp > 0 && globa
+}

@@ -1,5 +1,5 @@
 //only run code if the ant is on screen!!
-if (on_screen_check(self)) {
+if (on_screen_check(self) && !global.gameLock) {
 	//clamps the ant to the ground
 	while !(position_meeting(x,y+1,oCollide) || position_meeting(x,y+1,o1Way)) {
 		y += 1;

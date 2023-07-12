@@ -1,3 +1,4 @@
+if (!global.gameLock) {
 if (place_meeting(x,y,oCollide)) instance_destroy(self); //if touching wall, destory
 
 //if touching the character, change their acceleration
@@ -33,3 +34,4 @@ x += xv;
 y += yv;
 if (count > 2) count = 2; 
 */
+}

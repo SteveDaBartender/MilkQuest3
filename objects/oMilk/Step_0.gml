@@ -1,3 +1,4 @@
+if (!global.gameLock) {
 if ((pt || global.milkGrabMode = true) && !collected){
 	global.milk++;
 	audio_play_sound(sMilk,1,false);
@@ -30,4 +31,5 @@ if (collected) {
 if (collision_rectangle(hudX, hudY, hudX + 50, milkHudY + hudY +100,oMilk,false,false)) {
 		instance_destroy(self)	
 	}
+}
 }
