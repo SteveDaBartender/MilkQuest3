@@ -14,25 +14,29 @@ if (array_contains(rooms,room)) {
 		paused = !paused;
 		pauseTimer = 0;
 		if (paused) {
-			instance_deactivate_all(true);
+			global.gameLock = true;
+			show_debug_message("Deactivated all obj")
+			if (os_browser = browser_not_a_browser) instance_deactivate_all(true);
 			instance_activate_object(obj_shell)
+			//instance_activate_object(global.character)
 			audio_play_sound(sMenuOpen,0,false);
 			audio_group_set_gain(Music,global.volMus/2,50);
 		}
 		else {
+			global.gameLock = false;
 			instance_activate_all();
 			audio_group_set_gain(Music,global.volMus,50);
 			audio_play_sound(sMenuClose,0,false);
 		}
 	}
 	
-	global.gameLock = paused;
 } else {
 	paused = false;
-	global.gameLock = false;
+	//global.gameLock = false;
 }
 
 if (paused) {
+	global.gameLock = true;
 	var oldCursorPos = cursorPos;
 	//moves the cursor up and down, 'cool' is the cooldown
 	if (key_up && cool > 10) {
@@ -54,6 +58,7 @@ if (paused) {
 		switch (cursorPos) {
 			case 0:
 				paused = false;
+				global.gameLock = false;
 				instance_activate_all();
 				audio_group_set_gain(Music,global.volMus,50);
 				audio_play_sound(sMenuClose,0,false);
@@ -64,11 +69,11 @@ if (paused) {
 			case 1:
 				if (!instance_exists(oFade)) instance_create_layer(x,y,layer,oFade);
 				audio_stop_all()
+				instance_activate_all();
 				oFade.state = 1;
 				cursorPos = 0;
 				oFade.destination = rTitle;
 				break;
 		}
 	}
-	
 }

@@ -33,7 +33,7 @@ if (key_space_press) && !lock {
 			global.spawnConehead = false;
 			global.xSpawn = 0;
 			global.ySpawn = 0;
-			audio_stop_all();
+			//audio_stop_all();
 		break;
 		case 2:
 				oFade.state = 1;

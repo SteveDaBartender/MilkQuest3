@@ -14,6 +14,7 @@ if (!isOpen) {
 		self.open();
 	}
 } else {
+	global.gameLock = true;
 	var prevConsoleString = consoleString;
 	
 	if (metaDeleted && keyboard_check_released(vk_backspace)) {

@@ -35,9 +35,9 @@ draw_text_transformed(30,410,"Caramel",0.33,0.33,0);
 draw_text_transformed(30,420,"Play Testing",0.5,0.5,0);
 draw_text_transformed(30,440,"Caramel",0.33,0.33,0);
 draw_text_transformed(30,455,"Special Thanks",0.5,0.5,0);
-draw_text_transformed(30,475,"rou.sr (Discord Rich Presence)",0.33,0.33,0);
-draw_text_transformed(30,490,"GMLive",0.33,0.33,0);
-draw_text_transformed(30,505,"rt-shell",0.33,0.33,0);
+//draw_text_transformed(30,475,"rou.sr (Discord Rich Presence)",0.33,0.33,0);
+draw_text_transformed(30,475,"GMLive",0.33,0.33,0);
+draw_text_transformed(30,590,"rt-shell",0.33,0.33,0);
 draw_text_transformed(30,520,"v" + string(GM_version),0.33,0.33,0);
 draw_text_transformed(90,520,"milkquestgame@gmail.com",0.33,0.33,0);
 //volume meters

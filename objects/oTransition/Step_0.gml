@@ -33,3 +33,4 @@ if (avaliable && !press && place_meeting(x,y,oPlayer)) || (press && key_up && pl
 	show_debug_message("Transitioning to "+ string(destination) + " : " + string(id));
 	//instance_destroy(self);
 }
+if (oPersistent.transitionType = 1 && oPersistent.transitionTime > 0) global.gameLock = true;

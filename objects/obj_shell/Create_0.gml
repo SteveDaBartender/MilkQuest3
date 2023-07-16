@@ -75,6 +75,7 @@ if (instance_number(object_index) > 1) {
 /// Opens the shell
 function open() {
 	isOpen = true;
+	global.gameLock = true;
 	keyboard_string = "";
 	if (!is_undefined(openFunction)) {
 		openFunction();
@@ -84,6 +85,7 @@ function open() {
 /// Closes the shell
 function close() {
 	isOpen = false;
+	global.gameLock = false;
 	if (!is_undefined(closeFunction)) {
 		closeFunction();
 	}

@@ -65,7 +65,7 @@ function player_wide_function() {
 	}
 	
 	//deactivate offscreen instances of enemies
-	if (global.globalTimer%120==0) {
+	if (global.globalTimer%120==0 && !oPauseInGame.paused) {
 		instance_deactivate_object(oEnemy);
 		instance_deactivate_object(oMilk);
 		instance_deactivate_object(oMovingPlatform);
