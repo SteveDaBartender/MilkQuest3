@@ -8,3 +8,5 @@ draw_set_font(fTitleScreen);
 invalidColor = c_grey;
 validColor = c_white;
 lock = false;
+
+global.debug = false;

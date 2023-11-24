@@ -1,5 +1,5 @@
-char = global.character;
-if (global.debug){
+var char = global.character;
+if (global.debug && (global.character == oFezhead || global.character == oConehead || global.character == oKidhead)){
 	ds_list_add(averageFps, fps_real);
 	var hihomer = 0;
 	var realFpsAvg = 0;

@@ -10,7 +10,7 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 0.683912,
+  "duration": 0.678912,
   "parent": {
     "name": "Jumper",
     "path": "folders/Sounds/Sounds/Jumper.yy",
