@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "dDeadRover",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "lol",
-    "path": "folders/Scripts/Cutscenes/Mountainside Peaks NPCs/lol.yy",
+  "$GMScript":"",
+  "%Name":"dDeadRover",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"dDeadRover",
+  "parent":{
+    "name":"lol",
+    "path":"folders/Scripts/Cutscenes/Mountainside Peaks NPCs/lol.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

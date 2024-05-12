@@ -1,10 +1,12 @@
 {
-  "resourceType": "GMShader",
-  "resourceVersion": "1.0",
-  "name": "shd_CRT_shader",
-  "parent": {
-    "name": "CRT Shader",
-    "path": "folders/Shaders/CRT Shader.yy",
+  "$GMShader":"",
+  "%Name":"shd_CRT_shader",
+  "name":"shd_CRT_shader",
+  "parent":{
+    "name":"CRT Shader",
+    "path":"folders/Shaders/CRT Shader.yy",
   },
-  "type": 1,
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
 }

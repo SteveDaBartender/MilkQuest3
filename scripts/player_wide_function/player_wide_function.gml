@@ -68,6 +68,7 @@ function player_wide_function() {
 	if (global.globalTimer%120==0 && !oPauseInGame.paused) {
 		instance_deactivate_object(oEnemy);
 		instance_deactivate_object(oMilk);
+		instance_deactivate_object(oBox);
 		instance_deactivate_object(oMovingPlatform);
 	}
 	//activate all deactivated instances
@@ -109,7 +110,7 @@ function player_wide_function() {
 		audio_sound_pitch(global.currentSong,1);
 		image_blend = c_white;
 	}
-	if (global.character.key_debug && !npc) {
+	if (oPersistent.key_debug && !npc) {
 		if (!global.debug) global.debug = true;
 		else global.debug = false;	
 	}

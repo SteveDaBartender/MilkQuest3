@@ -73,6 +73,7 @@ if (paused) {
 				oFade.state = 1;
 				cursorPos = 0;
 				oFade.destination = rTitle;
+				save_game_data();
 				break;
 		}
 	}

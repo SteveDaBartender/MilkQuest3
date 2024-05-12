@@ -78,16 +78,22 @@ draw_text_transformed(416,500,string(songList[songId,1]),0.5,0.5,0);
 draw_set_halign(fa_left);
 
 //spinny record
-draw_text_transformed(580,250,"Save Data",1,1,0);
+draw_text_transformed(580,250,"Misc.",1,1,0);
 draw_set_color(c_grey);
 draw_text_transformed(580,300,"Import Save",0.5,0.5,0);
 draw_text_transformed(580,320,"(Coming very soon!)",0.33,0.33,0);
 draw_text_transformed(580,340,"Export Save",0.5,0.5,0);
 draw_text_transformed(580,360,"(Also coming very soon!)",0.33,0.33,0);
 draw_set_color(c_white);
-draw_text_transformed(580,380,"Get Game Code",0.5,0.5,0);
-draw_text_transformed(580,400,"Copies your code to clipboard.\nUse it in future Milk Quest games.",0.33,0.33,0);
-if (gameVer == browser_firefox) draw_text_transformed_color(580,430,"(May not work on Firefox!)",0.33,0.33,0,c_red,c_red,c_red,c_red,1); //gameVer == browser_firefox
+if (gameVer == browser_firefox) {
+	draw_text_transformed(580,380,"Get Game Code",0.5,0.5,0);
+	draw_text_transformed(580,400,"Copies your code to clipboard.\nMay not work on Firefox!",0.33,0.33,0);
+} else {
+	draw_text_transformed(580,380,"Get Game Code",0.5,0.5,0);
+	draw_text_transformed(580,400,"Copies your code to clipboard.\nUse it in future Milk Quest games.",0.33,0.33,0);
+}
+draw_text_transformed(580,440,"Edit Controls",0.5,0.5,0);
+draw_text_transformed(580,460,"Edit Keyboard & Mouse Controls.",0.33,0.33,0);
 draw_text_transformed(580,480,"Wipe Save",0.5,0.5,0);
 draw_text_transformed(580,500,"(Press Z and X at the same time \nto confirm. No Undoing!)",0.33,0.33,0);
 //selection box

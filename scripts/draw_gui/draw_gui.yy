@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "draw_gui",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Game Scripts",
-    "path": "folders/Scripts/Game Scripts.yy",
+  "$GMScript":"",
+  "%Name":"draw_gui",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"draw_gui",
+  "parent":{
+    "name":"Game Scripts",
+    "path":"folders/Scripts/Game Scripts.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

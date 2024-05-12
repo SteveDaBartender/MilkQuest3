@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "base_convert",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Game Scripts",
-    "path": "folders/Scripts/Game Scripts.yy",
+  "$GMScript":"",
+  "%Name":"base_convert",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"base_convert",
+  "parent":{
+    "name":"Game Scripts",
+    "path":"folders/Scripts/Game Scripts.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

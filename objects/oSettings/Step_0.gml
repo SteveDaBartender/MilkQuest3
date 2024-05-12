@@ -138,6 +138,16 @@ switch (cursorPos) {
 	case 8:
 		goalX1=560
 		goalX2=784
+		goalY1=439
+		goalY2=479
+		if (oPersistent.key_space_press) {
+			oFade.destination = rControlsMenu;
+			oFade.state = 1;
+		}
+		break;
+	case 9:
+		goalX1=560
+		goalX2=784
 		goalY1=479
 		goalY2=539
 		if (oPersistent.key_space_press && oPersistent.key_down) {

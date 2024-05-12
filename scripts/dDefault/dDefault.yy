@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "dDefault",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Cutscenes",
-    "path": "folders/Scripts/Cutscenes.yy",
+  "$GMScript":"",
+  "%Name":"dDefault",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"dDefault",
+  "parent":{
+    "name":"Cutscenes",
+    "path":"folders/Scripts/Cutscenes.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

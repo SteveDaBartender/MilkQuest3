@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "tower2_script",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Level Scripts",
-    "path": "folders/Scripts/Game Scripts/Level Scripts.yy",
+  "$GMScript":"",
+  "%Name":"tower2_script",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"tower2_script",
+  "parent":{
+    "name":"Level Scripts",
+    "path":"folders/Scripts/Game Scripts/Level Scripts.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

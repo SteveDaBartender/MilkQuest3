@@ -13,7 +13,12 @@ function save_game_data(argument0){
 	ini_write_real("savedata","arms",global.arm)
 	ini_write_real("savedata","body",global.body)
 	ini_write_real("savedata","complete",global.finished)
-	
+	if (os_browser = browser_not_a_browser) {
+		var _saveString = json_stringify(global.controlStruct)
+		ini_write_string("persistent","controls",string_replace_all(_saveString,"\"","~"))
+	}
+	ini_write_real("persistent","sfxvolume",global.volSFX)
+	ini_write_real("persistent","musicvolume",global.volMus)
 	ini_write_real("persistent","besttime",global.besttime)
 	
 	ini_close();

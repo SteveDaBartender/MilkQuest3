@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "particle",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Game Scripts",
-    "path": "folders/Scripts/Game Scripts.yy",
+  "$GMScript":"",
+  "%Name":"particle",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"particle",
+  "parent":{
+    "name":"Game Scripts",
+    "path":"folders/Scripts/Game Scripts.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }
