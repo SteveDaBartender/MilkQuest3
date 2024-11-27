@@ -9,8 +9,8 @@ global.body = false;
 global.besttime = 999999;
 global.intro = 0;
 global.controlStruct = {
-	controlsKeyboard : [vk_left,vk_right,vk_up,vk_down,ord("Z"),ord("X"),ord("C"),vk_enter,ord("A"),ord("S"),vk_shift],
-	controlsController : [gp_padl,gp_padr,gp_padu,gp_padd,gp_face1,gp_face3,gp_shoulderrb,gp_start,gp_shoulderl,gp_shoulderr,gp_shoulderlb],
+	controlsKeyboard : [vk_left,vk_right,vk_up,vk_down,ord("Z"),ord("X"),vk_enter],
+	controlsController : [gp_padl,gp_padr,gp_padu,gp_padd,gp_face1,gp_face3,gp_start],
 	stickEnable : true,
 	stickAnalog : true,
 	stickThreshold : 0.6,

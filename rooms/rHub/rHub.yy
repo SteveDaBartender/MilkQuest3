@@ -61,10 +61,10 @@
     {"name":"inst_39A446E3","path":"rooms/rHub/rHub.yy",},
     {"name":"inst_7267F923","path":"rooms/rHub/rHub.yy",},
     {"name":"inst_6EB4201E","path":"rooms/rHub/rHub.yy",},
-    {"name":"inst_2255DA0C","path":"rooms/rHub/rHub.yy",},
     {"name":"inst_47CC6B67","path":"rooms/rHub/rHub.yy",},
     {"name":"sussudio","path":"rooms/rHub/rHub.yy",},
     {"name":"inst_4CF558A3","path":"rooms/rHub/rHub.yy",},
+    {"name":"inst_6F48AC0C","path":"rooms/rHub/rHub.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -81,8 +81,8 @@
         {"$GMRInstance":"","%Name":"inst_6C75FF2A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6C75FF2A","objectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1152.0,"y":512.0,},
         {"$GMRInstance":"","%Name":"inst_6506C7B1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6506C7B1","objectId":{"name":"oMilk","path":"objects/oMilk/oMilk.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":4096.0,"y":1344.0,},
         {"$GMRInstance":"","%Name":"inst_6EB4201E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6EB4201E","objectId":{"name":"oBox","path":"objects/oBox/oBox.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3104.0,"y":480.0,},
-        {"$GMRInstance":"","%Name":"inst_2255DA0C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2255DA0C","objectId":{"name":"oBoxMilk","path":"objects/oBoxMilk/oBoxMilk.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3040.0,"y":480.0,},
         {"$GMRInstance":"","%Name":"inst_4CF558A3","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4CF558A3","objectId":{"name":"oTransition","path":"objects/oTransition/oTransition.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3437.0,"y":480.0,},
+        {"$GMRInstance":"","%Name":"inst_6F48AC0C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6F48AC0C","objectId":{"name":"oBox","path":"objects/oBox/oBox.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3040.0,"y":480.0,},
       ],"layers":[],"name":"Object","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances_1","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"sussudio","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"sussudio","objectId":{"name":"oIntroCutscene","path":"objects/oIntroCutscene/oIntroCutscene.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1184.0,"y":448.0,},

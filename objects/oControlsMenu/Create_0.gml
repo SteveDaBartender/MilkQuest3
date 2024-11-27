@@ -10,7 +10,7 @@ keyData = [
 	{keyName:"Down",keyID:3,defaultValue:vk_down,defaultValueC:gp_padd},
 	{keyName:"Jump",keyID:4,defaultValue:ord("Z"),defaultValueC:gp_face1},
 	{keyName:"Ability",keyID:5,defaultValue:ord("X"),defaultValueC:gp_face3},
-	{keyName:"Pause",keyID:7,defaultValue:vk_enter,defaultValueC:gp_start},
+	{keyName:"Pause",keyID:6,defaultValue:vk_enter,defaultValueC:gp_start},
 ]
 bannedKeys = [vk_f1,vk_f2,vk_f3,vk_f4,vk_escape]
 supportedButtons = [gp_face1,gp_face2,gp_face3,gp_face4,gp_padd,gp_padl,gp_padr,gp_padu,gp_start,gp_select,
@@ -24,7 +24,8 @@ yOffset = 0;
 
 
 function draw_option_button(enabled,x,y) {
-	var size = 16
+	if live_call(enabled,x,y) return live_result;
+	var size = 32
 	draw_roundrect(x,y,x+size,y+size,true)
 	var colors = make_color_rgb(121,161,190)
 	if (enabled) draw_roundrect_color(x,y,x+size,y+size,colors,colors,false)

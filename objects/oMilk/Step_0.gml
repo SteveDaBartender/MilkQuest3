@@ -4,7 +4,9 @@ if ((pt || global.milkGrabMode = true) && !collected){
 	audio_play_sound(sMilk,1,false);
 	collected = true;
 	angle = 90;
-	if (sign(global.character.hsp) = -1)  angle = 180;
+	try {
+		if (sign(global.character.hsp) = -1)  angle = 180;
+	} catch(_var){}
 	x = x + lengthdir_x(20,angle);
 	y = y + lengthdir_y(20,angle);
 } 

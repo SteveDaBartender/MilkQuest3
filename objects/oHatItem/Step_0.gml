@@ -24,6 +24,7 @@ if (place_meeting(x,y,global.character) && !got) {
 		case 2:
 			global.unlockConehead = true;
 			change_character(oConehead);
+			global.character = oConehead;
 			break;
 		case 3:
 			change_character(oRover);

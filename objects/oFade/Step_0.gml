@@ -13,8 +13,8 @@ switch state {
 	 if (image_alpha > 1) state = 2;
 	 break;
 	 case 2:
+		if (room == rChristmasLevel1) global.character = oFezhead
 		if (destination != "none")room_goto(destination);
-		global.character = oFezhead
 		state = 0;
 		global.gameLock = false;
 		break;

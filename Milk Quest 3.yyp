@@ -89,17 +89,7 @@
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  "IncludedFiles":[
-    {"$GMIncludedFile":"","%Name":"gcmt-dll.dll","CopyToMask":0,"filePath":"datafiles/GMLive","name":"gcmt-dll.dll","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"gmlive-server-alt.exe","CopyToMask":0,"filePath":"datafiles/GMLive","name":"gmlive-server-alt.exe","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"gmlive-server.exe","CopyToMask":0,"filePath":"datafiles/GMLive","name":"gmlive-server.exe","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"gmlive-server.n","CopyToMask":0,"filePath":"datafiles/GMLive","name":"gmlive-server.n","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"gmlive.html","CopyToMask":0,"filePath":"datafiles/GMLive","name":"gmlive.html","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"neko.dll","CopyToMask":0,"filePath":"datafiles/GMLive","name":"neko.dll","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"regexp.ndll","CopyToMask":0,"filePath":"datafiles/GMLive","name":"regexp.ndll","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"std.ndll","CopyToMask":0,"filePath":"datafiles/GMLive","name":"std.ndll","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"zlib.ndll","CopyToMask":0,"filePath":"datafiles/GMLive","name":"zlib.ndll","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-  ],
+  "IncludedFiles":[],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{

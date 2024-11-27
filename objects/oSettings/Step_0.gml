@@ -5,7 +5,7 @@ and that Mario must take a bus to the next stage. In the Mushroom Kingdom, buses
 operate on an oddly specific schedule, such that every 21 frames a bus departs. 
 When Mario reaches the end of a stage, he must wait for the next bus to depart.*/
 if (key_up && cool > 21) {
-	cursorPos = clamp(cursorPos-1,0,8);
+	cursorPos = clamp(cursorPos-1,0,9);
 	cool = 0;
 	//spaghetti fix because i am too lazy rn to make a actual patch :)
 	if (cursorPos == 3 && gameVer != browser_not_a_browser) {
@@ -13,7 +13,7 @@ if (key_up && cool > 21) {
 	}
 }
 if (key_ddown && cool > 21) {
-	cursorPos = clamp(cursorPos+1,0,8);
+	cursorPos = clamp(cursorPos+1,0,9);
 	cool = 0;
 	if (cursorPos == 3 && gameVer != browser_not_a_browser) {
 		cursorPos = 4	
